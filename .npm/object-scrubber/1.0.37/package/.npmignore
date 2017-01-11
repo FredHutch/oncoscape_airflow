@@ -1,9 +1,0 @@
-/bin
-/node_modules
-
-*.lnk
-*.tgz
-publish.js
-publish.targets.json
-/.ssh
-/.vscode

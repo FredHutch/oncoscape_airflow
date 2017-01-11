@@ -1,0 +1,42 @@
+[
+    {
+        "collection": "brain_color_tcga_import",
+        "disease": "brain",
+        "type": "color",
+        "IDstatus": {
+            "overlapCount": 1111,
+            "itemsNotInRefLength": 5,
+            "itemsNotInRef": [
+                "TCGA-16-1048",
+                "TCGA-28-2501",
+                "TCGA-28-2510",
+                "TCGA-R8-A6YH",
+                "TCGA-14-1824"
+            ]
+        }
+    },
+    {
+        "collection": "brca_events_tcga_clinical",
+        "disease": "brca",
+        "type": "events",
+        "IDstatus": {
+            "overlapCount": 1087,
+            "itemsNotInRefLength": 1,
+            "itemsNotInRef": [
+                "TCGA-BH-A0B2"
+            ]
+        }
+    },
+    {
+        "collection": "coadread_events_tcga_clinical",
+        "disease": "coadread",
+        "type": "events",
+        "IDstatus": {
+            "overlapCount": 624,
+            "itemsNotInRefLength": 1,
+            "itemsNotInRef": [
+                "TCGA-F5-6810"
+            ]
+        }
+    }
+]

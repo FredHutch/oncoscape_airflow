@@ -1,0 +1,80 @@
+version: '2'
+services:
+    rabbitmq:
+        image: rabbitmq:3.6-management
+        restart: always
+        ports:
+            - "15672:15672"
+            - "5672:5672"
+        environment:
+            - RABBITMQ_DEFAULT_USER=airflow
+            - RABBITMQ_DEFAULT_PASS=airflow
+            - RABBITMQ_DEFAULT_VHOST=airflow
+
+    postgres:
+        image: postgres:9.6
+        environment:
+            - POSTGRES_USER=airflow
+            - POSTGRES_PASSWORD=airflow
+            - POSTGRES_DB=airflow
+        volumes:
+            - /data:/var/lib/postgresql/data
+           
+    webserver:
+        image: canaantt/node-airflow-testing:latest
+        restart: always
+        depends_on:
+            - postgres
+            - rabbitmq
+        environment:
+            - LOAD_EX=n
+            - FERNET_KEY=9IoTgQ_EJ0hCsamBU3Mctc7F9OkODnndOKCwkwXCAA
+            - EXECUTOR=Celery
+        volumes:
+             - /dags:/usr/local/airflow/dags
+             - /home/airflow/docker-airflow/script/onco-test:/usr/local/airflow/docker-airflow/onco-test
+        ports:
+            - "8080:8080"
+        command: webserver
+
+    flower:
+        image: canaantt/node-airflow-testing:latest
+        restart: always
+        depends_on:
+            - rabbitmq
+        environment:
+            - EXECUTOR=Celery
+        ports:
+            - "5555:5555"
+        command: flower
+
+    scheduler:
+        image: canaantt/node-airflow-testing:latest
+        restart: always
+        depends_on:
+            - webserver
+        volumes:
+             - /dags:/usr/local/airflow/dags
+             - /home/airflow/docker-airflow/script/onco-test:/usr/local/airflow/docker-airflow/onco-test
+        environment:
+            - LOAD_EX=n
+            - FERNET_KEY=9IoTgQ_EJ0hCsamBU3Mctc7F9OkODnndOKCwkwXCAA
+            - EXECUTOR=Celery
+        command: scheduler -n 5
+
+    worker:
+        image: canaantt/node-airflow-testing:latest
+        restart: always
+        depends_on:
+            - scheduler
+        volumes:
+             - /dags:/usr/local/airflow/dags
+             - /home/airflow/docker-airflow/script/onco-test:/usr/local/airflow/docker-airflow/onco-test
+        environment:
+            - FERNET_KEY=9IoTgQ_EJ0hCsamBU3Mctc7F9OkODnndOKCwkwXCAA
+            - EXECUTOR=Celery
+        command: worker
+networks:
+  default:
+    external:
+      name: airflow

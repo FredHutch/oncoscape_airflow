@@ -1,0 +1,1220 @@
+[
+    {
+        "collection": "brain_color_tcga_import",
+        "type": "color",
+        "disease": "brain",
+        "passedCounts": 60,
+        "totalCounts": 60,
+        "passedRate": 1,
+        "errorMessage": {}
+    },
+    {
+        "collection": "brca_color_tcga_import",
+        "type": "color",
+        "disease": "brca",
+        "passedCounts": 16,
+        "totalCounts": 16,
+        "passedRate": 1,
+        "errorMessage": {}
+    },
+    {
+        "collection": "brain_events_tcga_clinical",
+        "type": "events",
+        "disease": "brain",
+        "passedCounts": 1,
+        "totalCounts": 1,
+        "passedRate": 1,
+        "errorMessage": {}
+    },
+    {
+        "collection": "brca_events_tcga_clinical",
+        "type": "events",
+        "disease": "brca",
+        "passedCounts": 1,
+        "totalCounts": 1,
+        "passedRate": 1,
+        "errorMessage": {}
+    },
+    {
+        "collection": "coadread_events_tcga_clinical",
+        "type": "events",
+        "disease": "coadread",
+        "passedCounts": 1,
+        "totalCounts": 1,
+        "passedRate": 1,
+        "errorMessage": {}
+    },
+    {
+        "collection": "gbm_events_tcga_clinical",
+        "type": "events",
+        "disease": "gbm",
+        "passedCounts": 1,
+        "totalCounts": 1,
+        "passedRate": 1,
+        "errorMessage": {}
+    },
+    {
+        "collection": "hnsc_events_tcga_clinical",
+        "type": "events",
+        "disease": "hnsc",
+        "passedCounts": 1,
+        "totalCounts": 1,
+        "passedRate": 1,
+        "errorMessage": {}
+    },
+    {
+        "collection": "lgg_events_tcga_clinical",
+        "type": "events",
+        "disease": "lgg",
+        "passedCounts": 1,
+        "totalCounts": 1,
+        "passedRate": 1,
+        "errorMessage": {}
+    },
+    {
+        "collection": "luad_events_tcga_clinical",
+        "type": "events",
+        "disease": "luad",
+        "passedCounts": 1,
+        "totalCounts": 1,
+        "passedRate": 1,
+        "errorMessage": {}
+    },
+    {
+        "collection": "lung_events_tcga_clinical",
+        "type": "events",
+        "disease": "lung",
+        "passedCounts": 1,
+        "totalCounts": 1,
+        "passedRate": 1,
+        "errorMessage": {}
+    },
+    {
+        "collection": "lusc_events_tcga_clinical",
+        "type": "events",
+        "disease": "lusc",
+        "passedCounts": 1,
+        "totalCounts": 1,
+        "passedRate": 1,
+        "errorMessage": {}
+    },
+    {
+        "collection": "esca_patient_tcga_clinical",
+        "type": "patient",
+        "disease": "esca",
+        "passedCounts": 178,
+        "totalCounts": 185,
+        "passedRate": 0.9621621621621622,
+        "errorMessage": {
+            "#/properties/diagnosis_year/type [message: should be number]; Number of Violations: ": 7
+        }
+    },
+    {
+        "collection": "kich_patient_tcga_clinical",
+        "type": "patient",
+        "disease": "kich",
+        "passedCounts": 113,
+        "totalCounts": 113,
+        "passedRate": 1,
+        "errorMessage": {}
+    },
+    {
+        "collection": "kirc_patient_tcga_clinical",
+        "type": "patient",
+        "disease": "kirc",
+        "passedCounts": 537,
+        "totalCounts": 537,
+        "passedRate": 1,
+        "errorMessage": {}
+    },
+    {
+        "collection": "kirp_patient_tcga_clinical",
+        "type": "patient",
+        "disease": "kirp",
+        "passedCounts": 266,
+        "totalCounts": 291,
+        "passedRate": 0.9140893470790378,
+        "errorMessage": {
+            "#/properties/days_to_diagnosis/type [message: should be number]; Number of Violations: ": 25,
+            "#/properties/diagnosis_year/type [message: should be number]; Number of Violations: ": 22
+        }
+    },
+    {
+        "collection": "lihc_patient_tcga_clinical",
+        "type": "patient",
+        "disease": "lihc",
+        "passedCounts": 0,
+        "totalCounts": 377,
+        "passedRate": 0,
+        "errorMessage": {
+            "#/properties/diagnosis_year/type [message: should be number]; Number of Violations: ": 377,
+            "#/properties/days_to_diagnosis/type [message: should be number]; Number of Violations: ": 1
+        }
+    },
+    {
+        "collection": "skcm_patient_tcga_clinical",
+        "type": "patient",
+        "disease": "skcm",
+        "passedCounts": 459,
+        "totalCounts": 470,
+        "passedRate": 0.9765957446808511,
+        "errorMessage": {
+            "#/properties/days_to_diagnosis/type [message: should be number]; Number of Violations: ": 8,
+            "#/properties/diagnosis_year/type [message: should be number]; Number of Violations: ": 3
+        }
+    },
+    {
+        "collection": "stad_patient_tcga_clinical",
+        "type": "patient",
+        "disease": "stad",
+        "passedCounts": 437,
+        "totalCounts": 443,
+        "passedRate": 0.9864559819413092,
+        "errorMessage": {
+            "#/properties/days_to_diagnosis/type [message: should be number]; Number of Violations: ": 6,
+            "#/properties/diagnosis_year/type [message: should be number]; Number of Violations: ": 1
+        }
+    },
+    {
+        "collection": "thca_patient_tcga_clinical",
+        "type": "patient",
+        "disease": "thca",
+        "passedCounts": 507,
+        "totalCounts": 507,
+        "passedRate": 1,
+        "errorMessage": {}
+    },
+    {
+        "collection": "ucec_patient_tcga_clinical",
+        "type": "patient",
+        "disease": "ucec",
+        "passedCounts": 539,
+        "totalCounts": 548,
+        "passedRate": 0.9835766423357665,
+        "errorMessage": {
+            "#/properties/days_to_diagnosis/type [message: should be number]; Number of Violations: ": 6,
+            "#/properties/diagnosis_year/type [message: should be number]; Number of Violations: ": 8
+        }
+    },
+    {
+        "collection": "acc_patient_tcga_clinical",
+        "type": "patient",
+        "disease": "acc",
+        "passedCounts": 92,
+        "totalCounts": 92,
+        "passedRate": 1,
+        "errorMessage": {}
+    },
+    {
+        "collection": "cesc_patient_tcga_clinical",
+        "type": "patient",
+        "disease": "cesc",
+        "passedCounts": 305,
+        "totalCounts": 307,
+        "passedRate": 0.993485342019544,
+        "errorMessage": {
+            "#/properties/diagnosis_year/type [message: should be number]; Number of Violations: ": 2
+        }
+    },
+    {
+        "collection": "chol_patient_tcga_clinical",
+        "type": "patient",
+        "disease": "chol",
+        "passedCounts": 45,
+        "totalCounts": 45,
+        "passedRate": 1,
+        "errorMessage": {}
+    },
+    {
+        "collection": "dlbc_patient_tcga_clinical",
+        "type": "patient",
+        "disease": "dlbc",
+        "passedCounts": 48,
+        "totalCounts": 48,
+        "passedRate": 1,
+        "errorMessage": {}
+    },
+    {
+        "collection": "read_patient_tcga_clinical",
+        "type": "patient",
+        "disease": "read",
+        "passedCounts": 170,
+        "totalCounts": 170,
+        "passedRate": 1,
+        "errorMessage": {}
+    },
+    {
+        "collection": "ucs_patient_tcga_clinical",
+        "type": "patient",
+        "disease": "ucs",
+        "passedCounts": 57,
+        "totalCounts": 57,
+        "passedRate": 1,
+        "errorMessage": {}
+    },
+    {
+        "collection": "uvm_patient_tcga_clinical",
+        "type": "patient",
+        "disease": "uvm",
+        "passedCounts": 80,
+        "totalCounts": 80,
+        "passedRate": 1,
+        "errorMessage": {}
+    },
+    {
+        "collection": "thym_patient_tcga_clinical",
+        "type": "patient",
+        "disease": "thym",
+        "passedCounts": 123,
+        "totalCounts": 124,
+        "passedRate": 0.9919354838709677,
+        "errorMessage": {
+            "#/properties/days_to_diagnosis/type [message: should be number]; Number of Violations: ": 1
+        }
+    },
+    {
+        "collection": "tgct_patient_tcga_clinical",
+        "type": "patient",
+        "disease": "tgct",
+        "passedCounts": 134,
+        "totalCounts": 134,
+        "passedRate": 1,
+        "errorMessage": {}
+    },
+    {
+        "collection": "pcpg_patient_tcga_clinical",
+        "type": "patient",
+        "disease": "pcpg",
+        "passedCounts": 179,
+        "totalCounts": 179,
+        "passedRate": 1,
+        "errorMessage": {}
+    },
+    {
+        "collection": "ov_patient_tcga_clinical",
+        "type": "patient",
+        "disease": "ov",
+        "passedCounts": 587,
+        "totalCounts": 587,
+        "passedRate": 1,
+        "errorMessage": {}
+    },
+    {
+        "collection": "meso_patient_tcga_clinical",
+        "type": "patient",
+        "disease": "meso",
+        "passedCounts": 87,
+        "totalCounts": 87,
+        "passedRate": 1,
+        "errorMessage": {}
+    },
+    {
+        "collection": "coad_patient_tcga_clinical",
+        "type": "patient",
+        "disease": "coad",
+        "passedCounts": 459,
+        "totalCounts": 459,
+        "passedRate": 1,
+        "errorMessage": {}
+    },
+    {
+        "collection": "gbm_patient_tcga_clinical",
+        "type": "patient",
+        "disease": "gbm",
+        "passedCounts": 596,
+        "totalCounts": 596,
+        "passedRate": 1,
+        "errorMessage": {}
+    },
+    {
+        "collection": "hnsc_patient_tcga_na",
+        "type": "patient",
+        "disease": "hnsc",
+        "passedCounts": 527,
+        "totalCounts": 528,
+        "passedRate": 0.9981060606060606,
+        "errorMessage": {
+            "#/properties/days_to_diagnosis/type [message: should be number]; Number of Violations: ": 1
+        }
+    },
+    {
+        "collection": "lgg_patient_tcga_clinical",
+        "type": "patient",
+        "disease": "lgg",
+        "passedCounts": 515,
+        "totalCounts": 515,
+        "passedRate": 1,
+        "errorMessage": {}
+    },
+    {
+        "collection": "luad_patient_tcga_clinical",
+        "type": "patient",
+        "disease": "luad",
+        "passedCounts": 503,
+        "totalCounts": 522,
+        "passedRate": 0.9636015325670498,
+        "errorMessage": {
+            "#/properties/days_to_diagnosis/type [message: should be number]; Number of Violations: ": 19,
+            "#/properties/diagnosis_year/type [message: should be number]; Number of Violations: ": 10
+        }
+    },
+    {
+        "collection": "lusc_patient_tcga_clinical",
+        "type": "patient",
+        "disease": "lusc",
+        "passedCounts": 479,
+        "totalCounts": 504,
+        "passedRate": 0.9503968253968254,
+        "errorMessage": {
+            "#/properties/days_to_diagnosis/type [message: should be number]; Number of Violations: ": 25,
+            "#/properties/diagnosis_year/type [message: should be number]; Number of Violations: ": 17
+        }
+    },
+    {
+        "collection": "prad_patient_tcga_clinical",
+        "type": "patient",
+        "disease": "prad",
+        "passedCounts": 469,
+        "totalCounts": 500,
+        "passedRate": 0.938,
+        "errorMessage": {
+            "#/properties/diagnosis_year/type [message: should be number]; Number of Violations: ": 31,
+            "#/properties/days_to_diagnosis/type [message: should be number]; Number of Violations: ": 31
+        }
+    },
+    {
+        "collection": "sarc_patient_tcga_clinical",
+        "type": "patient",
+        "disease": "sarc",
+        "passedCounts": 257,
+        "totalCounts": 261,
+        "passedRate": 0.9846743295019157,
+        "errorMessage": {
+            "#/properties/diagnosis_year/type [message: should be number]; Number of Violations: ": 4
+        }
+    },
+    {
+        "collection": "laml_patient_tcga_clinical",
+        "type": "patient",
+        "disease": "laml",
+        "passedCounts": 200,
+        "totalCounts": 200,
+        "passedRate": 1,
+        "errorMessage": {}
+    },
+    {
+        "collection": "blca_patient_tcga_clinical",
+        "type": "patient",
+        "disease": "blca",
+        "passedCounts": 394,
+        "totalCounts": 412,
+        "passedRate": 0.9563106796116505,
+        "errorMessage": {
+            "#/properties/diagnosis_year/type [message: should be number]; Number of Violations: ": 18
+        }
+    },
+    {
+        "collection": "paad_patient_tcga_clinical",
+        "type": "patient",
+        "disease": "paad",
+        "passedCounts": 184,
+        "totalCounts": 185,
+        "passedRate": 0.9945945945945946,
+        "errorMessage": {
+            "#/properties/diagnosis_year/type [message: should be number]; Number of Violations: ": 1,
+            "#/properties/days_to_diagnosis/type [message: should be number]; Number of Violations: ": 1
+        }
+    },
+    {
+        "collection": "brain_patient_tcga_clinical",
+        "type": "patient",
+        "disease": "brain",
+        "passedCounts": 1111,
+        "totalCounts": 1111,
+        "passedRate": 1,
+        "errorMessage": {}
+    },
+    {
+        "collection": "brca_drug_tcga_clinical",
+        "type": "drug",
+        "disease": "brca",
+        "passedCounts": 2406,
+        "totalCounts": 2406,
+        "passedRate": 1,
+        "errorMessage": {}
+    },
+    {
+        "collection": "esca_drug_tcga_clinical",
+        "type": "drug",
+        "disease": "esca",
+        "passedCounts": 82,
+        "totalCounts": 82,
+        "passedRate": 1,
+        "errorMessage": {}
+    },
+    {
+        "collection": "kich_drug_tcga_clinical",
+        "type": "drug",
+        "disease": "kich",
+        "passedCounts": 21,
+        "totalCounts": 21,
+        "passedRate": 1,
+        "errorMessage": {}
+    },
+    {
+        "collection": "kirc_drug_tcga_clinical",
+        "type": "drug",
+        "disease": "kirc",
+        "passedCounts": 168,
+        "totalCounts": 168,
+        "passedRate": 1,
+        "errorMessage": {}
+    },
+    {
+        "collection": "kirp_drug_tcga_clinical",
+        "type": "drug",
+        "disease": "kirp",
+        "passedCounts": 47,
+        "totalCounts": 47,
+        "passedRate": 1,
+        "errorMessage": {}
+    },
+    {
+        "collection": "lihc_drug_tcga_clinical",
+        "type": "drug",
+        "disease": "lihc",
+        "passedCounts": 66,
+        "totalCounts": 66,
+        "passedRate": 1,
+        "errorMessage": {}
+    },
+    {
+        "collection": "skcm_drug_tcga_clinical",
+        "type": "drug",
+        "disease": "skcm",
+        "passedCounts": 265,
+        "totalCounts": 265,
+        "passedRate": 1,
+        "errorMessage": {}
+    },
+    {
+        "collection": "stad_drug_tcga_clinical",
+        "type": "drug",
+        "disease": "stad",
+        "passedCounts": 463,
+        "totalCounts": 463,
+        "passedRate": 1,
+        "errorMessage": {}
+    },
+    {
+        "collection": "thca_drug_tcga_clinical",
+        "type": "drug",
+        "disease": "thca",
+        "passedCounts": 56,
+        "totalCounts": 56,
+        "passedRate": 1,
+        "errorMessage": {}
+    },
+    {
+        "collection": "ucec_drug_tcga_clinical",
+        "type": "drug",
+        "disease": "ucec",
+        "passedCounts": 479,
+        "totalCounts": 479,
+        "passedRate": 1,
+        "errorMessage": {}
+    },
+    {
+        "collection": "acc_drug_tcga_clinical",
+        "type": "drug",
+        "disease": "acc",
+        "passedCounts": 18,
+        "totalCounts": 18,
+        "passedRate": 1,
+        "errorMessage": {}
+    },
+    {
+        "collection": "cesc_drug_tcga_clinical",
+        "type": "drug",
+        "disease": "cesc",
+        "passedCounts": 199,
+        "totalCounts": 199,
+        "passedRate": 1,
+        "errorMessage": {}
+    },
+    {
+        "collection": "chol_drug_tcga_clinical",
+        "type": "drug",
+        "disease": "chol",
+        "passedCounts": 14,
+        "totalCounts": 14,
+        "passedRate": 1,
+        "errorMessage": {}
+    },
+    {
+        "collection": "dlbc_drug_tcga_clinical",
+        "type": "drug",
+        "disease": "dlbc",
+        "passedCounts": 225,
+        "totalCounts": 225,
+        "passedRate": 1,
+        "errorMessage": {}
+    },
+    {
+        "collection": "read_drug_tcga_clinical",
+        "type": "drug",
+        "disease": "read",
+        "passedCounts": 231,
+        "totalCounts": 231,
+        "passedRate": 1,
+        "errorMessage": {}
+    },
+    {
+        "collection": "ucs_drug_tcga_clinical",
+        "type": "drug",
+        "disease": "ucs",
+        "passedCounts": 95,
+        "totalCounts": 95,
+        "passedRate": 1,
+        "errorMessage": {}
+    },
+    {
+        "collection": "uvm_drug_tcga_clinical",
+        "type": "drug",
+        "disease": "uvm",
+        "passedCounts": 4,
+        "totalCounts": 4,
+        "passedRate": 1,
+        "errorMessage": {}
+    },
+    {
+        "collection": "thym_drug_tcga_clinical",
+        "type": "drug",
+        "disease": "thym",
+        "passedCounts": 16,
+        "totalCounts": 16,
+        "passedRate": 1,
+        "errorMessage": {}
+    },
+    {
+        "collection": "tgct_drug_tcga_clinical",
+        "type": "drug",
+        "disease": "tgct",
+        "passedCounts": 171,
+        "totalCounts": 171,
+        "passedRate": 1,
+        "errorMessage": {}
+    },
+    {
+        "collection": "pcpg_drug_tcga_clinical",
+        "type": "drug",
+        "disease": "pcpg",
+        "passedCounts": 11,
+        "totalCounts": 11,
+        "passedRate": 1,
+        "errorMessage": {}
+    },
+    {
+        "collection": "ov_drug_tcga_clinical",
+        "type": "drug",
+        "disease": "ov",
+        "passedCounts": 2516,
+        "totalCounts": 2516,
+        "passedRate": 1,
+        "errorMessage": {}
+    },
+    {
+        "collection": "meso_drug_tcga_clinical",
+        "type": "drug",
+        "disease": "meso",
+        "passedCounts": 159,
+        "totalCounts": 159,
+        "passedRate": 1,
+        "errorMessage": {}
+    },
+    {
+        "collection": "coad_drug_tcga_clinical",
+        "type": "drug",
+        "disease": "coad",
+        "passedCounts": 593,
+        "totalCounts": 593,
+        "passedRate": 1,
+        "errorMessage": {}
+    },
+    {
+        "collection": "gbm_drug_tcga_clinical",
+        "type": "drug",
+        "disease": "gbm",
+        "passedCounts": 1505,
+        "totalCounts": 1505,
+        "passedRate": 1,
+        "errorMessage": {}
+    },
+    {
+        "collection": "hnsc_drug_tcga_clinical",
+        "type": "drug",
+        "disease": "hnsc",
+        "passedCounts": 353,
+        "totalCounts": 353,
+        "passedRate": 1,
+        "errorMessage": {}
+    },
+    {
+        "collection": "lgg_drug_tcga_clinical",
+        "type": "drug",
+        "disease": "lgg",
+        "passedCounts": 695,
+        "totalCounts": 695,
+        "passedRate": 1,
+        "errorMessage": {}
+    },
+    {
+        "collection": "luad_drug_tcga_clinical",
+        "type": "drug",
+        "disease": "luad",
+        "passedCounts": 461,
+        "totalCounts": 461,
+        "passedRate": 1,
+        "errorMessage": {}
+    },
+    {
+        "collection": "lusc_drug_tcga_clinical",
+        "type": "drug",
+        "disease": "lusc",
+        "passedCounts": 357,
+        "totalCounts": 357,
+        "passedRate": 1,
+        "errorMessage": {}
+    },
+    {
+        "collection": "prad_drug_tcga_clinical",
+        "type": "drug",
+        "disease": "prad",
+        "passedCounts": 130,
+        "totalCounts": 130,
+        "passedRate": 1,
+        "errorMessage": {}
+    },
+    {
+        "collection": "sarc_drug_tcga_clinical",
+        "type": "drug",
+        "disease": "sarc",
+        "passedCounts": 208,
+        "totalCounts": 208,
+        "passedRate": 1,
+        "errorMessage": {}
+    },
+    {
+        "collection": "blca_drug_tcga_clinical",
+        "type": "drug",
+        "disease": "blca",
+        "passedCounts": 303,
+        "totalCounts": 303,
+        "passedRate": 1,
+        "errorMessage": {}
+    },
+    {
+        "collection": "paad_drug_tcga_clinical",
+        "type": "drug",
+        "disease": "paad",
+        "passedCounts": 254,
+        "totalCounts": 254,
+        "passedRate": 1,
+        "errorMessage": {}
+    },
+    {
+        "collection": "brain_drug_tcga_clinical",
+        "type": "drug",
+        "disease": "brain",
+        "passedCounts": 2200,
+        "totalCounts": 2200,
+        "passedRate": 1,
+        "errorMessage": {}
+    },
+    {
+        "collection": "brca_radiation_tcga_clinical",
+        "type": "radiation",
+        "disease": "brca",
+        "passedCounts": 618,
+        "totalCounts": 618,
+        "passedRate": 1,
+        "errorMessage": {}
+    },
+    {
+        "collection": "esca_radiation_tcga_clinical",
+        "type": "radiation",
+        "disease": "esca",
+        "passedCounts": 50,
+        "totalCounts": 50,
+        "passedRate": 1,
+        "errorMessage": {}
+    },
+    {
+        "collection": "kich_radiation_tcga_clinical",
+        "type": "radiation",
+        "disease": "kich",
+        "passedCounts": 1,
+        "totalCounts": 1,
+        "passedRate": 1,
+        "errorMessage": {}
+    },
+    {
+        "collection": "kirc_radiation_tcga_clinical",
+        "type": "radiation",
+        "disease": "kirc",
+        "passedCounts": 72,
+        "totalCounts": 72,
+        "passedRate": 1,
+        "errorMessage": {}
+    },
+    {
+        "collection": "kirp_radiation_tcga_clinical",
+        "type": "radiation",
+        "disease": "kirp",
+        "passedCounts": 15,
+        "totalCounts": 15,
+        "passedRate": 1,
+        "errorMessage": {}
+    },
+    {
+        "collection": "lihc_radiation_tcga_clinical",
+        "type": "radiation",
+        "disease": "lihc",
+        "passedCounts": 11,
+        "totalCounts": 11,
+        "passedRate": 1,
+        "errorMessage": {}
+    },
+    {
+        "collection": "skcm_radiation_tcga_clinical",
+        "type": "radiation",
+        "disease": "skcm",
+        "passedCounts": 147,
+        "totalCounts": 147,
+        "passedRate": 1,
+        "errorMessage": {}
+    },
+    {
+        "collection": "stad_radiation_tcga_clinical",
+        "type": "radiation",
+        "disease": "stad",
+        "passedCounts": 82,
+        "totalCounts": 82,
+        "passedRate": 1,
+        "errorMessage": {}
+    },
+    {
+        "collection": "thca_radiation_tcga_clinical",
+        "type": "radiation",
+        "disease": "thca",
+        "passedCounts": 292,
+        "totalCounts": 292,
+        "passedRate": 1,
+        "errorMessage": {}
+    },
+    {
+        "collection": "ucec_radiation_tcga_clinical",
+        "type": "radiation",
+        "disease": "ucec",
+        "passedCounts": 304,
+        "totalCounts": 304,
+        "passedRate": 1,
+        "errorMessage": {}
+    },
+    {
+        "collection": "acc_radiation_tcga_clinical",
+        "type": "radiation",
+        "disease": "acc",
+        "passedCounts": 30,
+        "totalCounts": 30,
+        "passedRate": 1,
+        "errorMessage": {}
+    },
+    {
+        "collection": "cesc_radiation_tcga_clinical",
+        "type": "radiation",
+        "disease": "cesc",
+        "passedCounts": 276,
+        "totalCounts": 276,
+        "passedRate": 1,
+        "errorMessage": {}
+    },
+    {
+        "collection": "chol_radiation_tcga_clinical",
+        "type": "radiation",
+        "disease": "chol",
+        "passedCounts": 1,
+        "totalCounts": 1,
+        "passedRate": 1,
+        "errorMessage": {}
+    },
+    {
+        "collection": "dlbc_radiation_tcga_clinical",
+        "type": "radiation",
+        "disease": "dlbc",
+        "passedCounts": 10,
+        "totalCounts": 10,
+        "passedRate": 1,
+        "errorMessage": {}
+    },
+    {
+        "collection": "read_radiation_tcga_clinical",
+        "type": "radiation",
+        "disease": "read",
+        "passedCounts": 30,
+        "totalCounts": 30,
+        "passedRate": 1,
+        "errorMessage": {}
+    },
+    {
+        "collection": "ucs_radiation_tcga_clinical",
+        "type": "radiation",
+        "disease": "ucs",
+        "passedCounts": 34,
+        "totalCounts": 34,
+        "passedRate": 1,
+        "errorMessage": {}
+    },
+    {
+        "collection": "uvm_radiation_tcga_clinical",
+        "type": "radiation",
+        "disease": "uvm",
+        "passedCounts": 2,
+        "totalCounts": 2,
+        "passedRate": 1,
+        "errorMessage": {}
+    },
+    {
+        "collection": "thym_radiation_tcga_clinical",
+        "type": "radiation",
+        "disease": "thym",
+        "passedCounts": 45,
+        "totalCounts": 45,
+        "passedRate": 1,
+        "errorMessage": {}
+    },
+    {
+        "collection": "tgct_radiation_tcga_clinical",
+        "type": "radiation",
+        "disease": "tgct",
+        "passedCounts": 25,
+        "totalCounts": 25,
+        "passedRate": 1,
+        "errorMessage": {}
+    },
+    {
+        "collection": "pcpg_radiation_tcga_clinical",
+        "type": "radiation",
+        "disease": "pcpg",
+        "passedCounts": 6,
+        "totalCounts": 6,
+        "passedRate": 1,
+        "errorMessage": {}
+    },
+    {
+        "collection": "ov_radiation_tcga_clinical",
+        "type": "radiation",
+        "disease": "ov",
+        "passedCounts": 36,
+        "totalCounts": 36,
+        "passedRate": 1,
+        "errorMessage": {}
+    },
+    {
+        "collection": "meso_radiation_tcga_clinical",
+        "type": "radiation",
+        "disease": "meso",
+        "passedCounts": 31,
+        "totalCounts": 31,
+        "passedRate": 1,
+        "errorMessage": {}
+    },
+    {
+        "collection": "coad_radiation_tcga_clinical",
+        "type": "radiation",
+        "disease": "coad",
+        "passedCounts": 20,
+        "totalCounts": 20,
+        "passedRate": 1,
+        "errorMessage": {}
+    },
+    {
+        "collection": "gbm_radiation_tcga_clinical",
+        "type": "radiation",
+        "disease": "gbm",
+        "passedCounts": 550,
+        "totalCounts": 550,
+        "passedRate": 1,
+        "errorMessage": {}
+    },
+    {
+        "collection": "hnsc_radiation_tcga_clinical",
+        "type": "radiation",
+        "disease": "hnsc",
+        "passedCounts": 467,
+        "totalCounts": 467,
+        "passedRate": 1,
+        "errorMessage": {}
+    },
+    {
+        "collection": "lgg_radiation_tcga_clinical",
+        "type": "radiation",
+        "disease": "lgg",
+        "passedCounts": 345,
+        "totalCounts": 345,
+        "passedRate": 1,
+        "errorMessage": {}
+    },
+    {
+        "collection": "luad_radiation_tcga_clinical",
+        "type": "radiation",
+        "disease": "luad",
+        "passedCounts": 126,
+        "totalCounts": 126,
+        "passedRate": 1,
+        "errorMessage": {}
+    },
+    {
+        "collection": "lusc_radiation_tcga_clinical",
+        "type": "radiation",
+        "disease": "lusc",
+        "passedCounts": 73,
+        "totalCounts": 73,
+        "passedRate": 1,
+        "errorMessage": {}
+    },
+    {
+        "collection": "prad_radiation_tcga_clinical",
+        "type": "radiation",
+        "disease": "prad",
+        "passedCounts": 83,
+        "totalCounts": 83,
+        "passedRate": 1,
+        "errorMessage": {}
+    },
+    {
+        "collection": "sarc_radiation_tcga_clinical",
+        "type": "radiation",
+        "disease": "sarc",
+        "passedCounts": 99,
+        "totalCounts": 99,
+        "passedRate": 1,
+        "errorMessage": {}
+    },
+    {
+        "collection": "blca_radiation_tcga_clinical",
+        "type": "radiation",
+        "disease": "blca",
+        "passedCounts": 46,
+        "totalCounts": 46,
+        "passedRate": 1,
+        "errorMessage": {}
+    },
+    {
+        "collection": "paad_radiation_tcga_clinical",
+        "type": "radiation",
+        "disease": "paad",
+        "passedCounts": 47,
+        "totalCounts": 47,
+        "passedRate": 1,
+        "errorMessage": {}
+    },
+    {
+        "collection": "brain_radiation_tcga_clinical",
+        "type": "radiation",
+        "disease": "brain",
+        "passedCounts": 895,
+        "totalCounts": 895,
+        "passedRate": 1,
+        "errorMessage": {}
+    },
+    {
+        "collection": "lgg_cluster",
+        "type": "PCA",
+        "disease": "lgg",
+        "passedCounts": 95,
+        "totalCounts": 95,
+        "passedRate": 1,
+        "errorMessage": {}
+    },
+    {
+        "collection": "acc_cluster",
+        "type": "PCA",
+        "disease": "acc",
+        "passedCounts": 25,
+        "totalCounts": 25,
+        "passedRate": 1,
+        "errorMessage": {}
+    },
+    {
+        "collection": "kirp_cluster",
+        "type": "PCA",
+        "disease": "kirp",
+        "passedCounts": 30,
+        "totalCounts": 30,
+        "passedRate": 1,
+        "errorMessage": {}
+    },
+    {
+        "collection": "luad_cluster",
+        "type": "PCA",
+        "disease": "luad",
+        "passedCounts": 293,
+        "totalCounts": 293,
+        "passedRate": 1,
+        "errorMessage": {}
+    },
+    {
+        "collection": "blca_cluster",
+        "type": "PCA",
+        "disease": "blca",
+        "passedCounts": 26,
+        "totalCounts": 26,
+        "passedRate": 1,
+        "errorMessage": {}
+    },
+    {
+        "collection": "uvm_cluster",
+        "type": "PCA",
+        "disease": "uvm",
+        "passedCounts": 21,
+        "totalCounts": 21,
+        "passedRate": 1,
+        "errorMessage": {}
+    },
+    {
+        "collection": "sarc_cluster",
+        "type": "PCA",
+        "disease": "sarc",
+        "passedCounts": 21,
+        "totalCounts": 21,
+        "passedRate": 1,
+        "errorMessage": {}
+    },
+    {
+        "collection": "laml_cluster",
+        "type": "PCA",
+        "disease": "laml",
+        "passedCounts": 28,
+        "totalCounts": 28,
+        "passedRate": 1,
+        "errorMessage": {}
+    },
+    {
+        "collection": "gbm_cluster",
+        "type": "PCA",
+        "disease": "gbm",
+        "passedCounts": 54,
+        "totalCounts": 54,
+        "passedRate": 1,
+        "errorMessage": {}
+    },
+    {
+        "collection": "coadread_cluster",
+        "type": "PCA",
+        "disease": "coadread",
+        "passedCounts": 1,
+        "totalCounts": 1,
+        "passedRate": 1,
+        "errorMessage": {}
+    },
+    {
+        "collection": "ucs_cluster",
+        "type": "PCA",
+        "disease": "ucs",
+        "passedCounts": 6,
+        "totalCounts": 6,
+        "passedRate": 1,
+        "errorMessage": {}
+    },
+    {
+        "collection": "brca_cluster",
+        "type": "PCA",
+        "disease": "brca",
+        "passedCounts": 40,
+        "totalCounts": 40,
+        "passedRate": 1,
+        "errorMessage": {}
+    },
+    {
+        "collection": "prad_cluster",
+        "type": "PCA",
+        "disease": "prad",
+        "passedCounts": 28,
+        "totalCounts": 28,
+        "passedRate": 1,
+        "errorMessage": {}
+    },
+    {
+        "collection": "lung_cluster",
+        "type": "PCA",
+        "disease": "lung",
+        "passedCounts": 4,
+        "totalCounts": 4,
+        "passedRate": 1,
+        "errorMessage": {}
+    },
+    {
+        "collection": "hnsc_cluster",
+        "type": "PCA",
+        "disease": "hnsc",
+        "passedCounts": 33,
+        "totalCounts": 33,
+        "passedRate": 1,
+        "errorMessage": {}
+    },
+    {
+        "collection": "lusc_cluster",
+        "type": "PCA",
+        "disease": "lusc",
+        "passedCounts": 47,
+        "totalCounts": 47,
+        "passedRate": 1,
+        "errorMessage": {}
+    },
+    {
+        "collection": "brain_cluster",
+        "type": "PCA",
+        "disease": "brain",
+        "passedCounts": 27,
+        "totalCounts": 27,
+        "passedRate": 1,
+        "errorMessage": {}
+    },
+    {
+        "collection": "lgg_cluster",
+        "type": "MDS",
+        "disease": "lgg",
+        "passedCounts": 95,
+        "totalCounts": 95,
+        "passedRate": 1,
+        "errorMessage": {}
+    },
+    {
+        "collection": "prad_cluster",
+        "type": "MDS",
+        "disease": "prad",
+        "passedCounts": 28,
+        "totalCounts": 28,
+        "passedRate": 1,
+        "errorMessage": {}
+    },
+    {
+        "collection": "brain_cluster",
+        "type": "MDS",
+        "disease": "brain",
+        "passedCounts": 27,
+        "totalCounts": 27,
+        "passedRate": 1,
+        "errorMessage": {}
+    },
+    {
+        "collection": "luad_cluster",
+        "type": "MDS",
+        "disease": "luad",
+        "passedCounts": 293,
+        "totalCounts": 293,
+        "passedRate": 1,
+        "errorMessage": {}
+    }
+]

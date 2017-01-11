@@ -1,0 +1,34 @@
+{
+  "name": "gulp-htmlparser",
+  "description": "parse html into js objects with gulp",
+  "version": "0.0.4",
+  "homepage": "http://github.com/stevelacy/gulp-htmlparser",
+  "repository": {
+    "type": "git",
+    "url": "http://github.com/stevelacy/gulp-htmlparser.git"
+  },
+  "author": "Steve Lacy <me@slacy.me> (http://slacy.me)",
+  "main": "./index.js",
+  "dependencies": {
+    "map-stream": "*",
+    "htmlparser": "~1.7.7",
+    "replace-ext": "0.0.1"
+  },
+  "devDependencies": {
+    "gulp-util": "*",
+    "mocha": "*",
+    "should": "*"
+  },
+  "scripts": {
+    "test": "mocha --reporter spec"
+  },
+  "engines": {
+    "node": ">= 0.9.0"
+  },
+  "keywords": [
+    "gulp",
+    "gulpplugin",
+    "gulp-plugin"
+  ],
+  "license": "MIT"
+}

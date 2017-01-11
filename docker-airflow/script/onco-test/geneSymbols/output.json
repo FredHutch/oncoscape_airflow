@@ -1,0 +1,525 @@
+[{
+    "collection": "brain_color_tcga_import",
+    "type": "color",
+    "disease": "brain"
+},{
+    "collection": "brca_color_tcga_import",
+    "type": "color",
+    "disease": "brca"
+},{
+    "collection": "brain_events_tcga_clinical",
+    "type": "events",
+    "disease": "brain"
+},{
+    "collection": "brca_events_tcga_clinical",
+    "type": "events",
+    "disease": "brca"
+},{
+    "collection": "coadread_events_tcga_clinical",
+    "type": "events",
+    "disease": "coadread"
+},{
+    "collection": "gbm_events_tcga_clinical",
+    "type": "events",
+    "disease": "gbm"
+},{
+    "collection": "hnsc_events_tcga_clinical",
+    "type": "events",
+    "disease": "hnsc"
+},{
+    "collection": "lgg_events_tcga_clinical",
+    "type": "events",
+    "disease": "lgg"
+},{
+    "collection": "luad_events_tcga_clinical",
+    "type": "events",
+    "disease": "luad"
+},{
+    "collection": "lung_events_tcga_clinical",
+    "type": "events",
+    "disease": "lung"
+},{
+    "collection": "lusc_events_tcga_clinical",
+    "type": "events",
+    "disease": "lusc"
+},{
+    "collection": "esca_patient_tcga_clinical",
+    "type": "patient",
+    "disease": "esca"
+},{
+    "collection": "kich_patient_tcga_clinical",
+    "type": "patient",
+    "disease": "kich"
+},{
+    "collection": "kirc_patient_tcga_clinical",
+    "type": "patient",
+    "disease": "kirc"
+},{
+    "collection": "kirp_patient_tcga_clinical",
+    "type": "patient",
+    "disease": "kirp"
+},{
+    "collection": "lihc_patient_tcga_clinical",
+    "type": "patient",
+    "disease": "lihc"
+},{
+    "collection": "skcm_patient_tcga_clinical",
+    "type": "patient",
+    "disease": "skcm"
+},{
+    "collection": "stad_patient_tcga_clinical",
+    "type": "patient",
+    "disease": "stad"
+},{
+    "collection": "thca_patient_tcga_clinical",
+    "type": "patient",
+    "disease": "thca"
+},{
+    "collection": "ucec_patient_tcga_clinical",
+    "type": "patient",
+    "disease": "ucec"
+},{
+    "collection": "acc_patient_tcga_clinical",
+    "type": "patient",
+    "disease": "acc"
+},{
+    "collection": "cesc_patient_tcga_clinical",
+    "type": "patient",
+    "disease": "cesc"
+},{
+    "collection": "chol_patient_tcga_clinical",
+    "type": "patient",
+    "disease": "chol"
+},{
+    "collection": "dlbc_patient_tcga_clinical",
+    "type": "patient",
+    "disease": "dlbc"
+},{
+    "collection": "read_patient_tcga_clinical",
+    "type": "patient",
+    "disease": "read"
+},{
+    "collection": "ucs_patient_tcga_clinical",
+    "type": "patient",
+    "disease": "ucs"
+},{
+    "collection": "uvm_patient_tcga_clinical",
+    "type": "patient",
+    "disease": "uvm"
+},{
+    "collection": "thym_patient_tcga_clinical",
+    "type": "patient",
+    "disease": "thym"
+},{
+    "collection": "tgct_patient_tcga_clinical",
+    "type": "patient",
+    "disease": "tgct"
+},{
+    "collection": "pcpg_patient_tcga_clinical",
+    "type": "patient",
+    "disease": "pcpg"
+},{
+    "collection": "ov_patient_tcga_clinical",
+    "type": "patient",
+    "disease": "ov"
+},{
+    "collection": "meso_patient_tcga_clinical",
+    "type": "patient",
+    "disease": "meso"
+},{
+    "collection": "coad_patient_tcga_clinical",
+    "type": "patient",
+    "disease": "coad"
+},{
+    "collection": "gbm_patient_tcga_clinical",
+    "type": "patient",
+    "disease": "gbm"
+},{
+    "collection": "hnsc_patient_tcga_na",
+    "type": "patient",
+    "disease": "hnsc"
+},{
+    "collection": "lgg_patient_tcga_clinical",
+    "type": "patient",
+    "disease": "lgg"
+},{
+    "collection": "luad_patient_tcga_clinical",
+    "type": "patient",
+    "disease": "luad"
+},{
+    "collection": "lusc_patient_tcga_clinical",
+    "type": "patient",
+    "disease": "lusc"
+},{
+    "collection": "prad_patient_tcga_clinical",
+    "type": "patient",
+    "disease": "prad"
+},{
+    "collection": "sarc_patient_tcga_clinical",
+    "type": "patient",
+    "disease": "sarc"
+},{
+    "collection": "laml_patient_tcga_clinical",
+    "type": "patient",
+    "disease": "laml"
+},{
+    "collection": "blca_patient_tcga_clinical",
+    "type": "patient",
+    "disease": "blca"
+},{
+    "collection": "paad_patient_tcga_clinical",
+    "type": "patient",
+    "disease": "paad"
+},{
+    "collection": "brain_patient_tcga_clinical",
+    "type": "patient",
+    "disease": "brain"
+},{
+    "collection": "brca_drug_tcga_clinical",
+    "type": "drug",
+    "disease": "brca"
+},{
+    "collection": "esca_drug_tcga_clinical",
+    "type": "drug",
+    "disease": "esca"
+},{
+    "collection": "kich_drug_tcga_clinical",
+    "type": "drug",
+    "disease": "kich"
+},{
+    "collection": "kirc_drug_tcga_clinical",
+    "type": "drug",
+    "disease": "kirc"
+},{
+    "collection": "kirp_drug_tcga_clinical",
+    "type": "drug",
+    "disease": "kirp"
+},{
+    "collection": "lihc_drug_tcga_clinical",
+    "type": "drug",
+    "disease": "lihc"
+},{
+    "collection": "skcm_drug_tcga_clinical",
+    "type": "drug",
+    "disease": "skcm"
+},{
+    "collection": "stad_drug_tcga_clinical",
+    "type": "drug",
+    "disease": "stad"
+},{
+    "collection": "thca_drug_tcga_clinical",
+    "type": "drug",
+    "disease": "thca"
+},{
+    "collection": "ucec_drug_tcga_clinical",
+    "type": "drug",
+    "disease": "ucec"
+},{
+    "collection": "acc_drug_tcga_clinical",
+    "type": "drug",
+    "disease": "acc"
+},{
+    "collection": "cesc_drug_tcga_clinical",
+    "type": "drug",
+    "disease": "cesc"
+},{
+    "collection": "chol_drug_tcga_clinical",
+    "type": "drug",
+    "disease": "chol"
+},{
+    "collection": "dlbc_drug_tcga_clinical",
+    "type": "drug",
+    "disease": "dlbc"
+},{
+    "collection": "read_drug_tcga_clinical",
+    "type": "drug",
+    "disease": "read"
+},{
+    "collection": "ucs_drug_tcga_clinical",
+    "type": "drug",
+    "disease": "ucs"
+},{
+    "collection": "uvm_drug_tcga_clinical",
+    "type": "drug",
+    "disease": "uvm"
+},{
+    "collection": "thym_drug_tcga_clinical",
+    "type": "drug",
+    "disease": "thym"
+},{
+    "collection": "tgct_drug_tcga_clinical",
+    "type": "drug",
+    "disease": "tgct"
+},{
+    "collection": "pcpg_drug_tcga_clinical",
+    "type": "drug",
+    "disease": "pcpg"
+},{
+    "collection": "ov_drug_tcga_clinical",
+    "type": "drug",
+    "disease": "ov"
+},{
+    "collection": "meso_drug_tcga_clinical",
+    "type": "drug",
+    "disease": "meso"
+},{
+    "collection": "coad_drug_tcga_clinical",
+    "type": "drug",
+    "disease": "coad"
+},{
+    "collection": "gbm_drug_tcga_clinical",
+    "type": "drug",
+    "disease": "gbm"
+},{
+    "collection": "hnsc_drug_tcga_clinical",
+    "type": "drug",
+    "disease": "hnsc"
+},{
+    "collection": "lgg_drug_tcga_clinical",
+    "type": "drug",
+    "disease": "lgg"
+},{
+    "collection": "luad_drug_tcga_clinical",
+    "type": "drug",
+    "disease": "luad"
+},{
+    "collection": "lusc_drug_tcga_clinical",
+    "type": "drug",
+    "disease": "lusc"
+},{
+    "collection": "prad_drug_tcga_clinical",
+    "type": "drug",
+    "disease": "prad"
+},{
+    "collection": "sarc_drug_tcga_clinical",
+    "type": "drug",
+    "disease": "sarc"
+},{
+    "collection": "blca_drug_tcga_clinical",
+    "type": "drug",
+    "disease": "blca"
+},{
+    "collection": "paad_drug_tcga_clinical",
+    "type": "drug",
+    "disease": "paad"
+},{
+    "collection": "brain_drug_tcga_clinical",
+    "type": "drug",
+    "disease": "brain"
+},{
+    "collection": "brca_radiation_tcga_clinical",
+    "type": "radiation",
+    "disease": "brca"
+},{
+    "collection": "esca_radiation_tcga_clinical",
+    "type": "radiation",
+    "disease": "esca"
+},{
+    "collection": "kich_radiation_tcga_clinical",
+    "type": "radiation",
+    "disease": "kich"
+},{
+    "collection": "kirc_radiation_tcga_clinical",
+    "type": "radiation",
+    "disease": "kirc"
+},{
+    "collection": "kirp_radiation_tcga_clinical",
+    "type": "radiation",
+    "disease": "kirp"
+},{
+    "collection": "lihc_radiation_tcga_clinical",
+    "type": "radiation",
+    "disease": "lihc"
+},{
+    "collection": "skcm_radiation_tcga_clinical",
+    "type": "radiation",
+    "disease": "skcm"
+},{
+    "collection": "stad_radiation_tcga_clinical",
+    "type": "radiation",
+    "disease": "stad"
+},{
+    "collection": "thca_radiation_tcga_clinical",
+    "type": "radiation",
+    "disease": "thca"
+},{
+    "collection": "ucec_radiation_tcga_clinical",
+    "type": "radiation",
+    "disease": "ucec"
+},{
+    "collection": "acc_radiation_tcga_clinical",
+    "type": "radiation",
+    "disease": "acc"
+},{
+    "collection": "cesc_radiation_tcga_clinical",
+    "type": "radiation",
+    "disease": "cesc"
+},{
+    "collection": "chol_radiation_tcga_clinical",
+    "type": "radiation",
+    "disease": "chol"
+},{
+    "collection": "dlbc_radiation_tcga_clinical",
+    "type": "radiation",
+    "disease": "dlbc"
+},{
+    "collection": "read_radiation_tcga_clinical",
+    "type": "radiation",
+    "disease": "read"
+},{
+    "collection": "ucs_radiation_tcga_clinical",
+    "type": "radiation",
+    "disease": "ucs"
+},{
+    "collection": "uvm_radiation_tcga_clinical",
+    "type": "radiation",
+    "disease": "uvm"
+},{
+    "collection": "thym_radiation_tcga_clinical",
+    "type": "radiation",
+    "disease": "thym"
+},{
+    "collection": "tgct_radiation_tcga_clinical",
+    "type": "radiation",
+    "disease": "tgct"
+},{
+    "collection": "pcpg_radiation_tcga_clinical",
+    "type": "radiation",
+    "disease": "pcpg"
+},{
+    "collection": "ov_radiation_tcga_clinical",
+    "type": "radiation",
+    "disease": "ov"
+},{
+    "collection": "meso_radiation_tcga_clinical",
+    "type": "radiation",
+    "disease": "meso"
+},{
+    "collection": "coad_radiation_tcga_clinical",
+    "type": "radiation",
+    "disease": "coad"
+},{
+    "collection": "gbm_radiation_tcga_clinical",
+    "type": "radiation",
+    "disease": "gbm"
+},{
+    "collection": "hnsc_radiation_tcga_clinical",
+    "type": "radiation",
+    "disease": "hnsc"
+},{
+    "collection": "lgg_radiation_tcga_clinical",
+    "type": "radiation",
+    "disease": "lgg"
+},{
+    "collection": "luad_radiation_tcga_clinical",
+    "type": "radiation",
+    "disease": "luad"
+},{
+    "collection": "lusc_radiation_tcga_clinical",
+    "type": "radiation",
+    "disease": "lusc"
+},{
+    "collection": "prad_radiation_tcga_clinical",
+    "type": "radiation",
+    "disease": "prad"
+},{
+    "collection": "sarc_radiation_tcga_clinical",
+    "type": "radiation",
+    "disease": "sarc"
+},{
+    "collection": "blca_radiation_tcga_clinical",
+    "type": "radiation",
+    "disease": "blca"
+},{
+    "collection": "paad_radiation_tcga_clinical",
+    "type": "radiation",
+    "disease": "paad"
+},{
+    "collection": "brain_radiation_tcga_clinical",
+    "type": "radiation",
+    "disease": "brain"
+},{
+    "collection": "lgg_cluster",
+    "type": "PCA",
+    "disease": "lgg"
+},{
+    "collection": "acc_cluster",
+    "type": "PCA",
+    "disease": "acc"
+},{
+    "collection": "kirp_cluster",
+    "type": "PCA",
+    "disease": "kirp"
+},{
+    "collection": "luad_cluster",
+    "type": "PCA",
+    "disease": "luad"
+},{
+    "collection": "blca_cluster",
+    "type": "PCA",
+    "disease": "blca"
+},{
+    "collection": "uvm_cluster",
+    "type": "PCA",
+    "disease": "uvm"
+},{
+    "collection": "sarc_cluster",
+    "type": "PCA",
+    "disease": "sarc"
+},{
+    "collection": "laml_cluster",
+    "type": "PCA",
+    "disease": "laml"
+},{
+    "collection": "gbm_cluster",
+    "type": "PCA",
+    "disease": "gbm"
+},{
+    "collection": "coadread_cluster",
+    "type": "PCA",
+    "disease": "coadread"
+},{
+    "collection": "ucs_cluster",
+    "type": "PCA",
+    "disease": "ucs"
+},{
+    "collection": "brca_cluster",
+    "type": "PCA",
+    "disease": "brca"
+},{
+    "collection": "prad_cluster",
+    "type": "PCA",
+    "disease": "prad"
+},{
+    "collection": "lung_cluster",
+    "type": "PCA",
+    "disease": "lung"
+},{
+    "collection": "hnsc_cluster",
+    "type": "PCA",
+    "disease": "hnsc"
+},{
+    "collection": "lusc_cluster",
+    "type": "PCA",
+    "disease": "lusc"
+},{
+    "collection": "brain_cluster",
+    "type": "PCA",
+    "disease": "brain"
+},{
+    "collection": "lgg_cluster",
+    "type": "MDS",
+    "disease": "lgg"
+},{
+    "collection": "prad_cluster",
+    "type": "MDS",
+    "disease": "prad"
+},{
+    "collection": "brain_cluster",
+    "type": "MDS",
+    "disease": "brain"
+},{
+    "collection": "luad_cluster",
+    "type": "MDS",
+    "disease": "luad"
+}]

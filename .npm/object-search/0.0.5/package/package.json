@@ -1,0 +1,21 @@
+{
+  "name": "object-search",
+  "version": "0.0.5",
+  "description": "A module for looking up object properties at depth",
+  "main": "lib/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/UmbraEngineering/object-search.git"
+  },
+  "keywords": [
+    "object",
+    "lookup",
+    "keys"
+  ],
+  "author": "James Brumond <http://www.jbrumond.me> (james@jbrumond.me)",
+  "license": "MIT",
+  "gitHead": "2303d8152f4b8f010f8336a3a6dd467f6003fd51"
+}

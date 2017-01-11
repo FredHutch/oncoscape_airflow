@@ -1,0 +1,11 @@
+# npm, pip, tmp
+.npm/
+pip/
+tmp/
+vim/
+.cache/
+
+.viminfo
+.bash_history
+.bash_logout
+.bashrc

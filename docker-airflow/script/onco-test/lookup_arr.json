@@ -11116,6 +11116,11 @@
         "source": "ucsc",
         "type": "mds",
         "collection": "chol_mds_ucsc_mds-osccchen9genes-cnv-mut01-1e05-ucsc"
+      },
+      {
+        "source": "ucsc xena",
+        "type": "PCA",
+        "collection": "chol_cluster"
       }
     ],
     "clinical": {
@@ -14003,6 +14008,11 @@
         "source": "ucsc",
         "type": "pcascores",
         "collection": "read_pcascores_ucsc_prcomp-osccchen9genes-rna-hiseq-1e05"
+      },
+      {
+        "source": "ucsc xena",
+        "type": "PCA",
+        "collection": "read_cluster"
       }
     ],
     "category": [
@@ -15970,6 +15980,11 @@
         "source": "ucsc",
         "type": "pcascores",
         "collection": "meso_pcascores_ucsc_prcomp-allgenes-protein-1e05"
+      },
+      {
+        "source": "ucsc xena",
+        "type": "PCA",
+        "collection": "meso_cluster"
       }
     ],
     "category": [
@@ -16444,6 +16459,13 @@
         "source": "ucsc xena",
         "type": "somatic mutation SNPs and small INDELs (bcm)",
         "collection": "tcga_pancan_mutation_bcm_ucsc-xena"
+      }
+    ],
+    "calculated": [
+      {
+        "source": "ucsc xena",
+        "type": "PCA",
+        "collection": "pancan_cluster"
       }
     ]
   },

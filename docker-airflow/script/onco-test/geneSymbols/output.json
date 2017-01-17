@@ -7,6 +7,166 @@
     "type": "color",
     "disease": "brca"
 },{
+    "collection": "thca_followup_tcga_v4p0",
+    "type": "followup",
+    "disease": "thca"
+},{
+    "collection": "ucec_followup_tcga_v2p0",
+    "type": "followup",
+    "disease": "ucec"
+},{
+    "collection": "cesc_followup_tcga_v4p0",
+    "type": "followup",
+    "disease": "cesc"
+},{
+    "collection": "hnsc_followup_tcga_v4p8",
+    "type": "followup",
+    "disease": "hnsc"
+},{
+    "collection": "blca_followup_tcga_v4p0",
+    "type": "followup",
+    "disease": "blca"
+},{
+    "collection": "brca_followup_tcga_v4p0",
+    "type": "followup",
+    "disease": "brca"
+},{
+    "collection": "thca_followup_tcga_v2p0",
+    "type": "followup",
+    "disease": "thca"
+},{
+    "collection": "ucec_followup_tcga_v1p7",
+    "type": "followup",
+    "disease": "ucec"
+},{
+    "collection": "cesc_followup_tcga_v2p0",
+    "type": "followup",
+    "disease": "cesc"
+},{
+    "collection": "hnsc_followup_tcga_v1p0",
+    "type": "followup",
+    "disease": "hnsc"
+},{
+    "collection": "blca_followup_tcga_v2p0",
+    "type": "followup",
+    "disease": "blca"
+},{
+    "collection": "brca_followup_tcga_v1p5",
+    "type": "followup",
+    "disease": "brca"
+},{
+    "collection": "brca_followup_tcga_v2p1",
+    "type": "followup",
+    "disease": "brca"
+},{
+    "collection": "esca_followup_tcga_v4p0",
+    "type": "followup",
+    "disease": "esca"
+},{
+    "collection": "kich_followup_tcga_v4p4",
+    "type": "followup",
+    "disease": "kich"
+},{
+    "collection": "kirc_followup_tcga_v1p0",
+    "type": "followup",
+    "disease": "kirc"
+},{
+    "collection": "kirp_followup_tcga_v1p0",
+    "type": "followup",
+    "disease": "kirp"
+},{
+    "collection": "lihc_followup_tcga_v4p0",
+    "type": "followup",
+    "disease": "lihc"
+},{
+    "collection": "skcm_followup_tcga_v2p0",
+    "type": "followup",
+    "disease": "skcm"
+},{
+    "collection": "stad_followup_tcga_v1p0",
+    "type": "followup",
+    "disease": "stad"
+},{
+    "collection": "acc_followup_tcga_v4p0",
+    "type": "followup",
+    "disease": "acc"
+},{
+    "collection": "chol_followup_tcga_v4p0",
+    "type": "followup",
+    "disease": "chol"
+},{
+    "collection": "dlbc_followup_tcga_v4p4",
+    "type": "followup",
+    "disease": "dlbc"
+},{
+    "collection": "read_followup_tcga_v1p0",
+    "type": "followup",
+    "disease": "read"
+},{
+    "collection": "ucs_followup_tcga_v4p0",
+    "type": "followup",
+    "disease": "ucs"
+},{
+    "collection": "uvm_followup_tcga_v4p0",
+    "type": "followup",
+    "disease": "uvm"
+},{
+    "collection": "thym_followup_tcga_v4p0",
+    "type": "followup",
+    "disease": "thym"
+},{
+    "collection": "tgct_followup_tcga_v4p0",
+    "type": "followup",
+    "disease": "tgct"
+},{
+    "collection": "pcpg_followup_tcga_v4p0",
+    "type": "followup",
+    "disease": "pcpg"
+},{
+    "collection": "ov_followup_tcga_v1p0",
+    "type": "followup",
+    "disease": "ov"
+},{
+    "collection": "meso_followup_tcga_v4p0",
+    "type": "followup",
+    "disease": "meso"
+},{
+    "collection": "coad_followup_tcga_v1p0",
+    "type": "followup",
+    "disease": "coad"
+},{
+    "collection": "gbm_followup_tcga_v1p0",
+    "type": "followup",
+    "disease": "gbm"
+},{
+    "collection": "lgg_followup_tcga_v1p0",
+    "type": "followup",
+    "disease": "lgg"
+},{
+    "collection": "luad_followup_tcga_v1p0",
+    "type": "followup",
+    "disease": "luad"
+},{
+    "collection": "lusc_followup_tcga_v1p0",
+    "type": "followup",
+    "disease": "lusc"
+},{
+    "collection": "prad_followup_tcga_v1p0",
+    "type": "followup",
+    "disease": "prad"
+},{
+    "collection": "sarc_followup_tcga_v4p0",
+    "type": "followup",
+    "disease": "sarc"
+},{
+    "collection": "paad_followup_tcga_v4p4",
+    "type": "followup",
+    "disease": "paad"
+},{
+    "collection": "brain_followup_tcga_v1p0",
+    "type": "followup",
+    "disease": "brain"
+},{
     "collection": "brain_events_tcga_clinical",
     "type": "events",
     "disease": "brain"
@@ -42,138 +202,6 @@
     "collection": "lusc_events_tcga_clinical",
     "type": "events",
     "disease": "lusc"
-},{
-    "collection": "esca_patient_tcga_clinical",
-    "type": "patient",
-    "disease": "esca"
-},{
-    "collection": "kich_patient_tcga_clinical",
-    "type": "patient",
-    "disease": "kich"
-},{
-    "collection": "kirc_patient_tcga_clinical",
-    "type": "patient",
-    "disease": "kirc"
-},{
-    "collection": "kirp_patient_tcga_clinical",
-    "type": "patient",
-    "disease": "kirp"
-},{
-    "collection": "lihc_patient_tcga_clinical",
-    "type": "patient",
-    "disease": "lihc"
-},{
-    "collection": "skcm_patient_tcga_clinical",
-    "type": "patient",
-    "disease": "skcm"
-},{
-    "collection": "stad_patient_tcga_clinical",
-    "type": "patient",
-    "disease": "stad"
-},{
-    "collection": "thca_patient_tcga_clinical",
-    "type": "patient",
-    "disease": "thca"
-},{
-    "collection": "ucec_patient_tcga_clinical",
-    "type": "patient",
-    "disease": "ucec"
-},{
-    "collection": "acc_patient_tcga_clinical",
-    "type": "patient",
-    "disease": "acc"
-},{
-    "collection": "cesc_patient_tcga_clinical",
-    "type": "patient",
-    "disease": "cesc"
-},{
-    "collection": "chol_patient_tcga_clinical",
-    "type": "patient",
-    "disease": "chol"
-},{
-    "collection": "dlbc_patient_tcga_clinical",
-    "type": "patient",
-    "disease": "dlbc"
-},{
-    "collection": "read_patient_tcga_clinical",
-    "type": "patient",
-    "disease": "read"
-},{
-    "collection": "ucs_patient_tcga_clinical",
-    "type": "patient",
-    "disease": "ucs"
-},{
-    "collection": "uvm_patient_tcga_clinical",
-    "type": "patient",
-    "disease": "uvm"
-},{
-    "collection": "thym_patient_tcga_clinical",
-    "type": "patient",
-    "disease": "thym"
-},{
-    "collection": "tgct_patient_tcga_clinical",
-    "type": "patient",
-    "disease": "tgct"
-},{
-    "collection": "pcpg_patient_tcga_clinical",
-    "type": "patient",
-    "disease": "pcpg"
-},{
-    "collection": "ov_patient_tcga_clinical",
-    "type": "patient",
-    "disease": "ov"
-},{
-    "collection": "meso_patient_tcga_clinical",
-    "type": "patient",
-    "disease": "meso"
-},{
-    "collection": "coad_patient_tcga_clinical",
-    "type": "patient",
-    "disease": "coad"
-},{
-    "collection": "gbm_patient_tcga_clinical",
-    "type": "patient",
-    "disease": "gbm"
-},{
-    "collection": "hnsc_patient_tcga_na",
-    "type": "patient",
-    "disease": "hnsc"
-},{
-    "collection": "lgg_patient_tcga_clinical",
-    "type": "patient",
-    "disease": "lgg"
-},{
-    "collection": "luad_patient_tcga_clinical",
-    "type": "patient",
-    "disease": "luad"
-},{
-    "collection": "lusc_patient_tcga_clinical",
-    "type": "patient",
-    "disease": "lusc"
-},{
-    "collection": "prad_patient_tcga_clinical",
-    "type": "patient",
-    "disease": "prad"
-},{
-    "collection": "sarc_patient_tcga_clinical",
-    "type": "patient",
-    "disease": "sarc"
-},{
-    "collection": "laml_patient_tcga_clinical",
-    "type": "patient",
-    "disease": "laml"
-},{
-    "collection": "blca_patient_tcga_clinical",
-    "type": "patient",
-    "disease": "blca"
-},{
-    "collection": "paad_patient_tcga_clinical",
-    "type": "patient",
-    "disease": "paad"
-},{
-    "collection": "brain_patient_tcga_clinical",
-    "type": "patient",
-    "disease": "brain"
 },{
     "collection": "brca_drug_tcga_clinical",
     "type": "drug",
@@ -439,87 +467,2803 @@
     "type": "radiation",
     "disease": "brain"
 },{
-    "collection": "lgg_cluster",
-    "type": "PCA",
-    "disease": "lgg"
-},{
-    "collection": "acc_cluster",
-    "type": "PCA",
-    "disease": "acc"
-},{
-    "collection": "kirp_cluster",
-    "type": "PCA",
-    "disease": "kirp"
-},{
-    "collection": "luad_cluster",
-    "type": "PCA",
-    "disease": "luad"
-},{
-    "collection": "blca_cluster",
-    "type": "PCA",
-    "disease": "blca"
-},{
-    "collection": "uvm_cluster",
-    "type": "PCA",
-    "disease": "uvm"
-},{
-    "collection": "sarc_cluster",
-    "type": "PCA",
-    "disease": "sarc"
-},{
-    "collection": "laml_cluster",
-    "type": "PCA",
-    "disease": "laml"
-},{
-    "collection": "gbm_cluster",
-    "type": "PCA",
-    "disease": "gbm"
-},{
-    "collection": "coadread_cluster",
-    "type": "PCA",
-    "disease": "coadread"
-},{
-    "collection": "ucs_cluster",
-    "type": "PCA",
-    "disease": "ucs"
-},{
-    "collection": "brca_cluster",
-    "type": "PCA",
+    "collection": "brca_newtumor_tcga_clinical",
+    "type": "newtumor",
     "disease": "brca"
 },{
-    "collection": "prad_cluster",
-    "type": "PCA",
-    "disease": "prad"
+    "collection": "esca_newtumor_tcga_clinical",
+    "type": "newtumor",
+    "disease": "esca"
 },{
-    "collection": "lung_cluster",
-    "type": "PCA",
-    "disease": "lung"
+    "collection": "kich_newtumor_tcga_clinical",
+    "type": "newtumor",
+    "disease": "kich"
 },{
-    "collection": "hnsc_cluster",
-    "type": "PCA",
+    "collection": "kirc_newtumor_tcga_clinical",
+    "type": "newtumor",
+    "disease": "kirc"
+},{
+    "collection": "kirp_newtumor_tcga_clinical",
+    "type": "newtumor",
+    "disease": "kirp"
+},{
+    "collection": "lihc_newtumor_tcga_clinical",
+    "type": "newtumor",
+    "disease": "lihc"
+},{
+    "collection": "skcm_newtumor_tcga_clinical",
+    "type": "newtumor",
+    "disease": "skcm"
+},{
+    "collection": "stad_newtumor_tcga_clinical",
+    "type": "newtumor",
+    "disease": "stad"
+},{
+    "collection": "thca_newtumor_tcga_clinical",
+    "type": "newtumor",
+    "disease": "thca"
+},{
+    "collection": "ucec_newtumor_tcga_clinical",
+    "type": "newtumor",
+    "disease": "ucec"
+},{
+    "collection": "acc_newtumor_tcga_clinical",
+    "type": "newtumor",
+    "disease": "acc"
+},{
+    "collection": "cesc_newtumor_tcga_clinical",
+    "type": "newtumor",
+    "disease": "cesc"
+},{
+    "collection": "chol_newtumor_tcga_clinical",
+    "type": "newtumor",
+    "disease": "chol"
+},{
+    "collection": "dlbc_newtumor_tcga_clinical",
+    "type": "newtumor",
+    "disease": "dlbc"
+},{
+    "collection": "read_newtumor_tcga_clinical",
+    "type": "newtumor",
+    "disease": "read"
+},{
+    "collection": "ucs_newtumor_tcga_clinical",
+    "type": "newtumor",
+    "disease": "ucs"
+},{
+    "collection": "uvm_newtumor_tcga_clinical",
+    "type": "newtumor",
+    "disease": "uvm"
+},{
+    "collection": "thym_newtumor_tcga_clinical",
+    "type": "newtumor",
+    "disease": "thym"
+},{
+    "collection": "tgct_newtumor_tcga_clinical",
+    "type": "newtumor",
+    "disease": "tgct"
+},{
+    "collection": "pcpg_newtumor_tcga_clinical",
+    "type": "newtumor",
+    "disease": "pcpg"
+},{
+    "collection": "ov_newtumor_tcga_clinical",
+    "type": "newtumor",
+    "disease": "ov"
+},{
+    "collection": "meso_newtumor_tcga_clinical",
+    "type": "newtumor",
+    "disease": "meso"
+},{
+    "collection": "coad_newtumor_tcga_clinical",
+    "type": "newtumor",
+    "disease": "coad"
+},{
+    "collection": "gbm_newtumor_tcga_clinical",
+    "type": "newtumor",
+    "disease": "gbm"
+},{
+    "collection": "hnsc_newtumor_tcga_clinical",
+    "type": "newtumor",
     "disease": "hnsc"
 },{
-    "collection": "lusc_cluster",
-    "type": "PCA",
-    "disease": "lusc"
-},{
-    "collection": "brain_cluster",
-    "type": "PCA",
-    "disease": "brain"
-},{
-    "collection": "lgg_cluster",
-    "type": "MDS",
+    "collection": "lgg_newtumor_tcga_clinical",
+    "type": "newtumor",
     "disease": "lgg"
 },{
-    "collection": "prad_cluster",
-    "type": "MDS",
+    "collection": "luad_newtumor_tcga_clinical",
+    "type": "newtumor",
+    "disease": "luad"
+},{
+    "collection": "lusc_newtumor_tcga_clinical",
+    "type": "newtumor",
+    "disease": "lusc"
+},{
+    "collection": "prad_newtumor_tcga_clinical",
+    "type": "newtumor",
     "disease": "prad"
 },{
-    "collection": "brain_cluster",
-    "type": "MDS",
+    "collection": "sarc_newtumor_tcga_clinical",
+    "type": "newtumor",
+    "disease": "sarc"
+},{
+    "collection": "blca_newtumor_tcga_clinical",
+    "type": "newtumor",
+    "disease": "blca"
+},{
+    "collection": "paad_newtumor_tcga_clinical",
+    "type": "newtumor",
+    "disease": "paad"
+},{
+    "collection": "brain_newtumor_tcga_clinical",
+    "type": "newtumor",
     "disease": "brain"
 },{
-    "collection": "luad_cluster",
-    "type": "MDS",
+    "collection": "brca_newtumor-followup_tcga_v4p0",
+    "type": "newtumor-followup",
+    "disease": "brca"
+},{
+    "collection": "esca_newtumor-followup_tcga_v4p0",
+    "type": "newtumor-followup",
+    "disease": "esca"
+},{
+    "collection": "kich_newtumor-followup_tcga_v4p4",
+    "type": "newtumor-followup",
+    "disease": "kich"
+},{
+    "collection": "lihc_newtumor-followup_tcga_v4p0",
+    "type": "newtumor-followup",
+    "disease": "lihc"
+},{
+    "collection": "thca_newtumor-followup_tcga_v4p0",
+    "type": "newtumor-followup",
+    "disease": "thca"
+},{
+    "collection": "ucec_newtumor-followup_tcga_v4p0",
+    "type": "newtumor-followup",
+    "disease": "ucec"
+},{
+    "collection": "acc_newtumor-followup_tcga_v4p0",
+    "type": "newtumor-followup",
+    "disease": "acc"
+},{
+    "collection": "cesc_newtumor-followup_tcga_v4p0",
+    "type": "newtumor-followup",
+    "disease": "cesc"
+},{
+    "collection": "chol_newtumor-followup_tcga_v4p0",
+    "type": "newtumor-followup",
+    "disease": "chol"
+},{
+    "collection": "dlbc_newtumor-followup_tcga_v4p4",
+    "type": "newtumor-followup",
+    "disease": "dlbc"
+},{
+    "collection": "read_newtumor-followup_tcga_v1p0",
+    "type": "newtumor-followup",
+    "disease": "read"
+},{
+    "collection": "ucs_newtumor-followup_tcga_v4p0",
+    "type": "newtumor-followup",
+    "disease": "ucs"
+},{
+    "collection": "uvm_newtumor-followup_tcga_v4p0",
+    "type": "newtumor-followup",
+    "disease": "uvm"
+},{
+    "collection": "thym_newtumor-followup_tcga_v4p0",
+    "type": "newtumor-followup",
+    "disease": "thym"
+},{
+    "collection": "tgct_newtumor-followup_tcga_v4p0",
+    "type": "newtumor-followup",
+    "disease": "tgct"
+},{
+    "collection": "pcpg_newtumor-followup_tcga_v4p0",
+    "type": "newtumor-followup",
+    "disease": "pcpg"
+},{
+    "collection": "ov_newtumor-followup_tcga_v1p0",
+    "type": "newtumor-followup",
+    "disease": "ov"
+},{
+    "collection": "meso_newtumor-followup_tcga_v4p0",
+    "type": "newtumor-followup",
+    "disease": "meso"
+},{
+    "collection": "coad_newtumor-followup_tcga_v1p0",
+    "type": "newtumor-followup",
+    "disease": "coad"
+},{
+    "collection": "gbm_newtumor-followup_tcga_v1p0",
+    "type": "newtumor-followup",
+    "disease": "gbm"
+},{
+    "collection": "hnsc_newtumor-followup_tcga_v4p8",
+    "type": "newtumor-followup",
+    "disease": "hnsc"
+},{
+    "collection": "sarc_newtumor-followup_tcga_v4p0",
+    "type": "newtumor-followup",
+    "disease": "sarc"
+},{
+    "collection": "blca_newtumor-followup_tcga_v4p0",
+    "type": "newtumor-followup",
+    "disease": "blca"
+},{
+    "collection": "paad_newtumor-followup_tcga_v4p4",
+    "type": "newtumor-followup",
+    "disease": "paad"
+},{
+    "collection": "brca_othermalignancy_tcga_v4p0",
+    "type": "othermalignancy",
+    "disease": "brca"
+},{
+    "collection": "esca_othermalignancy_tcga_v4p0",
+    "type": "othermalignancy",
+    "disease": "esca"
+},{
+    "collection": "kich_othermalignancy_tcga_v4p0",
+    "type": "othermalignancy",
+    "disease": "kich"
+},{
+    "collection": "kirc_othermalignancy_tcga_v4p0",
+    "type": "othermalignancy",
+    "disease": "kirc"
+},{
+    "collection": "kirp_othermalignancy_tcga_v4p0",
+    "type": "othermalignancy",
+    "disease": "kirp"
+},{
+    "collection": "lihc_othermalignancy_tcga_v4p0",
+    "type": "othermalignancy",
+    "disease": "lihc"
+},{
+    "collection": "skcm_othermalignancy_tcga_v4p0",
+    "type": "othermalignancy",
+    "disease": "skcm"
+},{
+    "collection": "stad_othermalignancy_tcga_v4p0",
+    "type": "othermalignancy",
+    "disease": "stad"
+},{
+    "collection": "thca_othermalignancy_tcga_v4p0",
+    "type": "othermalignancy",
+    "disease": "thca"
+},{
+    "collection": "ucec_othermalignancy_tcga_v4p0",
+    "type": "othermalignancy",
+    "disease": "ucec"
+},{
+    "collection": "acc_othermalignancy_tcga_v4p0",
+    "type": "othermalignancy",
+    "disease": "acc"
+},{
+    "collection": "cesc_othermalignancy_tcga_v4p0",
+    "type": "othermalignancy",
+    "disease": "cesc"
+},{
+    "collection": "chol_othermalignancy_tcga_v4p0",
+    "type": "othermalignancy",
+    "disease": "chol"
+},{
+    "collection": "read_othermalignancy_tcga_v4p0",
+    "type": "othermalignancy",
+    "disease": "read"
+},{
+    "collection": "ucs_othermalignancy_tcga_v4p0",
+    "type": "othermalignancy",
+    "disease": "ucs"
+},{
+    "collection": "uvm_othermalignancy_tcga_v4p0",
+    "type": "othermalignancy",
+    "disease": "uvm"
+},{
+    "collection": "thym_othermalignancy_tcga_v4p0",
+    "type": "othermalignancy",
+    "disease": "thym"
+},{
+    "collection": "tgct_othermalignancy_tcga_v4p0",
+    "type": "othermalignancy",
+    "disease": "tgct"
+},{
+    "collection": "pcpg_othermalignancy_tcga_v4p0",
+    "type": "othermalignancy",
+    "disease": "pcpg"
+},{
+    "collection": "ov_othermalignancy_tcga_v4p0",
+    "type": "othermalignancy",
+    "disease": "ov"
+},{
+    "collection": "meso_othermalignancy_tcga_v4p0",
+    "type": "othermalignancy",
+    "disease": "meso"
+},{
+    "collection": "coad_othermalignancy_tcga_v4p0",
+    "type": "othermalignancy",
+    "disease": "coad"
+},{
+    "collection": "gbm_othermalignancy_tcga_v4p0",
+    "type": "othermalignancy",
+    "disease": "gbm"
+},{
+    "collection": "hnsc_othermalignancy_tcga_v4p0",
+    "type": "othermalignancy",
+    "disease": "hnsc"
+},{
+    "collection": "lgg_othermalignancy_tcga_v4p0",
+    "type": "othermalignancy",
+    "disease": "lgg"
+},{
+    "collection": "luad_othermalignancy_tcga_v4p0",
+    "type": "othermalignancy",
     "disease": "luad"
+},{
+    "collection": "lusc_othermalignancy_tcga_v4p0",
+    "type": "othermalignancy",
+    "disease": "lusc"
+},{
+    "collection": "prad_othermalignancy_tcga_v4p0",
+    "type": "othermalignancy",
+    "disease": "prad"
+},{
+    "collection": "sarc_othermalignancy_tcga_v4p0",
+    "type": "othermalignancy",
+    "disease": "sarc"
+},{
+    "collection": "blca_othermalignancy_tcga_v4p0",
+    "type": "othermalignancy",
+    "disease": "blca"
+},{
+    "collection": "paad_othermalignancy_tcga_v4p0",
+    "type": "othermalignancy",
+    "disease": "paad"
+},{
+    "collection": "brain_othermalignancy_tcga_v4p0",
+    "type": "othermalignancy",
+    "disease": "brain"
+},{
+    "collection": "esca_patient_tcga_clinical",
+    "type": "patient",
+    "disease": "esca"
+},{
+    "collection": "kich_patient_tcga_clinical",
+    "type": "patient",
+    "disease": "kich"
+},{
+    "collection": "kirc_patient_tcga_clinical",
+    "type": "patient",
+    "disease": "kirc"
+},{
+    "collection": "kirp_patient_tcga_clinical",
+    "type": "patient",
+    "disease": "kirp"
+},{
+    "collection": "lihc_patient_tcga_clinical",
+    "type": "patient",
+    "disease": "lihc"
+},{
+    "collection": "skcm_patient_tcga_clinical",
+    "type": "patient",
+    "disease": "skcm"
+},{
+    "collection": "stad_patient_tcga_clinical",
+    "type": "patient",
+    "disease": "stad"
+},{
+    "collection": "thca_patient_tcga_clinical",
+    "type": "patient",
+    "disease": "thca"
+},{
+    "collection": "ucec_patient_tcga_clinical",
+    "type": "patient",
+    "disease": "ucec"
+},{
+    "collection": "acc_patient_tcga_clinical",
+    "type": "patient",
+    "disease": "acc"
+},{
+    "collection": "cesc_patient_tcga_clinical",
+    "type": "patient",
+    "disease": "cesc"
+},{
+    "collection": "chol_patient_tcga_clinical",
+    "type": "patient",
+    "disease": "chol"
+},{
+    "collection": "dlbc_patient_tcga_clinical",
+    "type": "patient",
+    "disease": "dlbc"
+},{
+    "collection": "read_patient_tcga_clinical",
+    "type": "patient",
+    "disease": "read"
+},{
+    "collection": "ucs_patient_tcga_clinical",
+    "type": "patient",
+    "disease": "ucs"
+},{
+    "collection": "uvm_patient_tcga_clinical",
+    "type": "patient",
+    "disease": "uvm"
+},{
+    "collection": "thym_patient_tcga_clinical",
+    "type": "patient",
+    "disease": "thym"
+},{
+    "collection": "tgct_patient_tcga_clinical",
+    "type": "patient",
+    "disease": "tgct"
+},{
+    "collection": "pcpg_patient_tcga_clinical",
+    "type": "patient",
+    "disease": "pcpg"
+},{
+    "collection": "ov_patient_tcga_clinical",
+    "type": "patient",
+    "disease": "ov"
+},{
+    "collection": "meso_patient_tcga_clinical",
+    "type": "patient",
+    "disease": "meso"
+},{
+    "collection": "coad_patient_tcga_clinical",
+    "type": "patient",
+    "disease": "coad"
+},{
+    "collection": "gbm_patient_tcga_clinical",
+    "type": "patient",
+    "disease": "gbm"
+},{
+    "collection": "hnsc_patient_tcga_na",
+    "type": "patient",
+    "disease": "hnsc"
+},{
+    "collection": "lgg_patient_tcga_clinical",
+    "type": "patient",
+    "disease": "lgg"
+},{
+    "collection": "luad_patient_tcga_clinical",
+    "type": "patient",
+    "disease": "luad"
+},{
+    "collection": "lusc_patient_tcga_clinical",
+    "type": "patient",
+    "disease": "lusc"
+},{
+    "collection": "prad_patient_tcga_clinical",
+    "type": "patient",
+    "disease": "prad"
+},{
+    "collection": "sarc_patient_tcga_clinical",
+    "type": "patient",
+    "disease": "sarc"
+},{
+    "collection": "laml_patient_tcga_clinical",
+    "type": "patient",
+    "disease": "laml"
+},{
+    "collection": "blca_patient_tcga_clinical",
+    "type": "patient",
+    "disease": "blca"
+},{
+    "collection": "paad_patient_tcga_clinical",
+    "type": "patient",
+    "disease": "paad"
+},{
+    "collection": "brain_patient_tcga_clinical",
+    "type": "patient",
+    "disease": "brain"
+},{
+    "collection": "tcga_lgg_gistic2_ucsc-xena",
+    "type": "copy number (gistic2)",
+    "disease": "tcga"
+},{
+    "collection": "tcga_acc_gistic2_ucsc-xena",
+    "type": "copy number (gistic2)",
+    "disease": "tcga"
+},{
+    "collection": "tcga_kirp_gistic2_ucsc-xena",
+    "type": "copy number (gistic2)",
+    "disease": "tcga"
+},{
+    "collection": "tcga_luad_gistic2_ucsc-xena",
+    "type": "copy number (gistic2)",
+    "disease": "tcga"
+},{
+    "collection": "tcga_blca_gistic2_ucsc-xena",
+    "type": "copy number (gistic2)",
+    "disease": "tcga"
+},{
+    "collection": "tcga_uvm_gistic2_ucsc-xena",
+    "type": "copy number (gistic2)",
+    "disease": "tcga"
+},{
+    "collection": "tcga_sarc_gistic2_ucsc-xena",
+    "type": "copy number (gistic2)",
+    "disease": "tcga"
+},{
+    "collection": "tcga_laml_gistic2_ucsc-xena",
+    "type": "copy number (gistic2)",
+    "disease": "tcga"
+},{
+    "collection": "tcga_gbm_gistic2_ucsc-xena",
+    "type": "copy number (gistic2)",
+    "disease": "tcga"
+},{
+    "collection": "tcga_coadread_gistic2_ucsc-xena",
+    "type": "copy number (gistic2)",
+    "disease": "tcga"
+},{
+    "collection": "tcga_ucs_gistic2_ucsc-xena",
+    "type": "copy number (gistic2)",
+    "disease": "tcga"
+},{
+    "collection": "tcga_meso_gistic2_ucsc-xena",
+    "type": "copy number (gistic2)",
+    "disease": "tcga"
+},{
+    "collection": "tcga_read_gistic2_ucsc-xena",
+    "type": "copy number (gistic2)",
+    "disease": "tcga"
+},{
+    "collection": "tcga_chol_gistic2_ucsc-xena",
+    "type": "copy number (gistic2)",
+    "disease": "tcga"
+},{
+    "collection": "tcga_brca_gistic2_ucsc-xena",
+    "type": "copy number (gistic2)",
+    "disease": "tcga"
+},{
+    "collection": "tcga_skcm_gistic2_ucsc-xena",
+    "type": "copy number (gistic2)",
+    "disease": "tcga"
+},{
+    "collection": "tcga_prad_gistic2_ucsc-xena",
+    "type": "copy number (gistic2)",
+    "disease": "tcga"
+},{
+    "collection": "tcga_lihc_gistic2_ucsc-xena",
+    "type": "copy number (gistic2)",
+    "disease": "tcga"
+},{
+    "collection": "tcga_lung_gistic2_ucsc-xena",
+    "type": "copy number (gistic2)",
+    "disease": "tcga"
+},{
+    "collection": "tcga_stad_gistic2_ucsc-xena",
+    "type": "copy number (gistic2)",
+    "disease": "tcga"
+},{
+    "collection": "tcga_hnsc_gistic2_ucsc-xena",
+    "type": "copy number (gistic2)",
+    "disease": "tcga"
+},{
+    "collection": "tcga_lusc_gistic2_ucsc-xena",
+    "type": "copy number (gistic2)",
+    "disease": "tcga"
+},{
+    "collection": "tcga_gbmlgg_gistic2_ucsc-xena",
+    "type": "copy number (gistic2)",
+    "disease": "tcga"
+},{
+    "collection": "tcga_thca_gistic2_ucsc-xena",
+    "type": "copy number (gistic2)",
+    "disease": "tcga"
+},{
+    "collection": "tcga_cesc_gistic2_ucsc-xena",
+    "type": "copy number (gistic2)",
+    "disease": "tcga"
+},{
+    "collection": "tcga_coad_gistic2_ucsc-xena",
+    "type": "copy number (gistic2)",
+    "disease": "tcga"
+},{
+    "collection": "tcga_esca_gistic2_ucsc-xena",
+    "type": "copy number (gistic2)",
+    "disease": "tcga"
+},{
+    "collection": "tcga_dlbc_gistic2_ucsc-xena",
+    "type": "copy number (gistic2)",
+    "disease": "tcga"
+},{
+    "collection": "tcga_kich_gistic2_ucsc-xena",
+    "type": "copy number (gistic2)",
+    "disease": "tcga"
+},{
+    "collection": "tcga_thym_gistic2_ucsc-xena",
+    "type": "copy number (gistic2)",
+    "disease": "tcga"
+},{
+    "collection": "tcga_paad_gistic2_ucsc-xena",
+    "type": "copy number (gistic2)",
+    "disease": "tcga"
+},{
+    "collection": "tcga_pcpg_gistic2_ucsc-xena",
+    "type": "copy number (gistic2)",
+    "disease": "tcga"
+},{
+    "collection": "tcga_tgct_gistic2_ucsc-xena",
+    "type": "copy number (gistic2)",
+    "disease": "tcga"
+},{
+    "collection": "tcga_kirc_gistic2_ucsc-xena",
+    "type": "copy number (gistic2)",
+    "disease": "tcga"
+},{
+    "collection": "tcga_ov_gistic2_ucsc-xena",
+    "type": "copy number (gistic2)",
+    "disease": "tcga"
+},{
+    "collection": "tcga_ucec_gistic2_ucsc-xena",
+    "type": "copy number (gistic2)",
+    "disease": "tcga"
+},{
+    "collection": "tcga_lgg_exp_hiseqv2_exon_ucsc-xena",
+    "type": "exon expression RNAseq (polyA+ IlluminaHiSeq)",
+    "disease": "tcga"
+},{
+    "collection": "tcga_acc_exp_hiseqv2_exon_ucsc-xena",
+    "type": "exon expression RNAseq (polyA+ IlluminaHiSeq)",
+    "disease": "tcga"
+},{
+    "collection": "tcga_kirp_exp_hiseqv2_exon_ucsc-xena",
+    "type": "exon expression RNAseq (polyA+ IlluminaHiSeq)",
+    "disease": "tcga"
+},{
+    "collection": "tcga_luad_exp_hiseqv2_exon_ucsc-xena",
+    "type": "exon expression RNAseq (polyA+ IlluminaHiSeq)",
+    "disease": "tcga"
+},{
+    "collection": "tcga_blca_exp_hiseqv2_exon_ucsc-xena",
+    "type": "exon expression RNAseq (polyA+ IlluminaHiSeq)",
+    "disease": "tcga"
+},{
+    "collection": "tcga_uvm_exp_hiseqv2_exon_ucsc-xena",
+    "type": "exon expression RNAseq (polyA+ IlluminaHiSeq)",
+    "disease": "tcga"
+},{
+    "collection": "tcga_sarc_exp_hiseqv2_exon_ucsc-xena",
+    "type": "exon expression RNAseq (polyA+ IlluminaHiSeq)",
+    "disease": "tcga"
+},{
+    "collection": "tcga_laml_exp_hiseqv2_exon_ucsc-xena",
+    "type": "exon expression RNAseq (polyA+ IlluminaHiSeq)",
+    "disease": "tcga"
+},{
+    "collection": "tcga_gbm_exp_hiseqv2_exon_ucsc-xena",
+    "type": "exon expression RNAseq (polyA+ IlluminaHiSeq)",
+    "disease": "tcga"
+},{
+    "collection": "tcga_coadread_exp_hiseqv2_exon_ucsc-xena",
+    "type": "exon expression RNAseq (polyA+ IlluminaHiSeq)",
+    "disease": "tcga"
+},{
+    "collection": "tcga_ucs_exp_hiseqv2_exon_ucsc-xena",
+    "type": "exon expression RNAseq (polyA+ IlluminaHiSeq)",
+    "disease": "tcga"
+},{
+    "collection": "tcga_meso_exp_hiseqv2_exon_ucsc-xena",
+    "type": "exon expression RNAseq (polyA+ IlluminaHiSeq)",
+    "disease": "tcga"
+},{
+    "collection": "tcga_read_exp_hiseqv2_exon_ucsc-xena",
+    "type": "exon expression RNAseq (polyA+ IlluminaHiSeq)",
+    "disease": "tcga"
+},{
+    "collection": "tcga_chol_exp_hiseqv2_exon_ucsc-xena",
+    "type": "exon expression RNAseq (polyA+ IlluminaHiSeq)",
+    "disease": "tcga"
+},{
+    "collection": "tcga_skcm_exp_hiseqv2_exon_ucsc-xena",
+    "type": "exon expression RNAseq (polyA+ IlluminaHiSeq)",
+    "disease": "tcga"
+},{
+    "collection": "tcga_prad_exp_hiseqv2_exon_ucsc-xena",
+    "type": "exon expression RNAseq (polyA+ IlluminaHiSeq)",
+    "disease": "tcga"
+},{
+    "collection": "tcga_lihc_exp_hiseqv2_exon_ucsc-xena",
+    "type": "exon expression RNAseq (polyA+ IlluminaHiSeq)",
+    "disease": "tcga"
+},{
+    "collection": "tcga_lung_exp_hiseqv2_exon_ucsc-xena",
+    "type": "exon expression RNAseq (polyA+ IlluminaHiSeq)",
+    "disease": "tcga"
+},{
+    "collection": "tcga_hnsc_exp_hiseqv2_exon_ucsc-xena",
+    "type": "exon expression RNAseq (polyA+ IlluminaHiSeq)",
+    "disease": "tcga"
+},{
+    "collection": "tcga_gbmlgg_exp_hiseqv2_exon_ucsc-xena",
+    "type": "exon expression RNAseq (polyA+ IlluminaHiSeq)",
+    "disease": "tcga"
+},{
+    "collection": "tcga_thca_exp_hiseqv2_exon_ucsc-xena",
+    "type": "exon expression RNAseq (polyA+ IlluminaHiSeq)",
+    "disease": "tcga"
+},{
+    "collection": "tcga_cesc_exp_hiseqv2_exon_ucsc-xena",
+    "type": "exon expression RNAseq (polyA+ IlluminaHiSeq)",
+    "disease": "tcga"
+},{
+    "collection": "tcga_coad_exp_hiseqv2_exon_ucsc-xena",
+    "type": "exon expression RNAseq (polyA+ IlluminaHiSeq)",
+    "disease": "tcga"
+},{
+    "collection": "tcga_paad_exp_hiseqv2_exon_ucsc-xena",
+    "type": "exon expression RNAseq (polyA+ IlluminaHiSeq)",
+    "disease": "tcga"
+},{
+    "collection": "tcga_thym_exp_hiseqv2_exon_ucsc-xena",
+    "type": "exon expression RNAseq (polyA+ IlluminaHiSeq)",
+    "disease": "tcga"
+},{
+    "collection": "tcga_kich_exp_hiseqv2_exon_ucsc-xena",
+    "type": "exon expression RNAseq (polyA+ IlluminaHiSeq)",
+    "disease": "tcga"
+},{
+    "collection": "tcga_tgct_exp_hiseqv2_exon_ucsc-xena",
+    "type": "exon expression RNAseq (polyA+ IlluminaHiSeq)",
+    "disease": "tcga"
+},{
+    "collection": "tcga_kirc_exp_hiseqv2_exon_ucsc-xena",
+    "type": "exon expression RNAseq (polyA+ IlluminaHiSeq)",
+    "disease": "tcga"
+},{
+    "collection": "tcga_pcpg_exp_hiseqv2_exon_ucsc-xena",
+    "type": "exon expression RNAseq (polyA+ IlluminaHiSeq)",
+    "disease": "tcga"
+},{
+    "collection": "tcga_ucec_exp_hiseqv2_exon_ucsc-xena",
+    "type": "exon expression RNAseq (polyA+ IlluminaHiSeq)",
+    "disease": "tcga"
+},{
+    "collection": "tcga_esca_exp_hiseqv2_exon_ucsc-xena",
+    "type": "exon expression RNAseq (polyA+ IlluminaHiSeq)",
+    "disease": "tcga"
+},{
+    "collection": "tcga_lusc_exp_hiseqv2_exon_ucsc-xena",
+    "type": "exon expression RNAseq (polyA+ IlluminaHiSeq)",
+    "disease": "tcga"
+},{
+    "collection": "tcga_brca_exp_hiseqv2_exon_ucsc-xena",
+    "type": "exon expression RNAseq (polyA+ IlluminaHiSeq)",
+    "disease": "tcga"
+},{
+    "collection": "tcga_dlbc_exp_hiseqv2_exon_ucsc-xena",
+    "type": "exon expression RNAseq (polyA+ IlluminaHiSeq)",
+    "disease": "tcga"
+},{
+    "collection": "tcga_lgg_mutation_broad_gene_ucsc-xena",
+    "type": "somatic gene-level non-silent mutation (broad automated)",
+    "disease": "tcga"
+},{
+    "collection": "tcga_kirp_mutation_broad_gene_ucsc-xena",
+    "type": "somatic gene-level non-silent mutation (broad automated)",
+    "disease": "tcga"
+},{
+    "collection": "tcga_luad_mutation_broad_gene_ucsc-xena",
+    "type": "somatic gene-level non-silent mutation (broad automated)",
+    "disease": "tcga"
+},{
+    "collection": "tcga_blca_mutation_broad_gene_ucsc-xena",
+    "type": "somatic gene-level non-silent mutation (broad automated)",
+    "disease": "tcga"
+},{
+    "collection": "tcga_uvm_mutation_broad_gene_ucsc-xena",
+    "type": "somatic gene-level non-silent mutation (broad automated)",
+    "disease": "tcga"
+},{
+    "collection": "tcga_sarc_mutation_broad_gene_ucsc-xena",
+    "type": "somatic gene-level non-silent mutation (broad automated)",
+    "disease": "tcga"
+},{
+    "collection": "tcga_ucs_mutation_broad_gene_ucsc-xena",
+    "type": "somatic gene-level non-silent mutation (broad automated)",
+    "disease": "tcga"
+},{
+    "collection": "tcga_chol_mutation_broad_gene_ucsc-xena",
+    "type": "somatic gene-level non-silent mutation (broad automated)",
+    "disease": "tcga"
+},{
+    "collection": "tcga_skcm_mutation_broad_gene_ucsc-xena",
+    "type": "somatic gene-level non-silent mutation (broad automated)",
+    "disease": "tcga"
+},{
+    "collection": "tcga_prad_mutation_broad_gene_ucsc-xena",
+    "type": "somatic gene-level non-silent mutation (broad automated)",
+    "disease": "tcga"
+},{
+    "collection": "tcga_lihc_mutation_broad_gene_ucsc-xena",
+    "type": "somatic gene-level non-silent mutation (broad automated)",
+    "disease": "tcga"
+},{
+    "collection": "tcga_stad_mutation_broad_gene_ucsc-xena",
+    "type": "somatic gene-level non-silent mutation (broad automated)",
+    "disease": "tcga"
+},{
+    "collection": "tcga_thca_mutation_broad_gene_ucsc-xena",
+    "type": "somatic gene-level non-silent mutation (broad automated)",
+    "disease": "tcga"
+},{
+    "collection": "tcga_cesc_mutation_broad_gene_ucsc-xena",
+    "type": "somatic gene-level non-silent mutation (broad automated)",
+    "disease": "tcga"
+},{
+    "collection": "tcga_esca_mutation_broad_gene_ucsc-xena",
+    "type": "somatic gene-level non-silent mutation (broad automated)",
+    "disease": "tcga"
+},{
+    "collection": "tcga_kirc_mutation_broad_gene_ucsc-xena",
+    "type": "somatic gene-level non-silent mutation (broad automated)",
+    "disease": "tcga"
+},{
+    "collection": "tcga_paad_mutation_broad_gene_ucsc-xena",
+    "type": "somatic gene-level non-silent mutation (broad automated)",
+    "disease": "tcga"
+},{
+    "collection": "tcga_thym_mutation_broad_gene_ucsc-xena",
+    "type": "somatic gene-level non-silent mutation (broad automated)",
+    "disease": "tcga"
+},{
+    "collection": "tcga_tgct_mutation_broad_gene_ucsc-xena",
+    "type": "somatic gene-level non-silent mutation (broad automated)",
+    "disease": "tcga"
+},{
+    "collection": "tcga_pcpg_mutation_broad_gene_ucsc-xena",
+    "type": "somatic gene-level non-silent mutation (broad automated)",
+    "disease": "tcga"
+},{
+    "collection": "tcga_hnsc_mutation_broad_gene_ucsc-xena",
+    "type": "somatic gene-level non-silent mutation (broad automated)",
+    "disease": "tcga"
+},{
+    "collection": "tcga_lgg_mutation_curated_broad_gene_ucsc-xena",
+    "type": "somatic gene-level non-silent mutation (broad curated)",
+    "disease": "tcga"
+},{
+    "collection": "tcga_acc_mutation_curated_broad_gene_ucsc-xena",
+    "type": "somatic gene-level non-silent mutation (broad curated)",
+    "disease": "tcga"
+},{
+    "collection": "tcga_kirp_mutation_curated_broad_gene_ucsc-xena",
+    "type": "somatic gene-level non-silent mutation (broad curated)",
+    "disease": "tcga"
+},{
+    "collection": "tcga_luad_mutation_curated_broad_gene_ucsc-xena",
+    "type": "somatic gene-level non-silent mutation (broad curated)",
+    "disease": "tcga"
+},{
+    "collection": "tcga_blca_mutation_curated_broad_gene_ucsc-xena",
+    "type": "somatic gene-level non-silent mutation (broad curated)",
+    "disease": "tcga"
+},{
+    "collection": "tcga_uvm_mutation_curated_broad_gene_ucsc-xena",
+    "type": "somatic gene-level non-silent mutation (broad curated)",
+    "disease": "tcga"
+},{
+    "collection": "tcga_ucs_mutation_curated_broad_gene_ucsc-xena",
+    "type": "somatic gene-level non-silent mutation (broad curated)",
+    "disease": "tcga"
+},{
+    "collection": "tcga_prad_mutation_curated_broad_gene_ucsc-xena",
+    "type": "somatic gene-level non-silent mutation (broad curated)",
+    "disease": "tcga"
+},{
+    "collection": "tcga_stad_mutation_curated_broad_gene_ucsc-xena",
+    "type": "somatic gene-level non-silent mutation (broad curated)",
+    "disease": "tcga"
+},{
+    "collection": "tcga_hnsc_mutation_curated_broad_gene_ucsc-xena",
+    "type": "somatic gene-level non-silent mutation (broad curated)",
+    "disease": "tcga"
+},{
+    "collection": "tcga_paad_mutation_curated_broad_gene_ucsc-xena",
+    "type": "somatic gene-level non-silent mutation (broad curated)",
+    "disease": "tcga"
+},{
+    "collection": "tcga_brain_mutation_curated_broad_gene_ucsc-xena",
+    "type": "somatic gene-level non-silent mutation (broad curated)",
+    "disease": "tcga"
+},{
+    "collection": "tcga_lgg_mutation_bcm_gene_ucsc-xena",
+    "type": "somatic gene-level non-silent mutation (bcm automated)",
+    "disease": "tcga"
+},{
+    "collection": "tcga_acc_mutation_bcm_gene_ucsc-xena",
+    "type": "somatic gene-level non-silent mutation (bcm automated)",
+    "disease": "tcga"
+},{
+    "collection": "tcga_uvm_mutation_bcm_gene_ucsc-xena",
+    "type": "somatic gene-level non-silent mutation (bcm automated)",
+    "disease": "tcga"
+},{
+    "collection": "tcga_ucs_mutation_bcm_gene_ucsc-xena",
+    "type": "somatic gene-level non-silent mutation (bcm automated)",
+    "disease": "tcga"
+},{
+    "collection": "tcga_chol_mutation_bcm_gene_ucsc-xena",
+    "type": "somatic gene-level non-silent mutation (bcm automated)",
+    "disease": "tcga"
+},{
+    "collection": "tcga_skcm_mutation_bcm_gene_ucsc-xena",
+    "type": "somatic gene-level non-silent mutation (bcm automated)",
+    "disease": "tcga"
+},{
+    "collection": "tcga_prad_mutation_bcm_gene_ucsc-xena",
+    "type": "somatic gene-level non-silent mutation (bcm automated)",
+    "disease": "tcga"
+},{
+    "collection": "tcga_lihc_mutation_bcm_gene_ucsc-xena",
+    "type": "somatic gene-level non-silent mutation (bcm automated)",
+    "disease": "tcga"
+},{
+    "collection": "tcga_stad_mutation_bcm_gene_ucsc-xena",
+    "type": "somatic gene-level non-silent mutation (bcm automated)",
+    "disease": "tcga"
+},{
+    "collection": "tcga_thca_mutation_bcm_gene_ucsc-xena",
+    "type": "somatic gene-level non-silent mutation (bcm automated)",
+    "disease": "tcga"
+},{
+    "collection": "tcga_dlbc_mutation_bcm_gene_ucsc-xena",
+    "type": "somatic gene-level non-silent mutation (bcm automated)",
+    "disease": "tcga"
+},{
+    "collection": "tcga_thym_mutation_bcm_gene_ucsc-xena",
+    "type": "somatic gene-level non-silent mutation (bcm automated)",
+    "disease": "tcga"
+},{
+    "collection": "tcga_paad_mutation_bcm_gene_ucsc-xena",
+    "type": "somatic gene-level non-silent mutation (bcm automated)",
+    "disease": "tcga"
+},{
+    "collection": "tcga_tgct_mutation_bcm_gene_ucsc-xena",
+    "type": "somatic gene-level non-silent mutation (bcm automated)",
+    "disease": "tcga"
+},{
+    "collection": "tcga_pcpg_mutation_bcm_gene_ucsc-xena",
+    "type": "somatic gene-level non-silent mutation (bcm automated)",
+    "disease": "tcga"
+},{
+    "collection": "tcga_kich_mutation_bcm_gene_ucsc-xena",
+    "type": "somatic gene-level non-silent mutation (bcm automated)",
+    "disease": "tcga"
+},{
+    "collection": "tcga_esca_mutation_bcm_gene_ucsc-xena",
+    "type": "somatic gene-level non-silent mutation (bcm automated)",
+    "disease": "tcga"
+},{
+    "collection": "tcga_lgg_exp_hiseqv2_pancan_ucsc-xena",
+    "type": "gene expression RNAseq (ployA+ IlluminaHiSeq pancan normalized)",
+    "disease": "tcga"
+},{
+    "collection": "tcga_acc_exp_hiseqv2_pancan_ucsc-xena",
+    "type": "gene expression RNAseq (ployA+ IlluminaHiSeq pancan normalized)",
+    "disease": "tcga"
+},{
+    "collection": "tcga_kirp_exp_hiseqv2_pancan_ucsc-xena",
+    "type": "gene expression RNAseq (ployA+ IlluminaHiSeq pancan normalized)",
+    "disease": "tcga"
+},{
+    "collection": "tcga_luad_exp_hiseqv2_pancan_ucsc-xena",
+    "type": "gene expression RNAseq (ployA+ IlluminaHiSeq pancan normalized)",
+    "disease": "tcga"
+},{
+    "collection": "tcga_blca_exp_hiseqv2_pancan_ucsc-xena",
+    "type": "gene expression RNAseq (ployA+ IlluminaHiSeq pancan normalized)",
+    "disease": "tcga"
+},{
+    "collection": "tcga_uvm_exp_hiseqv2_pancan_ucsc-xena",
+    "type": "gene expression RNAseq (ployA+ IlluminaHiSeq pancan normalized)",
+    "disease": "tcga"
+},{
+    "collection": "tcga_sarc_exp_hiseqv2_pancan_ucsc-xena",
+    "type": "gene expression RNAseq (ployA+ IlluminaHiSeq pancan normalized)",
+    "disease": "tcga"
+},{
+    "collection": "tcga_laml_exp_hiseqv2_pancan_ucsc-xena",
+    "type": "gene expression RNAseq (ployA+ IlluminaHiSeq pancan normalized)",
+    "disease": "tcga"
+},{
+    "collection": "tcga_gbm_exp_hiseqv2_pancan_ucsc-xena",
+    "type": "gene expression RNAseq (ployA+ IlluminaHiSeq pancan normalized)",
+    "disease": "tcga"
+},{
+    "collection": "tcga_ucs_exp_hiseqv2_pancan_ucsc-xena",
+    "type": "gene expression RNAseq (ployA+ IlluminaHiSeq pancan normalized)",
+    "disease": "tcga"
+},{
+    "collection": "tcga_meso_exp_hiseqv2_pancan_ucsc-xena",
+    "type": "gene expression RNAseq (ployA+ IlluminaHiSeq pancan normalized)",
+    "disease": "tcga"
+},{
+    "collection": "tcga_read_exp_hiseqv2_pancan_ucsc-xena",
+    "type": "gene expression RNAseq (ployA+ IlluminaHiSeq pancan normalized)",
+    "disease": "tcga"
+},{
+    "collection": "tcga_chol_exp_hiseqv2_pancan_ucsc-xena",
+    "type": "gene expression RNAseq (ployA+ IlluminaHiSeq pancan normalized)",
+    "disease": "tcga"
+},{
+    "collection": "tcga_brca_exp_hiseqv2_pancan_ucsc-xena",
+    "type": "gene expression RNAseq (ployA+ IlluminaHiSeq pancan normalized)",
+    "disease": "tcga"
+},{
+    "collection": "tcga_skcm_exp_hiseqv2_pancan_ucsc-xena",
+    "type": "gene expression RNAseq (ployA+ IlluminaHiSeq pancan normalized)",
+    "disease": "tcga"
+},{
+    "collection": "tcga_prad_exp_hiseqv2_pancan_ucsc-xena",
+    "type": "gene expression RNAseq (ployA+ IlluminaHiSeq pancan normalized)",
+    "disease": "tcga"
+},{
+    "collection": "tcga_lihc_exp_hiseqv2_pancan_ucsc-xena",
+    "type": "gene expression RNAseq (ployA+ IlluminaHiSeq pancan normalized)",
+    "disease": "tcga"
+},{
+    "collection": "tcga_stad_exp_hiseqv2_pancan_ucsc-xena",
+    "type": "gene expression RNAseq (ployA+ IlluminaHiSeq pancan normalized)",
+    "disease": "tcga"
+},{
+    "collection": "tcga_hnsc_exp_hiseqv2_pancan_ucsc-xena",
+    "type": "gene expression RNAseq (ployA+ IlluminaHiSeq pancan normalized)",
+    "disease": "tcga"
+},{
+    "collection": "tcga_lusc_exp_hiseqv2_pancan_ucsc-xena",
+    "type": "gene expression RNAseq (ployA+ IlluminaHiSeq pancan normalized)",
+    "disease": "tcga"
+},{
+    "collection": "tcga_gbmlgg_exp_hiseqv2_pancan_ucsc-xena",
+    "type": "gene expression RNAseq (ployA+ IlluminaHiSeq pancan normalized)",
+    "disease": "tcga"
+},{
+    "collection": "tcga_thca_exp_hiseqv2_pancan_ucsc-xena",
+    "type": "gene expression RNAseq (ployA+ IlluminaHiSeq pancan normalized)",
+    "disease": "tcga"
+},{
+    "collection": "tcga_cesc_exp_hiseqv2_pancan_ucsc-xena",
+    "type": "gene expression RNAseq (ployA+ IlluminaHiSeq pancan normalized)",
+    "disease": "tcga"
+},{
+    "collection": "tcga_coad_exp_hiseqv2_pancan_ucsc-xena",
+    "type": "gene expression RNAseq (ployA+ IlluminaHiSeq pancan normalized)",
+    "disease": "tcga"
+},{
+    "collection": "tcga_esca_exp_hiseqv2_pancan_ucsc-xena",
+    "type": "gene expression RNAseq (ployA+ IlluminaHiSeq pancan normalized)",
+    "disease": "tcga"
+},{
+    "collection": "tcga_ov_exp_hiseqv2_pancan_ucsc-xena",
+    "type": "gene expression RNAseq (ployA+ IlluminaHiSeq pancan normalized)",
+    "disease": "tcga"
+},{
+    "collection": "tcga_dlbc_exp_hiseqv2_pancan_ucsc-xena",
+    "type": "gene expression RNAseq (ployA+ IlluminaHiSeq pancan normalized)",
+    "disease": "tcga"
+},{
+    "collection": "tcga_thym_exp_hiseqv2_pancan_ucsc-xena",
+    "type": "gene expression RNAseq (ployA+ IlluminaHiSeq pancan normalized)",
+    "disease": "tcga"
+},{
+    "collection": "tcga_paad_exp_hiseqv2_pancan_ucsc-xena",
+    "type": "gene expression RNAseq (ployA+ IlluminaHiSeq pancan normalized)",
+    "disease": "tcga"
+},{
+    "collection": "tcga_tgct_exp_hiseqv2_pancan_ucsc-xena",
+    "type": "gene expression RNAseq (ployA+ IlluminaHiSeq pancan normalized)",
+    "disease": "tcga"
+},{
+    "collection": "tcga_pcpg_exp_hiseqv2_pancan_ucsc-xena",
+    "type": "gene expression RNAseq (ployA+ IlluminaHiSeq pancan normalized)",
+    "disease": "tcga"
+},{
+    "collection": "tcga_kirc_exp_hiseqv2_pancan_ucsc-xena",
+    "type": "gene expression RNAseq (ployA+ IlluminaHiSeq pancan normalized)",
+    "disease": "tcga"
+},{
+    "collection": "tcga_kich_exp_hiseqv2_pancan_ucsc-xena",
+    "type": "gene expression RNAseq (ployA+ IlluminaHiSeq pancan normalized)",
+    "disease": "tcga"
+},{
+    "collection": "tcga_ucec_exp_hiseqv2_pancan_ucsc-xena",
+    "type": "gene expression RNAseq (ployA+ IlluminaHiSeq pancan normalized)",
+    "disease": "tcga"
+},{
+    "collection": "tcga_lgg_gsnp6nocnv_ucsc-xena",
+    "type": "copy number (delete germline cnv)",
+    "disease": "tcga"
+},{
+    "collection": "tcga_acc_gsnp6nocnv_ucsc-xena",
+    "type": "copy number (delete germline cnv)",
+    "disease": "tcga"
+},{
+    "collection": "tcga_kirp_gsnp6nocnv_ucsc-xena",
+    "type": "copy number (delete germline cnv)",
+    "disease": "tcga"
+},{
+    "collection": "tcga_luad_gsnp6nocnv_ucsc-xena",
+    "type": "copy number (delete germline cnv)",
+    "disease": "tcga"
+},{
+    "collection": "tcga_blca_gsnp6nocnv_ucsc-xena",
+    "type": "copy number (delete germline cnv)",
+    "disease": "tcga"
+},{
+    "collection": "tcga_uvm_gsnp6nocnv_ucsc-xena",
+    "type": "copy number (delete germline cnv)",
+    "disease": "tcga"
+},{
+    "collection": "tcga_sarc_gsnp6nocnv_ucsc-xena",
+    "type": "copy number (delete germline cnv)",
+    "disease": "tcga"
+},{
+    "collection": "tcga_laml_gsnp6nocnv_ucsc-xena",
+    "type": "copy number (delete germline cnv)",
+    "disease": "tcga"
+},{
+    "collection": "tcga_gbm_gsnp6nocnv_ucsc-xena",
+    "type": "copy number (delete germline cnv)",
+    "disease": "tcga"
+},{
+    "collection": "tcga_ucs_gsnp6nocnv_ucsc-xena",
+    "type": "copy number (delete germline cnv)",
+    "disease": "tcga"
+},{
+    "collection": "tcga_meso_gsnp6nocnv_ucsc-xena",
+    "type": "copy number (delete germline cnv)",
+    "disease": "tcga"
+},{
+    "collection": "tcga_read_gsnp6nocnv_ucsc-xena",
+    "type": "copy number (delete germline cnv)",
+    "disease": "tcga"
+},{
+    "collection": "tcga_chol_gsnp6nocnv_ucsc-xena",
+    "type": "copy number (delete germline cnv)",
+    "disease": "tcga"
+},{
+    "collection": "tcga_brca_gsnp6nocnv_ucsc-xena",
+    "type": "copy number (delete germline cnv)",
+    "disease": "tcga"
+},{
+    "collection": "tcga_skcm_gsnp6nocnv_ucsc-xena",
+    "type": "copy number (delete germline cnv)",
+    "disease": "tcga"
+},{
+    "collection": "tcga_prad_gsnp6nocnv_ucsc-xena",
+    "type": "copy number (delete germline cnv)",
+    "disease": "tcga"
+},{
+    "collection": "tcga_lihc_gsnp6nocnv_ucsc-xena",
+    "type": "copy number (delete germline cnv)",
+    "disease": "tcga"
+},{
+    "collection": "tcga_hnsc_gsnp6nocnv_ucsc-xena",
+    "type": "copy number (delete germline cnv)",
+    "disease": "tcga"
+},{
+    "collection": "tcga_lusc_gsnp6nocnv_ucsc-xena",
+    "type": "copy number (delete germline cnv)",
+    "disease": "tcga"
+},{
+    "collection": "tcga_stad_gsnp6nocnv_ucsc-xena",
+    "type": "copy number (delete germline cnv)",
+    "disease": "tcga"
+},{
+    "collection": "tcga_thca_gsnp6nocnv_ucsc-xena",
+    "type": "copy number (delete germline cnv)",
+    "disease": "tcga"
+},{
+    "collection": "tcga_cesc_gsnp6nocnv_ucsc-xena",
+    "type": "copy number (delete germline cnv)",
+    "disease": "tcga"
+},{
+    "collection": "tcga_coad_gsnp6nocnv_ucsc-xena",
+    "type": "copy number (delete germline cnv)",
+    "disease": "tcga"
+},{
+    "collection": "tcga_kich_gsnp6nocnv_ucsc-xena",
+    "type": "copy number (delete germline cnv)",
+    "disease": "tcga"
+},{
+    "collection": "tcga_thym_gsnp6nocnv_ucsc-xena",
+    "type": "copy number (delete germline cnv)",
+    "disease": "tcga"
+},{
+    "collection": "tcga_kirc_gsnp6nocnv_ucsc-xena",
+    "type": "copy number (delete germline cnv)",
+    "disease": "tcga"
+},{
+    "collection": "tcga_esca_gsnp6nocnv_ucsc-xena",
+    "type": "copy number (delete germline cnv)",
+    "disease": "tcga"
+},{
+    "collection": "tcga_paad_gsnp6nocnv_ucsc-xena",
+    "type": "copy number (delete germline cnv)",
+    "disease": "tcga"
+},{
+    "collection": "tcga_ov_gsnp6nocnv_ucsc-xena",
+    "type": "copy number (delete germline cnv)",
+    "disease": "tcga"
+},{
+    "collection": "tcga_tgct_gsnp6nocnv_ucsc-xena",
+    "type": "copy number (delete germline cnv)",
+    "disease": "tcga"
+},{
+    "collection": "tcga_pcpg_gsnp6nocnv_ucsc-xena",
+    "type": "copy number (delete germline cnv)",
+    "disease": "tcga"
+},{
+    "collection": "tcga_ucec_gsnp6nocnv_ucsc-xena",
+    "type": "copy number (delete germline cnv)",
+    "disease": "tcga"
+},{
+    "collection": "tcga_lgg_gsnp6nocnv_gseg_ucsc-xena",
+    "type": "copy number segments (delete germline cnv)",
+    "disease": "tcga"
+},{
+    "collection": "tcga_acc_gsnp6nocnv_gseg_ucsc-xena",
+    "type": "copy number segments (delete germline cnv)",
+    "disease": "tcga"
+},{
+    "collection": "tcga_kirp_gsnp6nocnv_gseg_ucsc-xena",
+    "type": "copy number segments (delete germline cnv)",
+    "disease": "tcga"
+},{
+    "collection": "tcga_luad_gsnp6nocnv_gseg_ucsc-xena",
+    "type": "copy number segments (delete germline cnv)",
+    "disease": "tcga"
+},{
+    "collection": "tcga_blca_gsnp6nocnv_gseg_ucsc-xena",
+    "type": "copy number segments (delete germline cnv)",
+    "disease": "tcga"
+},{
+    "collection": "tcga_uvm_gsnp6nocnv_gseg_ucsc-xena",
+    "type": "copy number segments (delete germline cnv)",
+    "disease": "tcga"
+},{
+    "collection": "tcga_sarc_gsnp6nocnv_gseg_ucsc-xena",
+    "type": "copy number segments (delete germline cnv)",
+    "disease": "tcga"
+},{
+    "collection": "tcga_laml_gsnp6nocnv_gseg_ucsc-xena",
+    "type": "copy number segments (delete germline cnv)",
+    "disease": "tcga"
+},{
+    "collection": "tcga_ucs_gsnp6nocnv_gseg_ucsc-xena",
+    "type": "copy number segments (delete germline cnv)",
+    "disease": "tcga"
+},{
+    "collection": "tcga_meso_gsnp6nocnv_gseg_ucsc-xena",
+    "type": "copy number segments (delete germline cnv)",
+    "disease": "tcga"
+},{
+    "collection": "tcga_read_gsnp6nocnv_gseg_ucsc-xena",
+    "type": "copy number segments (delete germline cnv)",
+    "disease": "tcga"
+},{
+    "collection": "tcga_chol_gsnp6nocnv_gseg_ucsc-xena",
+    "type": "copy number segments (delete germline cnv)",
+    "disease": "tcga"
+},{
+    "collection": "tcga_brca_gsnp6nocnv_gseg_ucsc-xena",
+    "type": "copy number segments (delete germline cnv)",
+    "disease": "tcga"
+},{
+    "collection": "tcga_skcm_gsnp6nocnv_gseg_ucsc-xena",
+    "type": "copy number segments (delete germline cnv)",
+    "disease": "tcga"
+},{
+    "collection": "tcga_prad_gsnp6nocnv_gseg_ucsc-xena",
+    "type": "copy number segments (delete germline cnv)",
+    "disease": "tcga"
+},{
+    "collection": "tcga_lihc_gsnp6nocnv_gseg_ucsc-xena",
+    "type": "copy number segments (delete germline cnv)",
+    "disease": "tcga"
+},{
+    "collection": "tcga_hnsc_gsnp6nocnv_gseg_ucsc-xena",
+    "type": "copy number segments (delete germline cnv)",
+    "disease": "tcga"
+},{
+    "collection": "tcga_lusc_gsnp6nocnv_gseg_ucsc-xena",
+    "type": "copy number segments (delete germline cnv)",
+    "disease": "tcga"
+},{
+    "collection": "tcga_stad_gsnp6nocnv_gseg_ucsc-xena",
+    "type": "copy number segments (delete germline cnv)",
+    "disease": "tcga"
+},{
+    "collection": "tcga_thca_gsnp6nocnv_gseg_ucsc-xena",
+    "type": "copy number segments (delete germline cnv)",
+    "disease": "tcga"
+},{
+    "collection": "tcga_cesc_gsnp6nocnv_gseg_ucsc-xena",
+    "type": "copy number segments (delete germline cnv)",
+    "disease": "tcga"
+},{
+    "collection": "tcga_coad_gsnp6nocnv_gseg_ucsc-xena",
+    "type": "copy number segments (delete germline cnv)",
+    "disease": "tcga"
+},{
+    "collection": "tcga_lgg_exp_hiseqv2_ucsc-xena",
+    "type": "gene expression RNAseq (polyA+ IlluminaHiSeq)",
+    "disease": "tcga"
+},{
+    "collection": "tcga_acc_exp_hiseqv2_ucsc-xena",
+    "type": "gene expression RNAseq (polyA+ IlluminaHiSeq)",
+    "disease": "tcga"
+},{
+    "collection": "tcga_kirp_exp_hiseqv2_ucsc-xena",
+    "type": "gene expression RNAseq (polyA+ IlluminaHiSeq)",
+    "disease": "tcga"
+},{
+    "collection": "tcga_luad_exp_hiseqv2_ucsc-xena",
+    "type": "gene expression RNAseq (polyA+ IlluminaHiSeq)",
+    "disease": "tcga"
+},{
+    "collection": "tcga_blca_exp_hiseqv2_ucsc-xena",
+    "type": "gene expression RNAseq (polyA+ IlluminaHiSeq)",
+    "disease": "tcga"
+},{
+    "collection": "tcga_uvm_exp_hiseqv2_ucsc-xena",
+    "type": "gene expression RNAseq (polyA+ IlluminaHiSeq)",
+    "disease": "tcga"
+},{
+    "collection": "tcga_sarc_exp_hiseqv2_ucsc-xena",
+    "type": "gene expression RNAseq (polyA+ IlluminaHiSeq)",
+    "disease": "tcga"
+},{
+    "collection": "tcga_laml_exp_hiseqv2_ucsc-xena",
+    "type": "gene expression RNAseq (polyA+ IlluminaHiSeq)",
+    "disease": "tcga"
+},{
+    "collection": "tcga_gbm_exp_hiseqv2_ucsc-xena",
+    "type": "gene expression RNAseq (polyA+ IlluminaHiSeq)",
+    "disease": "tcga"
+},{
+    "collection": "tcga_coadread_exp_hiseqv2_ucsc-xena",
+    "type": "gene expression RNAseq (polyA+ IlluminaHiSeq)",
+    "disease": "tcga"
+},{
+    "collection": "tcga_ucs_exp_hiseqv2_ucsc-xena",
+    "type": "gene expression RNAseq (polyA+ IlluminaHiSeq)",
+    "disease": "tcga"
+},{
+    "collection": "tcga_meso_exp_hiseqv2_ucsc-xena",
+    "type": "gene expression RNAseq (polyA+ IlluminaHiSeq)",
+    "disease": "tcga"
+},{
+    "collection": "tcga_read_exp_hiseqv2_ucsc-xena",
+    "type": "gene expression RNAseq (polyA+ IlluminaHiSeq)",
+    "disease": "tcga"
+},{
+    "collection": "tcga_chol_exp_hiseqv2_ucsc-xena",
+    "type": "gene expression RNAseq (polyA+ IlluminaHiSeq)",
+    "disease": "tcga"
+},{
+    "collection": "tcga_brca_exp_hiseqv2_ucsc-xena",
+    "type": "gene expression RNAseq (polyA+ IlluminaHiSeq)",
+    "disease": "tcga"
+},{
+    "collection": "tcga_skcm_exp_hiseqv2_ucsc-xena",
+    "type": "gene expression RNAseq (polyA+ IlluminaHiSeq)",
+    "disease": "tcga"
+},{
+    "collection": "tcga_prad_exp_hiseqv2_ucsc-xena",
+    "type": "gene expression RNAseq (polyA+ IlluminaHiSeq)",
+    "disease": "tcga"
+},{
+    "collection": "tcga_lihc_exp_hiseqv2_ucsc-xena",
+    "type": "gene expression RNAseq (polyA+ IlluminaHiSeq)",
+    "disease": "tcga"
+},{
+    "collection": "tcga_lung_exp_hiseqv2_ucsc-xena",
+    "type": "gene expression RNAseq (polyA+ IlluminaHiSeq)",
+    "disease": "tcga"
+},{
+    "collection": "tcga_hnsc_exp_hiseqv2_ucsc-xena",
+    "type": "gene expression RNAseq (polyA+ IlluminaHiSeq)",
+    "disease": "tcga"
+},{
+    "collection": "tcga_lusc_exp_hiseqv2_ucsc-xena",
+    "type": "gene expression RNAseq (polyA+ IlluminaHiSeq)",
+    "disease": "tcga"
+},{
+    "collection": "tcga_gbmlgg_exp_hiseqv2_ucsc-xena",
+    "type": "gene expression RNAseq (polyA+ IlluminaHiSeq)",
+    "disease": "tcga"
+},{
+    "collection": "tcga_thca_exp_hiseqv2_ucsc-xena",
+    "type": "gene expression RNAseq (polyA+ IlluminaHiSeq)",
+    "disease": "tcga"
+},{
+    "collection": "tcga_cesc_exp_hiseqv2_ucsc-xena",
+    "type": "gene expression RNAseq (polyA+ IlluminaHiSeq)",
+    "disease": "tcga"
+},{
+    "collection": "tcga_coad_exp_hiseqv2_ucsc-xena",
+    "type": "gene expression RNAseq (polyA+ IlluminaHiSeq)",
+    "disease": "tcga"
+},{
+    "collection": "tcga_dlbc_exp_hiseqv2_ucsc-xena",
+    "type": "gene expression RNAseq (polyA+ IlluminaHiSeq)",
+    "disease": "tcga"
+},{
+    "collection": "tcga_tgct_exp_hiseqv2_ucsc-xena",
+    "type": "gene expression RNAseq (polyA+ IlluminaHiSeq)",
+    "disease": "tcga"
+},{
+    "collection": "tcga_esca_exp_hiseqv2_ucsc-xena",
+    "type": "gene expression RNAseq (polyA+ IlluminaHiSeq)",
+    "disease": "tcga"
+},{
+    "collection": "tcga_kich_exp_hiseqv2_ucsc-xena",
+    "type": "gene expression RNAseq (polyA+ IlluminaHiSeq)",
+    "disease": "tcga"
+},{
+    "collection": "tcga_thym_exp_hiseqv2_ucsc-xena",
+    "type": "gene expression RNAseq (polyA+ IlluminaHiSeq)",
+    "disease": "tcga"
+},{
+    "collection": "tcga_paad_exp_hiseqv2_ucsc-xena",
+    "type": "gene expression RNAseq (polyA+ IlluminaHiSeq)",
+    "disease": "tcga"
+},{
+    "collection": "tcga_kirc_exp_hiseqv2_ucsc-xena",
+    "type": "gene expression RNAseq (polyA+ IlluminaHiSeq)",
+    "disease": "tcga"
+},{
+    "collection": "tcga_pcpg_exp_hiseqv2_ucsc-xena",
+    "type": "gene expression RNAseq (polyA+ IlluminaHiSeq)",
+    "disease": "tcga"
+},{
+    "collection": "tcga_ucec_exp_hiseqv2_ucsc-xena",
+    "type": "gene expression RNAseq (polyA+ IlluminaHiSeq)",
+    "disease": "tcga"
+},{
+    "collection": "tcga_lgg_gistic2thd_ucsc-xena",
+    "type": "copy number (gistic2_thresholded)",
+    "disease": "tcga"
+},{
+    "collection": "tcga_acc_gistic2thd_ucsc-xena",
+    "type": "copy number (gistic2_thresholded)",
+    "disease": "tcga"
+},{
+    "collection": "tcga_kirp_gistic2thd_ucsc-xena",
+    "type": "copy number (gistic2_thresholded)",
+    "disease": "tcga"
+},{
+    "collection": "tcga_luad_gistic2thd_ucsc-xena",
+    "type": "copy number (gistic2_thresholded)",
+    "disease": "tcga"
+},{
+    "collection": "tcga_blca_gistic2thd_ucsc-xena",
+    "type": "copy number (gistic2_thresholded)",
+    "disease": "tcga"
+},{
+    "collection": "tcga_uvm_gistic2thd_ucsc-xena",
+    "type": "copy number (gistic2_thresholded)",
+    "disease": "tcga"
+},{
+    "collection": "tcga_sarc_gistic2thd_ucsc-xena",
+    "type": "copy number (gistic2_thresholded)",
+    "disease": "tcga"
+},{
+    "collection": "tcga_laml_gistic2thd_ucsc-xena",
+    "type": "copy number (gistic2_thresholded)",
+    "disease": "tcga"
+},{
+    "collection": "tcga_gbm_gistic2thd_ucsc-xena",
+    "type": "copy number (gistic2_thresholded)",
+    "disease": "tcga"
+},{
+    "collection": "tcga_coadread_gistic2thd_ucsc-xena",
+    "type": "copy number (gistic2_thresholded)",
+    "disease": "tcga"
+},{
+    "collection": "tcga_ucs_gistic2thd_ucsc-xena",
+    "type": "copy number (gistic2_thresholded)",
+    "disease": "tcga"
+},{
+    "collection": "tcga_meso_gistic2thd_ucsc-xena",
+    "type": "copy number (gistic2_thresholded)",
+    "disease": "tcga"
+},{
+    "collection": "tcga_read_gistic2thd_ucsc-xena",
+    "type": "copy number (gistic2_thresholded)",
+    "disease": "tcga"
+},{
+    "collection": "tcga_chol_gistic2thd_ucsc-xena",
+    "type": "copy number (gistic2_thresholded)",
+    "disease": "tcga"
+},{
+    "collection": "tcga_brca_gistic2thd_ucsc-xena",
+    "type": "copy number (gistic2_thresholded)",
+    "disease": "tcga"
+},{
+    "collection": "tcga_skcm_gistic2thd_ucsc-xena",
+    "type": "copy number (gistic2_thresholded)",
+    "disease": "tcga"
+},{
+    "collection": "tcga_prad_gistic2thd_ucsc-xena",
+    "type": "copy number (gistic2_thresholded)",
+    "disease": "tcga"
+},{
+    "collection": "tcga_lihc_gistic2thd_ucsc-xena",
+    "type": "copy number (gistic2_thresholded)",
+    "disease": "tcga"
+},{
+    "collection": "tcga_lung_gistic2thd_ucsc-xena",
+    "type": "copy number (gistic2_thresholded)",
+    "disease": "tcga"
+},{
+    "collection": "tcga_hnsc_gistic2thd_ucsc-xena",
+    "type": "copy number (gistic2_thresholded)",
+    "disease": "tcga"
+},{
+    "collection": "tcga_lusc_gistic2thd_ucsc-xena",
+    "type": "copy number (gistic2_thresholded)",
+    "disease": "tcga"
+},{
+    "collection": "tcga_gbmlgg_gistic2thd_ucsc-xena",
+    "type": "copy number (gistic2_thresholded)",
+    "disease": "tcga"
+},{
+    "collection": "tcga_stad_gistic2thd_ucsc-xena",
+    "type": "copy number (gistic2_thresholded)",
+    "disease": "tcga"
+},{
+    "collection": "tcga_thca_gistic2thd_ucsc-xena",
+    "type": "copy number (gistic2_thresholded)",
+    "disease": "tcga"
+},{
+    "collection": "tcga_cesc_gistic2thd_ucsc-xena",
+    "type": "copy number (gistic2_thresholded)",
+    "disease": "tcga"
+},{
+    "collection": "tcga_coad_gistic2thd_ucsc-xena",
+    "type": "copy number (gistic2_thresholded)",
+    "disease": "tcga"
+},{
+    "collection": "tcga_pcpg_gistic2thd_ucsc-xena",
+    "type": "copy number (gistic2_thresholded)",
+    "disease": "tcga"
+},{
+    "collection": "tcga_paad_gistic2thd_ucsc-xena",
+    "type": "copy number (gistic2_thresholded)",
+    "disease": "tcga"
+},{
+    "collection": "tcga_ucec_gistic2thd_ucsc-xena",
+    "type": "copy number (gistic2_thresholded)",
+    "disease": "tcga"
+},{
+    "collection": "tcga_kirc_gistic2thd_ucsc-xena",
+    "type": "copy number (gistic2_thresholded)",
+    "disease": "tcga"
+},{
+    "collection": "tcga_dlbc_gistic2thd_ucsc-xena",
+    "type": "copy number (gistic2_thresholded)",
+    "disease": "tcga"
+},{
+    "collection": "tcga_tgct_gistic2thd_ucsc-xena",
+    "type": "copy number (gistic2_thresholded)",
+    "disease": "tcga"
+},{
+    "collection": "tcga_esca_gistic2thd_ucsc-xena",
+    "type": "copy number (gistic2_thresholded)",
+    "disease": "tcga"
+},{
+    "collection": "tcga_kich_gistic2thd_ucsc-xena",
+    "type": "copy number (gistic2_thresholded)",
+    "disease": "tcga"
+},{
+    "collection": "tcga_thym_gistic2thd_ucsc-xena",
+    "type": "copy number (gistic2_thresholded)",
+    "disease": "tcga"
+},{
+    "collection": "tcga_brain_gistic2thd_ucsc-xena",
+    "type": "copy number (gistic2_thresholded)",
+    "disease": "tcga"
+},{
+    "collection": "tcga_ov_gistic2thd_ucsc-xena",
+    "type": "copy number (gistic2_thresholded)",
+    "disease": "tcga"
+},{
+    "collection": "tcga_lgg_gsnp6raw_gseg_ucsc-xena",
+    "type": "copy number segments",
+    "disease": "tcga"
+},{
+    "collection": "tcga_acc_gsnp6raw_gseg_ucsc-xena",
+    "type": "copy number segments",
+    "disease": "tcga"
+},{
+    "collection": "tcga_kirp_gsnp6raw_gseg_ucsc-xena",
+    "type": "copy number segments",
+    "disease": "tcga"
+},{
+    "collection": "tcga_luad_gsnp6raw_gseg_ucsc-xena",
+    "type": "copy number segments",
+    "disease": "tcga"
+},{
+    "collection": "tcga_blca_gsnp6raw_gseg_ucsc-xena",
+    "type": "copy number segments",
+    "disease": "tcga"
+},{
+    "collection": "tcga_uvm_gsnp6raw_gseg_ucsc-xena",
+    "type": "copy number segments",
+    "disease": "tcga"
+},{
+    "collection": "tcga_sarc_gsnp6raw_gseg_ucsc-xena",
+    "type": "copy number segments",
+    "disease": "tcga"
+},{
+    "collection": "tcga_laml_gsnp6raw_gseg_ucsc-xena",
+    "type": "copy number segments",
+    "disease": "tcga"
+},{
+    "collection": "tcga_ucs_gsnp6raw_gseg_ucsc-xena",
+    "type": "copy number segments",
+    "disease": "tcga"
+},{
+    "collection": "tcga_meso_gsnp6raw_gseg_ucsc-xena",
+    "type": "copy number segments",
+    "disease": "tcga"
+},{
+    "collection": "tcga_read_gsnp6raw_gseg_ucsc-xena",
+    "type": "copy number segments",
+    "disease": "tcga"
+},{
+    "collection": "tcga_chol_gsnp6raw_gseg_ucsc-xena",
+    "type": "copy number segments",
+    "disease": "tcga"
+},{
+    "collection": "tcga_brca_gsnp6raw_gseg_ucsc-xena",
+    "type": "copy number segments",
+    "disease": "tcga"
+},{
+    "collection": "tcga_skcm_gsnp6raw_gseg_ucsc-xena",
+    "type": "copy number segments",
+    "disease": "tcga"
+},{
+    "collection": "tcga_prad_gsnp6raw_gseg_ucsc-xena",
+    "type": "copy number segments",
+    "disease": "tcga"
+},{
+    "collection": "tcga_lihc_gsnp6raw_gseg_ucsc-xena",
+    "type": "copy number segments",
+    "disease": "tcga"
+},{
+    "collection": "tcga_hnsc_gsnp6raw_gseg_ucsc-xena",
+    "type": "copy number segments",
+    "disease": "tcga"
+},{
+    "collection": "tcga_lusc_gsnp6raw_gseg_ucsc-xena",
+    "type": "copy number segments",
+    "disease": "tcga"
+},{
+    "collection": "tcga_stad_gsnp6raw_gseg_ucsc-xena",
+    "type": "copy number segments",
+    "disease": "tcga"
+},{
+    "collection": "tcga_thca_gsnp6raw_gseg_ucsc-xena",
+    "type": "copy number segments",
+    "disease": "tcga"
+},{
+    "collection": "tcga_cesc_gsnp6raw_gseg_ucsc-xena",
+    "type": "copy number segments",
+    "disease": "tcga"
+},{
+    "collection": "tcga_coad_gsnp6raw_gseg_ucsc-xena",
+    "type": "copy number segments",
+    "disease": "tcga"
+},{
+    "collection": "tcga_lgg_mutation_ucsc-xena",
+    "type": "somatic gene-level non-silent mutation (pancan awg)",
+    "disease": "tcga"
+},{
+    "collection": "tcga_kirp_mutation_ucsc-xena",
+    "type": "somatic gene-level non-silent mutation (pancan awg)",
+    "disease": "tcga"
+},{
+    "collection": "tcga_luad_mutation_ucsc-xena",
+    "type": "somatic gene-level non-silent mutation (pancan awg)",
+    "disease": "tcga"
+},{
+    "collection": "tcga_blca_mutation_ucsc-xena",
+    "type": "somatic gene-level non-silent mutation (pancan awg)",
+    "disease": "tcga"
+},{
+    "collection": "tcga_laml_mutation_ucsc-xena",
+    "type": "somatic gene-level non-silent mutation (pancan awg)",
+    "disease": "tcga"
+},{
+    "collection": "tcga_gbm_mutation_ucsc-xena",
+    "type": "somatic gene-level non-silent mutation (pancan awg)",
+    "disease": "tcga"
+},{
+    "collection": "tcga_coadread_mutation_ucsc-xena",
+    "type": "somatic gene-level non-silent mutation (pancan awg)",
+    "disease": "tcga"
+},{
+    "collection": "tcga_brca_mutation_ucsc-xena",
+    "type": "somatic gene-level non-silent mutation (pancan awg)",
+    "disease": "tcga"
+},{
+    "collection": "tcga_skcm_mutation_ucsc-xena",
+    "type": "somatic gene-level non-silent mutation (pancan awg)",
+    "disease": "tcga"
+},{
+    "collection": "tcga_prad_mutation_ucsc-xena",
+    "type": "somatic gene-level non-silent mutation (pancan awg)",
+    "disease": "tcga"
+},{
+    "collection": "tcga_lung_mutation_ucsc-xena",
+    "type": "somatic gene-level non-silent mutation (pancan awg)",
+    "disease": "tcga"
+},{
+    "collection": "tcga_hnsc_mutation_ucsc-xena",
+    "type": "somatic gene-level non-silent mutation (pancan awg)",
+    "disease": "tcga"
+},{
+    "collection": "tcga_lusc_mutation_ucsc-xena",
+    "type": "somatic gene-level non-silent mutation (pancan awg)",
+    "disease": "tcga"
+},{
+    "collection": "tcga_gbmlgg_mutation_ucsc-xena",
+    "type": "somatic gene-level non-silent mutation (pancan awg)",
+    "disease": "tcga"
+},{
+    "collection": "tcga_stad_mutation_ucsc-xena",
+    "type": "somatic gene-level non-silent mutation (pancan awg)",
+    "disease": "tcga"
+},{
+    "collection": "tcga_thca_mutation_ucsc-xena",
+    "type": "somatic gene-level non-silent mutation (pancan awg)",
+    "disease": "tcga"
+},{
+    "collection": "tcga_cesc_mutation_ucsc-xena",
+    "type": "somatic gene-level non-silent mutation (pancan awg)",
+    "disease": "tcga"
+},{
+    "collection": "tcga_ov_mutation_ucsc-xena",
+    "type": "somatic gene-level non-silent mutation (pancan awg)",
+    "disease": "tcga"
+},{
+    "collection": "tcga_paad_mutation_ucsc-xena",
+    "type": "somatic gene-level non-silent mutation (pancan awg)",
+    "disease": "tcga"
+},{
+    "collection": "tcga_ucec_mutation_ucsc-xena",
+    "type": "somatic gene-level non-silent mutation (pancan awg)",
+    "disease": "tcga"
+},{
+    "collection": "tcga_kirc_mutation_ucsc-xena",
+    "type": "somatic gene-level non-silent mutation (pancan awg)",
+    "disease": "tcga"
+},{
+    "collection": "tcga_lgg_mutation_ucsc_maf_gene_ucsc-xena",
+    "type": "somatic gene-level non-silent mutation (ucsc automated)",
+    "disease": "tcga"
+},{
+    "collection": "tcga_kirp_mutation_ucsc_maf_gene_ucsc-xena",
+    "type": "somatic gene-level non-silent mutation (ucsc automated)",
+    "disease": "tcga"
+},{
+    "collection": "tcga_uvm_mutation_ucsc_maf_gene_ucsc-xena",
+    "type": "somatic gene-level non-silent mutation (ucsc automated)",
+    "disease": "tcga"
+},{
+    "collection": "tcga_sarc_mutation_ucsc_maf_gene_ucsc-xena",
+    "type": "somatic gene-level non-silent mutation (ucsc automated)",
+    "disease": "tcga"
+},{
+    "collection": "tcga_gbm_mutation_ucsc_maf_gene_ucsc-xena",
+    "type": "somatic gene-level non-silent mutation (ucsc automated)",
+    "disease": "tcga"
+},{
+    "collection": "tcga_chol_mutation_ucsc_maf_gene_ucsc-xena",
+    "type": "somatic gene-level non-silent mutation (ucsc automated)",
+    "disease": "tcga"
+},{
+    "collection": "tcga_lihc_mutation_ucsc_maf_gene_ucsc-xena",
+    "type": "somatic gene-level non-silent mutation (ucsc automated)",
+    "disease": "tcga"
+},{
+    "collection": "tcga_stad_mutation_ucsc_maf_gene_ucsc-xena",
+    "type": "somatic gene-level non-silent mutation (ucsc automated)",
+    "disease": "tcga"
+},{
+    "collection": "tcga_cesc_mutation_ucsc_maf_gene_ucsc-xena",
+    "type": "somatic gene-level non-silent mutation (ucsc automated)",
+    "disease": "tcga"
+},{
+    "collection": "tcga_brain_mutation_ucsc_maf_gene_ucsc-xena",
+    "type": "somatic gene-level non-silent mutation (ucsc automated)",
+    "disease": "tcga"
+},{
+    "collection": "tcga_paad_mutation_ucsc_maf_gene_ucsc-xena",
+    "type": "somatic gene-level non-silent mutation (ucsc automated)",
+    "disease": "tcga"
+},{
+    "collection": "tcga_thym_mutation_ucsc_maf_gene_ucsc-xena",
+    "type": "somatic gene-level non-silent mutation (ucsc automated)",
+    "disease": "tcga"
+},{
+    "collection": "tcga_tgct_mutation_ucsc_maf_gene_ucsc-xena",
+    "type": "somatic gene-level non-silent mutation (ucsc automated)",
+    "disease": "tcga"
+},{
+    "collection": "tcga_esca_mutation_ucsc_maf_gene_ucsc-xena",
+    "type": "somatic gene-level non-silent mutation (ucsc automated)",
+    "disease": "tcga"
+},{
+    "collection": "tcga_pcpg_mutation_ucsc_maf_gene_ucsc-xena",
+    "type": "somatic gene-level non-silent mutation (ucsc automated)",
+    "disease": "tcga"
+},{
+    "collection": "tcga_lgg_exp_hiseqv2_percentile_ucsc-xena",
+    "type": "gene expression RNAseq (polyA+ IlluminaHiSeq percentile)",
+    "disease": "tcga"
+},{
+    "collection": "tcga_acc_exp_hiseqv2_percentile_ucsc-xena",
+    "type": "gene expression RNAseq (polyA+ IlluminaHiSeq percentile)",
+    "disease": "tcga"
+},{
+    "collection": "tcga_kirp_exp_hiseqv2_percentile_ucsc-xena",
+    "type": "gene expression RNAseq (polyA+ IlluminaHiSeq percentile)",
+    "disease": "tcga"
+},{
+    "collection": "tcga_luad_exp_hiseqv2_percentile_ucsc-xena",
+    "type": "gene expression RNAseq (polyA+ IlluminaHiSeq percentile)",
+    "disease": "tcga"
+},{
+    "collection": "tcga_blca_exp_hiseqv2_percentile_ucsc-xena",
+    "type": "gene expression RNAseq (polyA+ IlluminaHiSeq percentile)",
+    "disease": "tcga"
+},{
+    "collection": "tcga_uvm_exp_hiseqv2_percentile_ucsc-xena",
+    "type": "gene expression RNAseq (polyA+ IlluminaHiSeq percentile)",
+    "disease": "tcga"
+},{
+    "collection": "tcga_sarc_exp_hiseqv2_percentile_ucsc-xena",
+    "type": "gene expression RNAseq (polyA+ IlluminaHiSeq percentile)",
+    "disease": "tcga"
+},{
+    "collection": "tcga_laml_exp_hiseqv2_percentile_ucsc-xena",
+    "type": "gene expression RNAseq (polyA+ IlluminaHiSeq percentile)",
+    "disease": "tcga"
+},{
+    "collection": "tcga_gbm_exp_hiseqv2_percentile_ucsc-xena",
+    "type": "gene expression RNAseq (polyA+ IlluminaHiSeq percentile)",
+    "disease": "tcga"
+},{
+    "collection": "tcga_ucs_exp_hiseqv2_percentile_ucsc-xena",
+    "type": "gene expression RNAseq (polyA+ IlluminaHiSeq percentile)",
+    "disease": "tcga"
+},{
+    "collection": "tcga_meso_exp_hiseqv2_percentile_ucsc-xena",
+    "type": "gene expression RNAseq (polyA+ IlluminaHiSeq percentile)",
+    "disease": "tcga"
+},{
+    "collection": "tcga_read_exp_hiseqv2_percentile_ucsc-xena",
+    "type": "gene expression RNAseq (polyA+ IlluminaHiSeq percentile)",
+    "disease": "tcga"
+},{
+    "collection": "tcga_chol_exp_hiseqv2_percentile_ucsc-xena",
+    "type": "gene expression RNAseq (polyA+ IlluminaHiSeq percentile)",
+    "disease": "tcga"
+},{
+    "collection": "tcga_brca_exp_hiseqv2_percentile_ucsc-xena",
+    "type": "gene expression RNAseq (polyA+ IlluminaHiSeq percentile)",
+    "disease": "tcga"
+},{
+    "collection": "tcga_skcm_exp_hiseqv2_percentile_ucsc-xena",
+    "type": "gene expression RNAseq (polyA+ IlluminaHiSeq percentile)",
+    "disease": "tcga"
+},{
+    "collection": "tcga_prad_exp_hiseqv2_percentile_ucsc-xena",
+    "type": "gene expression RNAseq (polyA+ IlluminaHiSeq percentile)",
+    "disease": "tcga"
+},{
+    "collection": "tcga_lihc_exp_hiseqv2_percentile_ucsc-xena",
+    "type": "gene expression RNAseq (polyA+ IlluminaHiSeq percentile)",
+    "disease": "tcga"
+},{
+    "collection": "tcga_hnsc_exp_hiseqv2_percentile_ucsc-xena",
+    "type": "gene expression RNAseq (polyA+ IlluminaHiSeq percentile)",
+    "disease": "tcga"
+},{
+    "collection": "tcga_lusc_exp_hiseqv2_percentile_ucsc-xena",
+    "type": "gene expression RNAseq (polyA+ IlluminaHiSeq percentile)",
+    "disease": "tcga"
+},{
+    "collection": "tcga_thca_exp_hiseqv2_percentile_ucsc-xena",
+    "type": "gene expression RNAseq (polyA+ IlluminaHiSeq percentile)",
+    "disease": "tcga"
+},{
+    "collection": "tcga_cesc_exp_hiseqv2_percentile_ucsc-xena",
+    "type": "gene expression RNAseq (polyA+ IlluminaHiSeq percentile)",
+    "disease": "tcga"
+},{
+    "collection": "tcga_coad_exp_hiseqv2_percentile_ucsc-xena",
+    "type": "gene expression RNAseq (polyA+ IlluminaHiSeq percentile)",
+    "disease": "tcga"
+},{
+    "collection": "tcga_thym_exp_hiseqv2_percentile_ucsc-xena",
+    "type": "gene expression RNAseq (polyA+ IlluminaHiSeq percentile)",
+    "disease": "tcga"
+},{
+    "collection": "tcga_tgct_exp_hiseqv2_percentile_ucsc-xena",
+    "type": "gene expression RNAseq (polyA+ IlluminaHiSeq percentile)",
+    "disease": "tcga"
+},{
+    "collection": "tcga_esca_exp_hiseqv2_percentile_ucsc-xena",
+    "type": "gene expression RNAseq (polyA+ IlluminaHiSeq percentile)",
+    "disease": "tcga"
+},{
+    "collection": "tcga_pcpg_exp_hiseqv2_percentile_ucsc-xena",
+    "type": "gene expression RNAseq (polyA+ IlluminaHiSeq percentile)",
+    "disease": "tcga"
+},{
+    "collection": "tcga_kirc_exp_hiseqv2_percentile_ucsc-xena",
+    "type": "gene expression RNAseq (polyA+ IlluminaHiSeq percentile)",
+    "disease": "tcga"
+},{
+    "collection": "tcga_kich_exp_hiseqv2_percentile_ucsc-xena",
+    "type": "gene expression RNAseq (polyA+ IlluminaHiSeq percentile)",
+    "disease": "tcga"
+},{
+    "collection": "tcga_paad_exp_hiseqv2_percentile_ucsc-xena",
+    "type": "gene expression RNAseq (polyA+ IlluminaHiSeq percentile)",
+    "disease": "tcga"
+},{
+    "collection": "tcga_dlbc_exp_hiseqv2_percentile_ucsc-xena",
+    "type": "gene expression RNAseq (polyA+ IlluminaHiSeq percentile)",
+    "disease": "tcga"
+},{
+    "collection": "tcga_ucec_exp_hiseqv2_percentile_ucsc-xena",
+    "type": "gene expression RNAseq (polyA+ IlluminaHiSeq percentile)",
+    "disease": "tcga"
+},{
+    "collection": "tcga_lgg_g4502a_07_3_ucsc-xena",
+    "type": "gene expression (AgilentG4502A_07_3)",
+    "disease": "tcga"
+},{
+    "collection": "tcga_kirp_g4502a_07_3_ucsc-xena",
+    "type": "gene expression (AgilentG4502A_07_3)",
+    "disease": "tcga"
+},{
+    "collection": "tcga_luad_g4502a_07_3_ucsc-xena",
+    "type": "gene expression (AgilentG4502A_07_3)",
+    "disease": "tcga"
+},{
+    "collection": "tcga_coadread_g4502a_07_3_ucsc-xena",
+    "type": "gene expression (AgilentG4502A_07_3)",
+    "disease": "tcga"
+},{
+    "collection": "tcga_read_g4502a_07_3_ucsc-xena",
+    "type": "gene expression (AgilentG4502A_07_3)",
+    "disease": "tcga"
+},{
+    "collection": "tcga_brca_g4502a_07_3_ucsc-xena",
+    "type": "gene expression (AgilentG4502A_07_3)",
+    "disease": "tcga"
+},{
+    "collection": "tcga_lung_g4502a_07_3_ucsc-xena",
+    "type": "gene expression (AgilentG4502A_07_3)",
+    "disease": "tcga"
+},{
+    "collection": "tcga_lusc_g4502a_07_3_ucsc-xena",
+    "type": "gene expression (AgilentG4502A_07_3)",
+    "disease": "tcga"
+},{
+    "collection": "tcga_coad_g4502a_07_3_ucsc-xena",
+    "type": "gene expression (AgilentG4502A_07_3)",
+    "disease": "tcga"
+},{
+    "collection": "tcga_ov_g4502a_07_3_ucsc-xena",
+    "type": "gene expression (AgilentG4502A_07_3)",
+    "disease": "tcga"
+},{
+    "collection": "tcga_kirc_g4502a_07_3_ucsc-xena",
+    "type": "gene expression (AgilentG4502A_07_3)",
+    "disease": "tcga"
+},{
+    "collection": "tcga_ucec_g4502a_07_3_ucsc-xena",
+    "type": "gene expression (AgilentG4502A_07_3)",
+    "disease": "tcga"
+},{
+    "collection": "tcga_lgg_mirna_hiseq_ucsc-xena",
+    "type": "miRNA isoform expression (IlluminaHiseq)",
+    "disease": "tcga"
+},{
+    "collection": "tcga_acc_mirna_hiseq_ucsc-xena",
+    "type": "miRNA isoform expression (IlluminaHiseq)",
+    "disease": "tcga"
+},{
+    "collection": "tcga_kirp_mirna_hiseq_ucsc-xena",
+    "type": "miRNA isoform expression (IlluminaHiseq)",
+    "disease": "tcga"
+},{
+    "collection": "tcga_luad_mirna_hiseq_ucsc-xena",
+    "type": "miRNA isoform expression (IlluminaHiseq)",
+    "disease": "tcga"
+},{
+    "collection": "tcga_blca_mirna_hiseq_ucsc-xena",
+    "type": "miRNA isoform expression (IlluminaHiseq)",
+    "disease": "tcga"
+},{
+    "collection": "tcga_uvm_mirna_hiseq_ucsc-xena",
+    "type": "miRNA isoform expression (IlluminaHiseq)",
+    "disease": "tcga"
+},{
+    "collection": "tcga_sarc_mirna_hiseq_ucsc-xena",
+    "type": "miRNA isoform expression (IlluminaHiseq)",
+    "disease": "tcga"
+},{
+    "collection": "tcga_fppp_mirna_hiseq_ucsc-xena",
+    "type": "miRNA isoform expression (IlluminaHiseq)",
+    "disease": "tcga"
+},{
+    "collection": "tcga_gbm_mirna_hiseq_ucsc-xena",
+    "type": "miRNA isoform expression (IlluminaHiseq)",
+    "disease": "tcga"
+},{
+    "collection": "tcga_ucs_mirna_hiseq_ucsc-xena",
+    "type": "miRNA isoform expression (IlluminaHiseq)",
+    "disease": "tcga"
+},{
+    "collection": "tcga_meso_mirna_hiseq_ucsc-xena",
+    "type": "miRNA isoform expression (IlluminaHiseq)",
+    "disease": "tcga"
+},{
+    "collection": "tcga_read_mirna_hiseq_ucsc-xena",
+    "type": "miRNA isoform expression (IlluminaHiseq)",
+    "disease": "tcga"
+},{
+    "collection": "tcga_chol_mirna_hiseq_ucsc-xena",
+    "type": "miRNA isoform expression (IlluminaHiseq)",
+    "disease": "tcga"
+},{
+    "collection": "tcga_brca_mirna_hiseq_ucsc-xena",
+    "type": "miRNA isoform expression (IlluminaHiseq)",
+    "disease": "tcga"
+},{
+    "collection": "tcga_skcm_mirna_hiseq_ucsc-xena",
+    "type": "miRNA isoform expression (IlluminaHiseq)",
+    "disease": "tcga"
+},{
+    "collection": "tcga_prad_mirna_hiseq_ucsc-xena",
+    "type": "miRNA isoform expression (IlluminaHiseq)",
+    "disease": "tcga"
+},{
+    "collection": "tcga_lihc_mirna_hiseq_ucsc-xena",
+    "type": "miRNA isoform expression (IlluminaHiseq)",
+    "disease": "tcga"
+},{
+    "collection": "tcga_hnsc_mirna_hiseq_ucsc-xena",
+    "type": "miRNA isoform expression (IlluminaHiseq)",
+    "disease": "tcga"
+},{
+    "collection": "tcga_lusc_mirna_hiseq_ucsc-xena",
+    "type": "miRNA isoform expression (IlluminaHiseq)",
+    "disease": "tcga"
+},{
+    "collection": "tcga_stad_mirna_hiseq_ucsc-xena",
+    "type": "miRNA isoform expression (IlluminaHiseq)",
+    "disease": "tcga"
+},{
+    "collection": "tcga_thca_mirna_hiseq_ucsc-xena",
+    "type": "miRNA isoform expression (IlluminaHiseq)",
+    "disease": "tcga"
+},{
+    "collection": "tcga_cesc_mirna_hiseq_ucsc-xena",
+    "type": "miRNA isoform expression (IlluminaHiseq)",
+    "disease": "tcga"
+},{
+    "collection": "tcga_coad_mirna_hiseq_ucsc-xena",
+    "type": "miRNA isoform expression (IlluminaHiseq)",
+    "disease": "tcga"
+},{
+    "collection": "tcga_dlbc_mirna_hiseq_ucsc-xena",
+    "type": "miRNA isoform expression (IlluminaHiseq)",
+    "disease": "tcga"
+},{
+    "collection": "tcga_kich_mirna_hiseq_ucsc-xena",
+    "type": "miRNA isoform expression (IlluminaHiseq)",
+    "disease": "tcga"
+},{
+    "collection": "tcga_paad_mirna_hiseq_ucsc-xena",
+    "type": "miRNA isoform expression (IlluminaHiseq)",
+    "disease": "tcga"
+},{
+    "collection": "tcga_pcpg_mirna_hiseq_ucsc-xena",
+    "type": "miRNA isoform expression (IlluminaHiseq)",
+    "disease": "tcga"
+},{
+    "collection": "tcga_esca_mirna_hiseq_ucsc-xena",
+    "type": "miRNA isoform expression (IlluminaHiseq)",
+    "disease": "tcga"
+},{
+    "collection": "tcga_thym_mirna_hiseq_ucsc-xena",
+    "type": "miRNA isoform expression (IlluminaHiseq)",
+    "disease": "tcga"
+},{
+    "collection": "tcga_tgct_mirna_hiseq_ucsc-xena",
+    "type": "miRNA isoform expression (IlluminaHiseq)",
+    "disease": "tcga"
+},{
+    "collection": "tcga_ov_mirna_hiseq_ucsc-xena",
+    "type": "miRNA isoform expression (IlluminaHiseq)",
+    "disease": "tcga"
+},{
+    "collection": "tcga_kirc_mirna_hiseq_ucsc-xena",
+    "type": "miRNA isoform expression (IlluminaHiseq)",
+    "disease": "tcga"
+},{
+    "collection": "tcga_ucec_mirna_hiseq_ucsc-xena",
+    "type": "miRNA isoform expression (IlluminaHiseq)",
+    "disease": "tcga"
+},{
+    "collection": "tcga_lgg_gsnp6raw_ucsc-xena",
+    "type": "copy number",
+    "disease": "tcga"
+},{
+    "collection": "tcga_acc_gsnp6raw_ucsc-xena",
+    "type": "copy number",
+    "disease": "tcga"
+},{
+    "collection": "tcga_kirp_gsnp6raw_ucsc-xena",
+    "type": "copy number",
+    "disease": "tcga"
+},{
+    "collection": "tcga_luad_gsnp6raw_ucsc-xena",
+    "type": "copy number",
+    "disease": "tcga"
+},{
+    "collection": "tcga_blca_gsnp6raw_ucsc-xena",
+    "type": "copy number",
+    "disease": "tcga"
+},{
+    "collection": "tcga_uvm_gsnp6raw_ucsc-xena",
+    "type": "copy number",
+    "disease": "tcga"
+},{
+    "collection": "tcga_sarc_gsnp6raw_ucsc-xena",
+    "type": "copy number",
+    "disease": "tcga"
+},{
+    "collection": "tcga_laml_gsnp6raw_ucsc-xena",
+    "type": "copy number",
+    "disease": "tcga"
+},{
+    "collection": "tcga_gbm_gsnp6raw_ucsc-xena",
+    "type": "copy number",
+    "disease": "tcga"
+},{
+    "collection": "tcga_ucs_gsnp6raw_ucsc-xena",
+    "type": "copy number",
+    "disease": "tcga"
+},{
+    "collection": "tcga_meso_gsnp6raw_ucsc-xena",
+    "type": "copy number",
+    "disease": "tcga"
+},{
+    "collection": "tcga_read_gsnp6raw_ucsc-xena",
+    "type": "copy number",
+    "disease": "tcga"
+},{
+    "collection": "tcga_chol_gsnp6raw_ucsc-xena",
+    "type": "copy number",
+    "disease": "tcga"
+},{
+    "collection": "tcga_brca_gsnp6raw_ucsc-xena",
+    "type": "copy number",
+    "disease": "tcga"
+},{
+    "collection": "tcga_skcm_gsnp6raw_ucsc-xena",
+    "type": "copy number",
+    "disease": "tcga"
+},{
+    "collection": "tcga_prad_gsnp6raw_ucsc-xena",
+    "type": "copy number",
+    "disease": "tcga"
+},{
+    "collection": "tcga_lihc_gsnp6raw_ucsc-xena",
+    "type": "copy number",
+    "disease": "tcga"
+},{
+    "collection": "tcga_hnsc_gsnp6raw_ucsc-xena",
+    "type": "copy number",
+    "disease": "tcga"
+},{
+    "collection": "tcga_lusc_gsnp6raw_ucsc-xena",
+    "type": "copy number",
+    "disease": "tcga"
+},{
+    "collection": "tcga_stad_gsnp6raw_ucsc-xena",
+    "type": "copy number",
+    "disease": "tcga"
+},{
+    "collection": "tcga_thca_gsnp6raw_ucsc-xena",
+    "type": "copy number",
+    "disease": "tcga"
+},{
+    "collection": "tcga_cesc_gsnp6raw_ucsc-xena",
+    "type": "copy number",
+    "disease": "tcga"
+},{
+    "collection": "tcga_coad_gsnp6raw_ucsc-xena",
+    "type": "copy number",
+    "disease": "tcga"
+},{
+    "collection": "tcga_dlbc_gsnp6raw_ucsc-xena",
+    "type": "copy number",
+    "disease": "tcga"
+},{
+    "collection": "tcga_kich_gsnp6raw_ucsc-xena",
+    "type": "copy number",
+    "disease": "tcga"
+},{
+    "collection": "tcga_esca_gsnp6raw_ucsc-xena",
+    "type": "copy number",
+    "disease": "tcga"
+},{
+    "collection": "tcga_ov_gsnp6raw_ucsc-xena",
+    "type": "copy number",
+    "disease": "tcga"
+},{
+    "collection": "tcga_paad_gsnp6raw_ucsc-xena",
+    "type": "copy number",
+    "disease": "tcga"
+},{
+    "collection": "tcga_tgct_gsnp6raw_ucsc-xena",
+    "type": "copy number",
+    "disease": "tcga"
+},{
+    "collection": "tcga_pcpg_gsnp6raw_ucsc-xena",
+    "type": "copy number",
+    "disease": "tcga"
+},{
+    "collection": "tcga_thym_gsnp6raw_ucsc-xena",
+    "type": "copy number",
+    "disease": "tcga"
+},{
+    "collection": "tcga_kirc_gsnp6raw_ucsc-xena",
+    "type": "copy number",
+    "disease": "tcga"
+},{
+    "collection": "tcga_ucec_gsnp6raw_ucsc-xena",
+    "type": "copy number",
+    "disease": "tcga"
+},{
+    "collection": "tcga_acc_rppa_ucsc-xena",
+    "type": "protein expression RPPA",
+    "disease": "tcga"
+},{
+    "collection": "tcga_kirp_rppa_ucsc-xena",
+    "type": "protein expression RPPA",
+    "disease": "tcga"
+},{
+    "collection": "tcga_luad_rppa_ucsc-xena",
+    "type": "protein expression RPPA",
+    "disease": "tcga"
+},{
+    "collection": "tcga_blca_rppa_ucsc-xena",
+    "type": "protein expression RPPA",
+    "disease": "tcga"
+},{
+    "collection": "tcga_uvm_rppa_ucsc-xena",
+    "type": "protein expression RPPA",
+    "disease": "tcga"
+},{
+    "collection": "tcga_sarc_rppa_ucsc-xena",
+    "type": "protein expression RPPA",
+    "disease": "tcga"
+},{
+    "collection": "tcga_gbm_rppa_ucsc-xena",
+    "type": "protein expression RPPA",
+    "disease": "tcga"
+},{
+    "collection": "tcga_ucs_rppa_ucsc-xena",
+    "type": "protein expression RPPA",
+    "disease": "tcga"
+},{
+    "collection": "tcga_meso_rppa_ucsc-xena",
+    "type": "protein expression RPPA",
+    "disease": "tcga"
+},{
+    "collection": "tcga_read_rppa_ucsc-xena",
+    "type": "protein expression RPPA",
+    "disease": "tcga"
+},{
+    "collection": "tcga_chol_rppa_ucsc-xena",
+    "type": "protein expression RPPA",
+    "disease": "tcga"
+},{
+    "collection": "tcga_brca_rppa_ucsc-xena",
+    "type": "protein expression RPPA",
+    "disease": "tcga"
+},{
+    "collection": "tcga_skcm_rppa_ucsc-xena",
+    "type": "protein expression RPPA",
+    "disease": "tcga"
+},{
+    "collection": "tcga_prad_rppa_ucsc-xena",
+    "type": "protein expression RPPA",
+    "disease": "tcga"
+},{
+    "collection": "tcga_lihc_rppa_ucsc-xena",
+    "type": "protein expression RPPA",
+    "disease": "tcga"
+},{
+    "collection": "tcga_stad_rppa_ucsc-xena",
+    "type": "protein expression RPPA",
+    "disease": "tcga"
+},{
+    "collection": "tcga_hnsc_rppa_ucsc-xena",
+    "type": "protein expression RPPA",
+    "disease": "tcga"
+},{
+    "collection": "tcga_lusc_rppa_ucsc-xena",
+    "type": "protein expression RPPA",
+    "disease": "tcga"
+},{
+    "collection": "tcga_thca_rppa_ucsc-xena",
+    "type": "protein expression RPPA",
+    "disease": "tcga"
+},{
+    "collection": "tcga_cesc_rppa_ucsc-xena",
+    "type": "protein expression RPPA",
+    "disease": "tcga"
+},{
+    "collection": "tcga_coad_rppa_ucsc-xena",
+    "type": "protein expression RPPA",
+    "disease": "tcga"
+},{
+    "collection": "tcga_esca_rppa_ucsc-xena",
+    "type": "protein expression RPPA",
+    "disease": "tcga"
+},{
+    "collection": "tcga_thym_rppa_ucsc-xena",
+    "type": "protein expression RPPA",
+    "disease": "tcga"
+},{
+    "collection": "tcga_kich_rppa_ucsc-xena",
+    "type": "protein expression RPPA",
+    "disease": "tcga"
+},{
+    "collection": "tcga_dlbc_rppa_ucsc-xena",
+    "type": "protein expression RPPA",
+    "disease": "tcga"
+},{
+    "collection": "tcga_kirc_rppa_ucsc-xena",
+    "type": "protein expression RPPA",
+    "disease": "tcga"
+},{
+    "collection": "tcga_ucec_rppa_ucsc-xena",
+    "type": "protein expression RPPA",
+    "disease": "tcga"
+},{
+    "collection": "tcga_ov_rppa_ucsc-xena",
+    "type": "protein expression RPPA",
+    "disease": "tcga"
+},{
+    "collection": "tcga_tgct_rppa_ucsc-xena",
+    "type": "protein expression RPPA",
+    "disease": "tcga"
+},{
+    "collection": "tcga_pcpg_rppa_ucsc-xena",
+    "type": "protein expression RPPA",
+    "disease": "tcga"
+},{
+    "collection": "tcga_paad_rppa_ucsc-xena",
+    "type": "protein expression RPPA",
+    "disease": "tcga"
+},{
+    "collection": "tcga_acc_mutation_curated_bcm_gene_ucsc-xena",
+    "type": "somatic gene-level non-silent mutation (bcm curated)",
+    "disease": "tcga"
+},{
+    "collection": "tcga_kirp_mutation_curated_bcm_gene_ucsc-xena",
+    "type": "somatic gene-level non-silent mutation (bcm curated)",
+    "disease": "tcga"
+},{
+    "collection": "tcga_kirp_mirna_ga_ucsc-xena",
+    "type": "miRNA isoform expression (IlluminaGA)",
+    "disease": "tcga"
+},{
+    "collection": "tcga_luad_mirna_ga_ucsc-xena",
+    "type": "miRNA isoform expression (IlluminaGA)",
+    "disease": "tcga"
+},{
+    "collection": "tcga_blca_mirna_ga_ucsc-xena",
+    "type": "miRNA isoform expression (IlluminaGA)",
+    "disease": "tcga"
+},{
+    "collection": "tcga_laml_mirna_ga_ucsc-xena",
+    "type": "miRNA isoform expression (IlluminaGA)",
+    "disease": "tcga"
+},{
+    "collection": "tcga_read_mirna_ga_ucsc-xena",
+    "type": "miRNA isoform expression (IlluminaGA)",
+    "disease": "tcga"
+},{
+    "collection": "tcga_brca_mirna_ga_ucsc-xena",
+    "type": "miRNA isoform expression (IlluminaGA)",
+    "disease": "tcga"
+},{
+    "collection": "tcga_stad_mirna_ga_ucsc-xena",
+    "type": "miRNA isoform expression (IlluminaGA)",
+    "disease": "tcga"
+},{
+    "collection": "tcga_hnsc_mirna_ga_ucsc-xena",
+    "type": "miRNA isoform expression (IlluminaGA)",
+    "disease": "tcga"
+},{
+    "collection": "tcga_lusc_mirna_ga_ucsc-xena",
+    "type": "miRNA isoform expression (IlluminaGA)",
+    "disease": "tcga"
+},{
+    "collection": "tcga_coad_mirna_ga_ucsc-xena",
+    "type": "miRNA isoform expression (IlluminaGA)",
+    "disease": "tcga"
+},{
+    "collection": "tcga_ucec_mirna_ga_ucsc-xena",
+    "type": "miRNA isoform expression (IlluminaGA)",
+    "disease": "tcga"
+},{
+    "collection": "tcga_kirc_mirna_ga_ucsc-xena",
+    "type": "miRNA isoform expression (IlluminaGA)",
+    "disease": "tcga"
+},{
+    "collection": "tcga_luad_rppa_rbn_ucsc-xena",
+    "type": "protein expression RPPA (RBN)",
+    "disease": "tcga"
+},{
+    "collection": "tcga_blca_rppa_rbn_ucsc-xena",
+    "type": "protein expression RPPA (RBN)",
+    "disease": "tcga"
+},{
+    "collection": "tcga_gbm_rppa_rbn_ucsc-xena",
+    "type": "protein expression RPPA (RBN)",
+    "disease": "tcga"
+},{
+    "collection": "tcga_coadread_rppa_rbn_ucsc-xena",
+    "type": "protein expression RPPA (RBN)",
+    "disease": "tcga"
+},{
+    "collection": "tcga_read_rppa_rbn_ucsc-xena",
+    "type": "protein expression RPPA (RBN)",
+    "disease": "tcga"
+},{
+    "collection": "tcga_brca_rppa_rbn_ucsc-xena",
+    "type": "protein expression RPPA (RBN)",
+    "disease": "tcga"
+},{
+    "collection": "tcga_lung_rppa_rbn_ucsc-xena",
+    "type": "protein expression RPPA (RBN)",
+    "disease": "tcga"
+},{
+    "collection": "tcga_hnsc_rppa_rbn_ucsc-xena",
+    "type": "protein expression RPPA (RBN)",
+    "disease": "tcga"
+},{
+    "collection": "tcga_lusc_rppa_rbn_ucsc-xena",
+    "type": "protein expression RPPA (RBN)",
+    "disease": "tcga"
+},{
+    "collection": "tcga_coad_rppa_rbn_ucsc-xena",
+    "type": "protein expression RPPA (RBN)",
+    "disease": "tcga"
+},{
+    "collection": "tcga_ov_rppa_rbn_ucsc-xena",
+    "type": "protein expression RPPA (RBN)",
+    "disease": "tcga"
+},{
+    "collection": "tcga_kirc_rppa_rbn_ucsc-xena",
+    "type": "protein expression RPPA (RBN)",
+    "disease": "tcga"
+},{
+    "collection": "tcga_ucec_rppa_rbn_ucsc-xena",
+    "type": "protein expression RPPA (RBN)",
+    "disease": "tcga"
+},{
+    "collection": "tcga_blca_mutation_bcgsc_gene_ucsc-xena",
+    "type": "somatic gene-level non-silent mutation (bcgsc automated)",
+    "disease": "tcga"
+},{
+    "collection": "tcga_uvm_mutation_bcgsc_gene_ucsc-xena",
+    "type": "somatic gene-level non-silent mutation (bcgsc automated)",
+    "disease": "tcga"
+},{
+    "collection": "tcga_sarc_mutation_bcgsc_gene_ucsc-xena",
+    "type": "somatic gene-level non-silent mutation (bcgsc automated)",
+    "disease": "tcga"
+},{
+    "collection": "tcga_ucs_mutation_bcgsc_gene_ucsc-xena",
+    "type": "somatic gene-level non-silent mutation (bcgsc automated)",
+    "disease": "tcga"
+},{
+    "collection": "tcga_meso_mutation_bcgsc_gene_ucsc-xena",
+    "type": "somatic gene-level non-silent mutation (bcgsc automated)",
+    "disease": "tcga"
+},{
+    "collection": "tcga_chol_mutation_bcgsc_gene_ucsc-xena",
+    "type": "somatic gene-level non-silent mutation (bcgsc automated)",
+    "disease": "tcga"
+},{
+    "collection": "tcga_lihc_mutation_bcgsc_gene_ucsc-xena",
+    "type": "somatic gene-level non-silent mutation (bcgsc automated)",
+    "disease": "tcga"
+},{
+    "collection": "tcga_hnsc_mutation_bcgsc_gene_ucsc-xena",
+    "type": "somatic gene-level non-silent mutation (bcgsc automated)",
+    "disease": "tcga"
+},{
+    "collection": "tcga_stad_mutation_bcgsc_gene_ucsc-xena",
+    "type": "somatic gene-level non-silent mutation (bcgsc automated)",
+    "disease": "tcga"
+},{
+    "collection": "tcga_thca_mutation_bcgsc_gene_ucsc-xena",
+    "type": "somatic gene-level non-silent mutation (bcgsc automated)",
+    "disease": "tcga"
+},{
+    "collection": "tcga_cesc_mutation_bcgsc_gene_ucsc-xena",
+    "type": "somatic gene-level non-silent mutation (bcgsc automated)",
+    "disease": "tcga"
+},{
+    "collection": "tcga_kich_mutation_bcgsc_gene_ucsc-xena",
+    "type": "somatic gene-level non-silent mutation (bcgsc automated)",
+    "disease": "tcga"
+},{
+    "collection": "tcga_thym_mutation_bcgsc_gene_ucsc-xena",
+    "type": "somatic gene-level non-silent mutation (bcgsc automated)",
+    "disease": "tcga"
+},{
+    "collection": "tcga_tgct_mutation_bcgsc_gene_ucsc-xena",
+    "type": "somatic gene-level non-silent mutation (bcgsc automated)",
+    "disease": "tcga"
+},{
+    "collection": "tcga_esca_mutation_bcgsc_gene_ucsc-xena",
+    "type": "somatic gene-level non-silent mutation (bcgsc automated)",
+    "disease": "tcga"
+},{
+    "collection": "tcga_pcpg_mutation_bcgsc_gene_ucsc-xena",
+    "type": "somatic gene-level non-silent mutation (bcgsc automated)",
+    "disease": "tcga"
+},{
+    "collection": "tcga_paad_mutation_bcgsc_gene_ucsc-xena",
+    "type": "somatic gene-level non-silent mutation (bcgsc automated)",
+    "disease": "tcga"
+},{
+    "collection": "tcga_laml_exp_ga_ucsc-xena",
+    "type": "gene expression RNAseq (polyA+ IlluminaGA)",
+    "disease": "tcga"
+},{
+    "collection": "tcga_read_exp_gav2_ucsc-xena",
+    "type": "gene expression RNAseq (polyA+ IlluminaGA)",
+    "disease": "tcga"
+},{
+    "collection": "tcga_coad_exp_gav2_ucsc-xena",
+    "type": "gene expression RNAseq (polyA+ IlluminaGA)",
+    "disease": "tcga"
+},{
+    "collection": "tcga_ucec_exp_gav2_ucsc-xena",
+    "type": "gene expression RNAseq (polyA+ IlluminaGA)",
+    "disease": "tcga"
+},{
+    "collection": "tcga_laml_exp_ga_exon_ucsc-xena",
+    "type": "exon expression RNAseq (polyA+ IlluminaGA)",
+    "disease": "tcga"
+},{
+    "collection": "tcga_read_exp_gav2_exon_ucsc-xena",
+    "type": "exon expression RNAseq (polyA+ IlluminaGA)",
+    "disease": "tcga"
+},{
+    "collection": "tcga_coad_exp_gav2_exon_ucsc-xena",
+    "type": "exon expression RNAseq (polyA+ IlluminaGA)",
+    "disease": "tcga"
+},{
+    "collection": "tcga_ucec_exp_gav2_exon_ucsc-xena",
+    "type": "exon expression RNAseq (polyA+ IlluminaGA)",
+    "disease": "tcga"
+},{
+    "collection": "tcga_laml_mutation_wustl_gene_ucsc-xena",
+    "type": "somatic gene-level non-silent mutation (wustl)",
+    "disease": "tcga"
+},{
+    "collection": "tcga_pancan_mutation_wustlgenelevel_ucsc-xena",
+    "type": "somatic gene-level non-silent mutation (wustl)",
+    "disease": "tcga"
+},{
+    "collection": "tcga_brca_mutation_wustl_gene_ucsc-xena",
+    "type": "somatic gene-level non-silent mutation (wustl)",
+    "disease": "tcga"
+},{
+    "collection": "tcga_ov_mutation_wustl_gene_ucsc-xena",
+    "type": "somatic gene-level non-silent mutation (wustl)",
+    "disease": "tcga"
+},{
+    "collection": "tcga_ucec_mutation_wustl_gene_ucsc-xena",
+    "type": "somatic gene-level non-silent mutation (wustl)",
+    "disease": "tcga"
+},{
+    "collection": "tcga_gbm_mutation_broad_gene_ucsc-xena",
+    "type": "somatic gene-level non-silent mutation (broad)",
+    "disease": "tcga"
+},{
+    "collection": "tcga_pancan_mutation_broadgenelevel_ucsc-xena",
+    "type": "somatic gene-level non-silent mutation (broad)",
+    "disease": "tcga"
+},{
+    "collection": "tcga_lusc_mutation_broad_gene_ucsc-xena",
+    "type": "somatic gene-level non-silent mutation (broad)",
+    "disease": "tcga"
+},{
+    "collection": "tcga_kich_mutation_broad_gene_ucsc-xena",
+    "type": "somatic gene-level non-silent mutation (broad)",
+    "disease": "tcga"
+},{
+    "collection": "tcga_ov_mutation_broad_gene_ucsc-xena",
+    "type": "somatic gene-level non-silent mutation (broad)",
+    "disease": "tcga"
+},{
+    "collection": "tcga_ucec_mutation_broad_gene_ucsc-xena",
+    "type": "somatic gene-level non-silent mutation (broad)",
+    "disease": "tcga"
+},{
+    "collection": "tcga_gbm_exp_u133a_ucsc-xena",
+    "type": "gene expression (AffyU133a)",
+    "disease": "tcga"
+},{
+    "collection": "tcga_lusc_exp_u133a_ucsc-xena",
+    "type": "gene expression (AffyU133a)",
+    "disease": "tcga"
+},{
+    "collection": "tcga_ov_exp_u133a_ucsc-xena",
+    "type": "gene expression (AffyU133a)",
+    "disease": "tcga"
+},{
+    "collection": "tcga_gbm_g4502a_07_1_ucsc-xena",
+    "type": "gene expression (AgilentG4502A_07_1)",
+    "disease": "tcga"
+},{
+    "collection": "tcga_gbm_g4502a_07_2_ucsc-xena",
+    "type": "gene expression (AgilentG4502A_07_2)",
+    "disease": "tcga"
+},{
+    "collection": "tcga_ov_g4502a_07_2_ucsc-xena",
+    "type": "gene expression (AgilentG4502A_07_2)",
+    "disease": "tcga"
+},{
+    "collection": "tcga_read_mutation_bcm_solid_gene_ucsc-xena",
+    "type": "somatic gene-level non-silent mutation (bcm SOLiD)",
+    "disease": "tcga"
+},{
+    "collection": "tcga_coad_mutation_bcm_solid_gene_ucsc-xena",
+    "type": "somatic gene-level non-silent mutation (bcm SOLiD)",
+    "disease": "tcga"
+},{
+    "collection": "tcga_ov_mutation_bcm_solid_gene_ucsc-xena",
+    "type": "somatic gene-level non-silent mutation (bcm SOLiD)",
+    "disease": "tcga"
+},{
+    "collection": "tcga_read_mutation_bcm_gene_ucsc-xena",
+    "type": "somatic gene-level non-silent mutation (bcm)",
+    "disease": "tcga"
+},{
+    "collection": "tcga_pancan_mutation_bcmgenelevel_ucsc-xena",
+    "type": "somatic gene-level non-silent mutation (bcm)",
+    "disease": "tcga"
+},{
+    "collection": "tcga_coad_mutation_bcm_gene_ucsc-xena",
+    "type": "somatic gene-level non-silent mutation (bcm)",
+    "disease": "tcga"
+},{
+    "collection": "tcga_pancan_gistic2_ucsc-xena",
+    "type": "gene-level copy number (gistic2)",
+    "disease": "tcga"
+},{
+    "collection": "hiseqv2_pancan_ucsc-xena",
+    "type": "gene expression",
+    "disease": "hiseqv2"
+},{
+    "collection": "tcga_pancan_mutation_ucsc-xena",
+    "type": "somatic gene-level non-silent mutation (pancan awg 19 cohorts)",
+    "disease": "tcga"
+},{
+    "collection": "tcga_pancan_mutation_bcgscgenelevel_ucsc-xena",
+    "type": "somatic gene-level non-silent mutation (bcgsc)",
+    "disease": "tcga"
+},{
+    "collection": "tcga_brca_mutation_curated_wustl_gene_ucsc-xena",
+    "type": "somatic gene-level non-silent mutation (wustl curated)",
+    "disease": "tcga"
+},{
+    "collection": "tcga_cesc_mutation_curated_wustl_gene_ucsc-xena",
+    "type": "somatic gene-level non-silent mutation (wustl curated)",
+    "disease": "tcga"
+},{
+    "collection": "tcga_stad_exp_hiseq_exon_ucsc-xena",
+    "type": "exon expression RNAseq (IlluminaHiseq BC)",
+    "disease": "tcga"
+},{
+    "collection": "tcga_ov_exp_hiseq_exon_ucsc-xena",
+    "type": "exon expression RNAseq (IlluminaHiseq BC)",
+    "disease": "tcga"
+},{
+    "collection": "tcga_stad_exp_hiseqv2_exon_ucsc-xena",
+    "type": "exon expression RNAseq (polyA+ IlluminaHiSeq UNC)",
+    "disease": "tcga"
+},{
+    "collection": "tcga_ov_exp_hiseqv2_exon_ucsc-xena",
+    "type": "exon expression RNAseq (polyA+ IlluminaHiSeq UNC)",
+    "disease": "tcga"
+},{
+    "collection": "tcga_stad_exp_hiseq_ucsc-xena",
+    "type": "gene expression RNAseq (polyA+ IlluminaHiseq BC)",
+    "disease": "tcga"
+},{
+    "collection": "tcga_ov_exp_hiseq_ucsc-xena",
+    "type": "gene expression RNAseq (polyA+ IlluminaHiseq BC)",
+    "disease": "tcga"
+},{
+    "collection": "tcga_stad_exp_ga_ucsc-xena",
+    "type": "gene expression RNAseq (polyA+ IlluminaGA BC)",
+    "disease": "tcga"
+},{
+    "collection": "tcga_stad_exp_ga_exon_ucsc-xena",
+    "type": "exon expression RNAseq (IlluminaGA BC)",
+    "disease": "tcga"
+},{
+    "collection": "tcga_stad_exp_hiseqv2_ucsc-xena",
+    "type": "gene expression RNAseq (polyA+ IlluminaHiSeq UNC)",
+    "disease": "tcga"
+},{
+    "collection": "tcga_ov_exp_hiseqv2_ucsc-xena",
+    "type": "gene expression RNAseq (polyA+ IlluminaHiSeq UNC)",
+    "disease": "tcga"
+},{
+    "collection": "tcga_stad_exp_hiseqv2_percentile_ucsc-xena",
+    "type": "gene expression RNAseq (polyA+ IlluminaHiSeq percentile UNC)",
+    "disease": "tcga"
+},{
+    "collection": "tcga_ov_exp_hiseqv2_percentile_ucsc-xena",
+    "type": "gene expression RNAseq (polyA+ IlluminaHiSeq percentile UNC)",
+    "disease": "tcga"
+},{
+    "collection": "tcga_esca_exp_hiseq_exon_ucsc-xena",
+    "type": "exon expression RNAseq (polyA+ IlluminaHiseq)",
+    "disease": "tcga"
+},{
+    "collection": "tcga_pancan12_rppa_rbn_ucsc-xena",
+    "type": "PANCAN AWG protein expression RPPA (RBN)",
+    "disease": "tcga"
+},{
+    "collection": "tcga_pancan12_exp_hiseqv2_ucsc-xena",
+    "type": "PANCAN AWG gene expression",
+    "disease": "tcga"
+},{
+    "collection": "tcga_pancan12_segactual_copynumber_ucsc-xena",
+    "type": "PANCAN AWG significant region of CNV",
+    "disease": "tcga"
+},{
+    "collection": "tcga_esca_exp_hiseq_ucsc-xena",
+    "type": "gene expression RNAseq (polyA+ IlluminaHiseq)",
+    "disease": "tcga"
+},{
+    "collection": "tcga_pancan12_mutation_ucsc-xena",
+    "type": "somatic gene-level non-silent mutation (pancan awg 12 cohorts)",
+    "disease": "tcga"
+},{
+    "collection": "tcga_pancan12_copynumber_ucsc-xena",
+    "type": "PANCAN AWG gene-level copy number",
+    "disease": "tcga"
+},{
+    "collection": "tcga_ov_mutation_curated_bcm_solid_gene_ucsc-xena",
+    "type": "somatic gene-level non-silent mutation (bcm SOLiD curated)",
+    "disease": "tcga"
 }]

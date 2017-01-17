@@ -1,0 +1,227 @@
+[
+    {
+        "collection": "hiseqv2_pancan_ucsc-xena",
+        "type": "gene expression",
+        "disease": "hiseqv2",
+        "passedCounts": 20530,
+        "totalCounts": 20530,
+        "passedRate": 1,
+        "errorMessage": {}
+    },
+    {
+        "collection": "tcga_pancan_mutation_ucsc-xena",
+        "type": "somatic gene-level non-silent mutation (pancan awg 19 cohorts)",
+        "disease": "tcga",
+        "passedCounts": 39688,
+        "totalCounts": 39688,
+        "passedRate": 1,
+        "errorMessage": {}
+    },
+    {
+        "collection": "tcga_pancan_mutation_bcgscgenelevel_ucsc-xena",
+        "type": "somatic gene-level non-silent mutation (bcgsc)",
+        "disease": "tcga",
+        "passedCounts": 24801,
+        "totalCounts": 24801,
+        "passedRate": 1,
+        "errorMessage": {}
+    },
+    {
+        "collection": "tcga_brca_mutation_curated_wustl_gene_ucsc-xena",
+        "type": "somatic gene-level non-silent mutation (wustl curated)",
+        "disease": "tcga",
+        "passedCounts": 39741,
+        "totalCounts": 39741,
+        "passedRate": 1,
+        "errorMessage": {}
+    },
+    {
+        "collection": "tcga_cesc_mutation_curated_wustl_gene_ucsc-xena",
+        "type": "somatic gene-level non-silent mutation (wustl curated)",
+        "disease": "tcga",
+        "passedCounts": 40888,
+        "totalCounts": 40888,
+        "passedRate": 1,
+        "errorMessage": {}
+    },
+    {
+        "collection": "tcga_stad_exp_hiseq_exon_ucsc-xena",
+        "type": "exon expression RNAseq (IlluminaHiseq BC)",
+        "disease": "tcga",
+        "passedCounts": 245078,
+        "totalCounts": 245078,
+        "passedRate": 1,
+        "errorMessage": {}
+    },
+    {
+        "collection": "tcga_ov_exp_hiseq_exon_ucsc-xena",
+        "type": "exon expression RNAseq (IlluminaHiseq BC)",
+        "disease": "tcga",
+        "passedCounts": 224192,
+        "totalCounts": 224192,
+        "passedRate": 1,
+        "errorMessage": {}
+    },
+    {
+        "collection": "tcga_stad_exp_hiseqv2_exon_ucsc-xena",
+        "type": "exon expression RNAseq (polyA+ IlluminaHiSeq UNC)",
+        "disease": "tcga",
+        "passedCounts": 239322,
+        "totalCounts": 239322,
+        "passedRate": 1,
+        "errorMessage": {}
+    },
+    {
+        "collection": "tcga_ov_exp_hiseqv2_exon_ucsc-xena",
+        "type": "exon expression RNAseq (polyA+ IlluminaHiSeq UNC)",
+        "disease": "tcga",
+        "passedCounts": 239322,
+        "totalCounts": 239322,
+        "passedRate": 1,
+        "errorMessage": {}
+    },
+    {
+        "collection": "tcga_stad_exp_hiseq_ucsc-xena",
+        "type": "gene expression RNAseq (polyA+ IlluminaHiseq BC)",
+        "disease": "tcga",
+        "passedCounts": 26540,
+        "totalCounts": 26540,
+        "passedRate": 1,
+        "errorMessage": {}
+    },
+    {
+        "collection": "tcga_ov_exp_hiseq_ucsc-xena",
+        "type": "gene expression RNAseq (polyA+ IlluminaHiseq BC)",
+        "disease": "tcga",
+        "passedCounts": 20544,
+        "totalCounts": 20544,
+        "passedRate": 1,
+        "errorMessage": {}
+    },
+    {
+        "collection": "tcga_stad_exp_ga_ucsc-xena",
+        "type": "gene expression RNAseq (polyA+ IlluminaGA BC)",
+        "disease": "tcga",
+        "passedCounts": 26540,
+        "totalCounts": 26540,
+        "passedRate": 1,
+        "errorMessage": {}
+    },
+    {
+        "collection": "tcga_stad_exp_ga_exon_ucsc-xena",
+        "type": "exon expression RNAseq (IlluminaGA BC)",
+        "disease": "tcga",
+        "passedCounts": 245078,
+        "totalCounts": 245078,
+        "passedRate": 1,
+        "errorMessage": {}
+    },
+    {
+        "collection": "tcga_stad_exp_hiseqv2_ucsc-xena",
+        "type": "gene expression RNAseq (polyA+ IlluminaHiSeq UNC)",
+        "disease": "tcga",
+        "passedCounts": 20530,
+        "totalCounts": 20530,
+        "passedRate": 1,
+        "errorMessage": {}
+    },
+    {
+        "collection": "tcga_ov_exp_hiseqv2_ucsc-xena",
+        "type": "gene expression RNAseq (polyA+ IlluminaHiSeq UNC)",
+        "disease": "tcga",
+        "passedCounts": 20530,
+        "totalCounts": 20530,
+        "passedRate": 1,
+        "errorMessage": {}
+    },
+    {
+        "collection": "tcga_stad_exp_hiseqv2_percentile_ucsc-xena",
+        "type": "gene expression RNAseq (polyA+ IlluminaHiSeq percentile UNC)",
+        "disease": "tcga",
+        "passedCounts": 20530,
+        "totalCounts": 20530,
+        "passedRate": 1,
+        "errorMessage": {}
+    },
+    {
+        "collection": "tcga_ov_exp_hiseqv2_percentile_ucsc-xena",
+        "type": "gene expression RNAseq (polyA+ IlluminaHiSeq percentile UNC)",
+        "disease": "tcga",
+        "passedCounts": 20530,
+        "totalCounts": 20530,
+        "passedRate": 1,
+        "errorMessage": {}
+    },
+    {
+        "collection": "tcga_esca_exp_hiseq_exon_ucsc-xena",
+        "type": "exon expression RNAseq (polyA+ IlluminaHiseq)",
+        "disease": "tcga",
+        "passedCounts": 245078,
+        "totalCounts": 245078,
+        "passedRate": 1,
+        "errorMessage": {}
+    },
+    {
+        "collection": "tcga_pancan12_rppa_rbn_ucsc-xena",
+        "type": "PANCAN AWG protein expression RPPA (RBN)",
+        "disease": "tcga",
+        "passedCounts": 131,
+        "totalCounts": 131,
+        "passedRate": 1,
+        "errorMessage": {}
+    },
+    {
+        "collection": "tcga_pancan12_exp_hiseqv2_ucsc-xena",
+        "type": "PANCAN AWG gene expression",
+        "disease": "tcga",
+        "passedCounts": 16115,
+        "totalCounts": 16115,
+        "passedRate": 1,
+        "errorMessage": {}
+    },
+    {
+        "collection": "tcga_pancan12_segactual_copynumber_ucsc-xena",
+        "type": "PANCAN AWG significant region of CNV",
+        "disease": "tcga",
+        "passedCounts": 84,
+        "totalCounts": 84,
+        "passedRate": 1,
+        "errorMessage": {}
+    },
+    {
+        "collection": "tcga_esca_exp_hiseq_ucsc-xena",
+        "type": "gene expression RNAseq (polyA+ IlluminaHiseq)",
+        "disease": "tcga",
+        "passedCounts": 26540,
+        "totalCounts": 26540,
+        "passedRate": 1,
+        "errorMessage": {}
+    },
+    {
+        "collection": "tcga_pancan12_mutation_ucsc-xena",
+        "type": "somatic gene-level non-silent mutation (pancan awg 12 cohorts)",
+        "disease": "tcga",
+        "passedCounts": 39674,
+        "totalCounts": 39674,
+        "passedRate": 1,
+        "errorMessage": {}
+    },
+    {
+        "collection": "tcga_pancan12_copynumber_ucsc-xena",
+        "type": "PANCAN AWG gene-level copy number",
+        "disease": "tcga",
+        "passedCounts": 7671,
+        "totalCounts": 7671,
+        "passedRate": 1,
+        "errorMessage": {}
+    },
+    {
+        "collection": "tcga_ov_mutation_curated_bcm_solid_gene_ucsc-xena",
+        "type": "somatic gene-level non-silent mutation (bcm SOLiD curated)",
+        "disease": "tcga",
+        "passedCounts": 39496,
+        "totalCounts": 39496,
+        "passedRate": 1,
+        "errorMessage": {}
+    }
+]

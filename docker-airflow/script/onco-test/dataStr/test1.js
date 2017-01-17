@@ -32,6 +32,9 @@ var xena_dataTypes = dataTypeMapping.map(function(m){return m.dataType;});
 var xena_dataTypes_included = dataTypeMapping.filter(function(m){return m.class== 'cnv' || m.class== 'mut01' || m.class == 'cnv_thd' || m.class == 'expr'}).map(function(m){return m.dataType;});
 var xena_dataTypes_excluded = u.difference(xena_dataTypes, xena_dataTypes_included);
 var dataType = u.difference(collections.map(function(m){return m.dataType;}).unique(), xena_dataTypes_excluded);
+var manifest_xena_dataTypes = collections.filter(function(m){return m.source == 'ucsc xena'}).map(function(m){return m.dataType;}).unique();
+var dataTypes_inManifestXena_notInXena = u.difference(manifest_xena_dataTypes, xena_dataTypes);
+var dataType = u.difference(dataType, dataTypes_inManifestXena_notInXena);
 var dataType_length = dataType.length;
 var connection = mongoose.connection;
 
@@ -93,7 +96,7 @@ connection.once('open', function(){
                 if(!valid){
                   var e = {};
                   console.log("&&&NEW ERRORS&&&");
-                  console.log(ajv.errors);
+                  console.log(ajv.errors[0]['schemaPath']);
                   console.log("***PRINT DOCUMENT***");
                   console.log(item['_id']);
                   console.log("**END OF ERROR MSG**");

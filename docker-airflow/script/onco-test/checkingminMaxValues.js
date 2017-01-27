@@ -5,16 +5,25 @@ console.time();
 const mongoose = require('mongoose');
 const fs = require("fs");
 const u = require("underscore");
-//var heapdump = require('heapdump');
+const asyncLoop = require('node-async-loop');
 const helper = require("/usr/local/airflow/docker-airflow/onco-test/testingHelper.js");
 const manifest = require("/usr/local/airflow/docker-airflow/onco-test/manifest_arr.json");
+const dataTypeMapping = require("/usr/local/airflow/docker-airflow/onco-test/lookup_dataTypes.json");
+var xena_dataTypes = dataTypeMapping.map(function(m){return m.dataType;});
+var xena_dataTypes_included = dataTypeMapping.filter(function(m){return m.class== 'cnv' || m.class== 'mut01' || m.class == 'cnv_thd' || m.class == 'expr'}).map(function(m){return m.dataType;});
+var xena_dataTypes_excluded = u.difference(xena_dataTypes, xena_dataTypes_included);
+var dataType = u.difference(manifest.map(function(m){return m.dataType;}).unique(), xena_dataTypes_excluded);
+var manifest_xena_dataTypes = manifest.filter(function(m){return m.source == 'ucsc xena'}).map(function(m){return m.dataType;}).unique();
+var dataTypes_inManifestXena_notInXena = u.difference(manifest_xena_dataTypes, xena_dataTypes);
+var dataType = u.difference(dataType, dataTypes_inManifestXena_notInXena);
+var dataType_length = dataType.length;
 var db, collection;
 var elem = {};
 var final_result = [];
 var ptdegree;
 var col;
 var r;
-const asyncLoop = require('node-async-loop');
+
 // Connect To Database
 var mongo = function(mongoose){
   return new Promise(function(resolve, reject) {
@@ -45,50 +54,56 @@ var filestream = function(fs){
   });
 };
 
+
 var IN = 1;
 var promiseFactory = function(db, d, file){
     
     return new Promise(function(resolve, reject){
         var collection = d.collection;
         var type = d.dataType;
-        var disease = d.disease;
-        type = type.trim().toUpperCase();
-        switch(type){
-            case "MUT":
-            case "MUT01":
-            case "METHYLATION":
-            case "RNA":
-            case "PROTEIN":
-            case "CNV":
-            case "PSI": 
+        var disease = d.dataset;
+        // type = type.trim().toUpperCase();
+        // switch(type){
+        //     case "MUT":
+        //     case "MUT01":
+        //     case "METHYLATION":
+        //     case "RNA":
+        //     case "PROTEIN":
+        //     case "CNV":
+        //     case "PSI": 
                 console.log("test", IN++);
                 var ind = 0;
                 console.log(collection);
                 db.collection(collection).find().each(function(err, doc){
-                    if(doc != null){
-                        var u = doc.patients;
-                        var keys = Object.keys(u);
+                    //console.log(doc.id);
+                    if(doc != null && doc.id != null){
+                        var u = doc.id;
+                        var keys = Object.keys(doc.data);
                         var doc_length = keys.length;
-                        var max = u[keys[0]];
-                        var min = u[keys[0]];        
+                        //console.log(keys);
+                        var max = doc.data[keys[0]];
+                        var min = doc.data[keys[0]];      
                         for(var i = 0; i<doc_length; i++){
-                            if(typeof(u[keys[i]]) == "string"){
-                                if(u[keys[i]].toUpperCase()>max){
-                                    max = u[keys[i]];
+                            if(typeof(doc.data[keys[i]]) == "string"){
+                                if(doc.data[keys[i]].toUpperCase()>max){
+                                    max = doc.data[keys[i]];
                                 }
-                                if(u[keys[i]].toUpperCase()<min){
-                                    min = u[keys[i]];
+                                if(doc.data[keys[i]].toUpperCase()<min){
+                                    min = doc.data[keys[i]];
                                 }
                             }else{
-                                if(u[keys[i]]>max){
-                                    max = u[keys[i]];
+                                if(doc.data[keys[i]]>max){
+                                    max = doc.data[keys[i]];
                                 }
-                                if(u[keys[i]]<min){
-                                    min = u[keys[i]];
+                                if(doc.data[keys[i]]<min){
+                                    min = doc.data[keys[i]];
                                 }
                             }  
                         }
                         if(max != doc.max || min != doc.min) {
+                            console.log(max);
+                            console.log(doc.max);
+                            console.log(max == doc.max);
                             console.log(ind++);
                             var elem =  {};
                             elem.collection = collection;
@@ -103,8 +118,8 @@ var promiseFactory = function(db, d, file){
                         resolve();
                     }
                 }); 
-                break;
-            }
+            //     break;
+            // }
         });
   };
 
@@ -114,8 +129,10 @@ Promise.all([mongo(mongoose),filestream(fs)]).then(function(response){
     var index = 0;
     file.write("[");
     var manifest_molecular = manifest.filter(function(m){
-        return m.dataType == "mut" || m.dataType == "methylation" || m.dataType == "rna" || m.dataType == "protein" || m.dataType == "cnv" || m.dataType == "psi";
+        return xena_dataTypes_included.contains(m.dataType);
+        // return m.dataType == "mut" || m.dataType == "methylation" || m.dataType == "rna" || m.dataType == "protein" || m.dataType == "cnv" || m.dataType == "psi";
     });
+    manifest_molecular = manifest_molecular.splice(0, 10);
     asyncLoop(manifest_molecular, function(d, next){ 
         promiseFactory(db, d, file).then(function (err){
                 if (err)

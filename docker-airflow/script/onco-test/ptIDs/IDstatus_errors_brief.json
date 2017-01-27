@@ -14,29 +14,5 @@
                 "TCGA-14-1824"
             ]
         }
-    },
-    {
-        "collection": "brca_events_tcga_clinical",
-        "disease": "brca",
-        "type": "events",
-        "IDstatus": {
-            "overlapCount": 1087,
-            "itemsNotInRefLength": 1,
-            "itemsNotInRef": [
-                "TCGA-BH-A0B2"
-            ]
-        }
-    },
-    {
-        "collection": "coadread_events_tcga_clinical",
-        "disease": "coadread",
-        "type": "events",
-        "IDstatus": {
-            "overlapCount": 624,
-            "itemsNotInRefLength": 1,
-            "itemsNotInRef": [
-                "TCGA-F5-6810"
-            ]
-        }
     }
 ]

@@ -12,8 +12,8 @@
         "collection": "brca_color_tcga_import",
         "type": "color",
         "disease": "brca",
-        "passedCounts": 16,
-        "totalCounts": 16,
+        "passedCounts": 53,
+        "totalCounts": 53,
         "passedRate": 1,
         "errorMessage": {}
     },
@@ -374,87 +374,6 @@
         "disease": "brain",
         "passedCounts": 1300,
         "totalCounts": 1300,
-        "passedRate": 1,
-        "errorMessage": {}
-    },
-    {
-        "collection": "brain_events_tcga_clinical",
-        "type": "events",
-        "disease": "brain",
-        "passedCounts": 1,
-        "totalCounts": 1,
-        "passedRate": 1,
-        "errorMessage": {}
-    },
-    {
-        "collection": "brca_events_tcga_clinical",
-        "type": "events",
-        "disease": "brca",
-        "passedCounts": 1,
-        "totalCounts": 1,
-        "passedRate": 1,
-        "errorMessage": {}
-    },
-    {
-        "collection": "coadread_events_tcga_clinical",
-        "type": "events",
-        "disease": "coadread",
-        "passedCounts": 1,
-        "totalCounts": 1,
-        "passedRate": 1,
-        "errorMessage": {}
-    },
-    {
-        "collection": "gbm_events_tcga_clinical",
-        "type": "events",
-        "disease": "gbm",
-        "passedCounts": 1,
-        "totalCounts": 1,
-        "passedRate": 1,
-        "errorMessage": {}
-    },
-    {
-        "collection": "hnsc_events_tcga_clinical",
-        "type": "events",
-        "disease": "hnsc",
-        "passedCounts": 1,
-        "totalCounts": 1,
-        "passedRate": 1,
-        "errorMessage": {}
-    },
-    {
-        "collection": "lgg_events_tcga_clinical",
-        "type": "events",
-        "disease": "lgg",
-        "passedCounts": 1,
-        "totalCounts": 1,
-        "passedRate": 1,
-        "errorMessage": {}
-    },
-    {
-        "collection": "luad_events_tcga_clinical",
-        "type": "events",
-        "disease": "luad",
-        "passedCounts": 1,
-        "totalCounts": 1,
-        "passedRate": 1,
-        "errorMessage": {}
-    },
-    {
-        "collection": "lung_events_tcga_clinical",
-        "type": "events",
-        "disease": "lung",
-        "passedCounts": 1,
-        "totalCounts": 1,
-        "passedRate": 1,
-        "errorMessage": {}
-    },
-    {
-        "collection": "lusc_events_tcga_clinical",
-        "type": "events",
-        "disease": "lusc",
-        "passedCounts": 1,
-        "totalCounts": 1,
         "passedRate": 1,
         "errorMessage": {}
     },
@@ -2510,6 +2429,312 @@
         "disease": "tcga",
         "passedCounts": 24776,
         "totalCounts": 24776,
+        "passedRate": 1,
+        "errorMessage": {}
+    },
+    {
+        "collection": "tcga_lgg_exp_hiseqv2_exon_ucsc-xena",
+        "type": "exon expression RNAseq (polyA+ IlluminaHiSeq)",
+        "disease": "tcga",
+        "passedCounts": 239322,
+        "totalCounts": 239322,
+        "passedRate": 1,
+        "errorMessage": {}
+    },
+    {
+        "collection": "tcga_acc_exp_hiseqv2_exon_ucsc-xena",
+        "type": "exon expression RNAseq (polyA+ IlluminaHiSeq)",
+        "disease": "tcga",
+        "passedCounts": 239322,
+        "totalCounts": 239322,
+        "passedRate": 1,
+        "errorMessage": {}
+    },
+    {
+        "collection": "tcga_kirp_exp_hiseqv2_exon_ucsc-xena",
+        "type": "exon expression RNAseq (polyA+ IlluminaHiSeq)",
+        "disease": "tcga",
+        "passedCounts": 239322,
+        "totalCounts": 239322,
+        "passedRate": 1,
+        "errorMessage": {}
+    },
+    {
+        "collection": "tcga_luad_exp_hiseqv2_exon_ucsc-xena",
+        "type": "exon expression RNAseq (polyA+ IlluminaHiSeq)",
+        "disease": "tcga",
+        "passedCounts": 239322,
+        "totalCounts": 239322,
+        "passedRate": 1,
+        "errorMessage": {}
+    },
+    {
+        "collection": "tcga_blca_exp_hiseqv2_exon_ucsc-xena",
+        "type": "exon expression RNAseq (polyA+ IlluminaHiSeq)",
+        "disease": "tcga",
+        "passedCounts": 239322,
+        "totalCounts": 239322,
+        "passedRate": 1,
+        "errorMessage": {}
+    },
+    {
+        "collection": "tcga_uvm_exp_hiseqv2_exon_ucsc-xena",
+        "type": "exon expression RNAseq (polyA+ IlluminaHiSeq)",
+        "disease": "tcga",
+        "passedCounts": 239322,
+        "totalCounts": 239322,
+        "passedRate": 1,
+        "errorMessage": {}
+    },
+    {
+        "collection": "tcga_sarc_exp_hiseqv2_exon_ucsc-xena",
+        "type": "exon expression RNAseq (polyA+ IlluminaHiSeq)",
+        "disease": "tcga",
+        "passedCounts": 239322,
+        "totalCounts": 239322,
+        "passedRate": 1,
+        "errorMessage": {}
+    },
+    {
+        "collection": "tcga_laml_exp_hiseqv2_exon_ucsc-xena",
+        "type": "exon expression RNAseq (polyA+ IlluminaHiSeq)",
+        "disease": "tcga",
+        "passedCounts": 239322,
+        "totalCounts": 239322,
+        "passedRate": 1,
+        "errorMessage": {}
+    },
+    {
+        "collection": "tcga_gbm_exp_hiseqv2_exon_ucsc-xena",
+        "type": "exon expression RNAseq (polyA+ IlluminaHiSeq)",
+        "disease": "tcga",
+        "passedCounts": 239322,
+        "totalCounts": 239322,
+        "passedRate": 1,
+        "errorMessage": {}
+    },
+    {
+        "collection": "tcga_coadread_exp_hiseqv2_exon_ucsc-xena",
+        "type": "exon expression RNAseq (polyA+ IlluminaHiSeq)",
+        "disease": "tcga",
+        "passedCounts": 239322,
+        "totalCounts": 239322,
+        "passedRate": 1,
+        "errorMessage": {}
+    },
+    {
+        "collection": "tcga_ucs_exp_hiseqv2_exon_ucsc-xena",
+        "type": "exon expression RNAseq (polyA+ IlluminaHiSeq)",
+        "disease": "tcga",
+        "passedCounts": 239322,
+        "totalCounts": 239322,
+        "passedRate": 1,
+        "errorMessage": {}
+    },
+    {
+        "collection": "tcga_meso_exp_hiseqv2_exon_ucsc-xena",
+        "type": "exon expression RNAseq (polyA+ IlluminaHiSeq)",
+        "disease": "tcga",
+        "passedCounts": 239322,
+        "totalCounts": 239322,
+        "passedRate": 1,
+        "errorMessage": {}
+    },
+    {
+        "collection": "tcga_read_exp_hiseqv2_exon_ucsc-xena",
+        "type": "exon expression RNAseq (polyA+ IlluminaHiSeq)",
+        "disease": "tcga",
+        "passedCounts": 239322,
+        "totalCounts": 239322,
+        "passedRate": 1,
+        "errorMessage": {}
+    },
+    {
+        "collection": "tcga_chol_exp_hiseqv2_exon_ucsc-xena",
+        "type": "exon expression RNAseq (polyA+ IlluminaHiSeq)",
+        "disease": "tcga",
+        "passedCounts": 239322,
+        "totalCounts": 239322,
+        "passedRate": 1,
+        "errorMessage": {}
+    },
+    {
+        "collection": "tcga_skcm_exp_hiseqv2_exon_ucsc-xena",
+        "type": "exon expression RNAseq (polyA+ IlluminaHiSeq)",
+        "disease": "tcga",
+        "passedCounts": 239322,
+        "totalCounts": 239322,
+        "passedRate": 1,
+        "errorMessage": {}
+    },
+    {
+        "collection": "tcga_prad_exp_hiseqv2_exon_ucsc-xena",
+        "type": "exon expression RNAseq (polyA+ IlluminaHiSeq)",
+        "disease": "tcga",
+        "passedCounts": 239322,
+        "totalCounts": 239322,
+        "passedRate": 1,
+        "errorMessage": {}
+    },
+    {
+        "collection": "tcga_lihc_exp_hiseqv2_exon_ucsc-xena",
+        "type": "exon expression RNAseq (polyA+ IlluminaHiSeq)",
+        "disease": "tcga",
+        "passedCounts": 239322,
+        "totalCounts": 239322,
+        "passedRate": 1,
+        "errorMessage": {}
+    },
+    {
+        "collection": "tcga_lung_exp_hiseqv2_exon_ucsc-xena",
+        "type": "exon expression RNAseq (polyA+ IlluminaHiSeq)",
+        "disease": "tcga",
+        "passedCounts": 239322,
+        "totalCounts": 239322,
+        "passedRate": 1,
+        "errorMessage": {}
+    },
+    {
+        "collection": "tcga_hnsc_exp_hiseqv2_exon_ucsc-xena",
+        "type": "exon expression RNAseq (polyA+ IlluminaHiSeq)",
+        "disease": "tcga",
+        "passedCounts": 239322,
+        "totalCounts": 239322,
+        "passedRate": 1,
+        "errorMessage": {}
+    },
+    {
+        "collection": "tcga_gbmlgg_exp_hiseqv2_exon_ucsc-xena",
+        "type": "exon expression RNAseq (polyA+ IlluminaHiSeq)",
+        "disease": "tcga",
+        "passedCounts": 239322,
+        "totalCounts": 239322,
+        "passedRate": 1,
+        "errorMessage": {}
+    },
+    {
+        "collection": "tcga_thca_exp_hiseqv2_exon_ucsc-xena",
+        "type": "exon expression RNAseq (polyA+ IlluminaHiSeq)",
+        "disease": "tcga",
+        "passedCounts": 239322,
+        "totalCounts": 239322,
+        "passedRate": 1,
+        "errorMessage": {}
+    },
+    {
+        "collection": "tcga_cesc_exp_hiseqv2_exon_ucsc-xena",
+        "type": "exon expression RNAseq (polyA+ IlluminaHiSeq)",
+        "disease": "tcga",
+        "passedCounts": 239322,
+        "totalCounts": 239322,
+        "passedRate": 1,
+        "errorMessage": {}
+    },
+    {
+        "collection": "tcga_coad_exp_hiseqv2_exon_ucsc-xena",
+        "type": "exon expression RNAseq (polyA+ IlluminaHiSeq)",
+        "disease": "tcga",
+        "passedCounts": 239322,
+        "totalCounts": 239322,
+        "passedRate": 1,
+        "errorMessage": {}
+    },
+    {
+        "collection": "tcga_paad_exp_hiseqv2_exon_ucsc-xena",
+        "type": "exon expression RNAseq (polyA+ IlluminaHiSeq)",
+        "disease": "tcga",
+        "passedCounts": 239322,
+        "totalCounts": 239322,
+        "passedRate": 1,
+        "errorMessage": {}
+    },
+    {
+        "collection": "tcga_thym_exp_hiseqv2_exon_ucsc-xena",
+        "type": "exon expression RNAseq (polyA+ IlluminaHiSeq)",
+        "disease": "tcga",
+        "passedCounts": 239322,
+        "totalCounts": 239322,
+        "passedRate": 1,
+        "errorMessage": {}
+    },
+    {
+        "collection": "tcga_kich_exp_hiseqv2_exon_ucsc-xena",
+        "type": "exon expression RNAseq (polyA+ IlluminaHiSeq)",
+        "disease": "tcga",
+        "passedCounts": 239322,
+        "totalCounts": 239322,
+        "passedRate": 1,
+        "errorMessage": {}
+    },
+    {
+        "collection": "tcga_tgct_exp_hiseqv2_exon_ucsc-xena",
+        "type": "exon expression RNAseq (polyA+ IlluminaHiSeq)",
+        "disease": "tcga",
+        "passedCounts": 239322,
+        "totalCounts": 239322,
+        "passedRate": 1,
+        "errorMessage": {}
+    },
+    {
+        "collection": "tcga_kirc_exp_hiseqv2_exon_ucsc-xena",
+        "type": "exon expression RNAseq (polyA+ IlluminaHiSeq)",
+        "disease": "tcga",
+        "passedCounts": 239322,
+        "totalCounts": 239322,
+        "passedRate": 1,
+        "errorMessage": {}
+    },
+    {
+        "collection": "tcga_pcpg_exp_hiseqv2_exon_ucsc-xena",
+        "type": "exon expression RNAseq (polyA+ IlluminaHiSeq)",
+        "disease": "tcga",
+        "passedCounts": 239322,
+        "totalCounts": 239322,
+        "passedRate": 1,
+        "errorMessage": {}
+    },
+    {
+        "collection": "tcga_ucec_exp_hiseqv2_exon_ucsc-xena",
+        "type": "exon expression RNAseq (polyA+ IlluminaHiSeq)",
+        "disease": "tcga",
+        "passedCounts": 239322,
+        "totalCounts": 239322,
+        "passedRate": 1,
+        "errorMessage": {}
+    },
+    {
+        "collection": "tcga_esca_exp_hiseqv2_exon_ucsc-xena",
+        "type": "exon expression RNAseq (polyA+ IlluminaHiSeq)",
+        "disease": "tcga",
+        "passedCounts": 239322,
+        "totalCounts": 239322,
+        "passedRate": 1,
+        "errorMessage": {}
+    },
+    {
+        "collection": "tcga_lusc_exp_hiseqv2_exon_ucsc-xena",
+        "type": "exon expression RNAseq (polyA+ IlluminaHiSeq)",
+        "disease": "tcga",
+        "passedCounts": 239322,
+        "totalCounts": 239322,
+        "passedRate": 1,
+        "errorMessage": {}
+    },
+    {
+        "collection": "tcga_brca_exp_hiseqv2_exon_ucsc-xena",
+        "type": "exon expression RNAseq (polyA+ IlluminaHiSeq)",
+        "disease": "tcga",
+        "passedCounts": 239322,
+        "totalCounts": 239322,
+        "passedRate": 1,
+        "errorMessage": {}
+    },
+    {
+        "collection": "tcga_dlbc_exp_hiseqv2_exon_ucsc-xena",
+        "type": "exon expression RNAseq (polyA+ IlluminaHiSeq)",
+        "disease": "tcga",
+        "passedCounts": 239322,
+        "totalCounts": 239322,
         "passedRate": 1,
         "errorMessage": {}
     }

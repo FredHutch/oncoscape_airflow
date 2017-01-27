@@ -929,6 +929,7 @@
                 "esca_pcascores_ucsc_prcomp-allgenes-protein",
                 "esca_pcaloadings_ucsc_prcomp-allgenes-protein",
                 "esca_pcascores_ucsc_prcomp-allgenes-protein-1e05",
+                "esca_cluster",
                 "esca_cluster"
             ]
         }
@@ -2025,6 +2026,7 @@
                 "hnsc_pcascores_ucsc_prcomp-allgenes-rna-hiseq",
                 "hnsc_pcaloadings_ucsc_prcomp-allgenes-rna-hiseq",
                 "hnsc_pcascores_ucsc_prcomp-allgenes-rna-hiseq-1e05",
+                "hnsc_cluster",
                 "hnsc_cluster"
             ]
         }
@@ -2357,6 +2359,7 @@
                 "kich_pcascores_ucsc_prcomp-allgenes-protein",
                 "kich_pcaloadings_ucsc_prcomp-allgenes-protein",
                 "kich_pcascores_ucsc_prcomp-allgenes-protein-1e05",
+                "kich_cluster",
                 "kich_cluster"
             ]
         }
@@ -2725,6 +2728,7 @@
                 "kirc_pcaloadings_ucsc xena_prcomp-osccchen9genes-copy number"
             ],
             "refItemsNotInSelf": [
+                "kirc_cluster",
                 "kirc_cluster"
             ]
         }
@@ -3306,6 +3310,7 @@
                 "kirp_pcascores_ucsc_prcomp-allgenes-rna-hiseq",
                 "kirp_pcaloadings_ucsc_prcomp-allgenes-rna-hiseq",
                 "kirp_pcascores_ucsc_prcomp-allgenes-rna-hiseq-1e05",
+                "kirp_cluster",
                 "kirp_cluster"
             ]
         }
@@ -4354,6 +4359,7 @@
                 "lihc_pcascores_ucsc_prcomp-allgenes-protein",
                 "lihc_pcaloadings_ucsc_prcomp-allgenes-protein",
                 "lihc_pcascores_ucsc_prcomp-allgenes-protein-1e05",
+                "lihc_cluster",
                 "lihc_cluster"
             ]
         }
@@ -5390,6 +5396,7 @@
                 "lusc_pcascores_ucsc_prcomp-allgenes-rna-hiseq",
                 "lusc_pcaloadings_ucsc_prcomp-allgenes-rna-hiseq",
                 "lusc_pcascores_ucsc_prcomp-allgenes-rna-hiseq-1e05",
+                "lusc_cluster",
                 "lusc_cluster"
             ]
         }
@@ -5899,6 +5906,7 @@
                 "sarc_cluster",
                 "sarc_cluster",
                 "sarc_cluster",
+                "sarc_cluster",
                 "sarc_cluster"
             ]
         }
@@ -6301,6 +6309,7 @@
                 "paad_pcascores_ucsc_prcomp-allgenes-rna-hiseq",
                 "paad_pcaloadings_ucsc_prcomp-allgenes-rna-hiseq",
                 "paad_pcascores_ucsc_prcomp-allgenes-rna-hiseq-1e05",
+                "paad_cluster",
                 "paad_cluster"
             ]
         }
@@ -6787,6 +6796,7 @@
                 "prad_pcascores_ucsc_prcomp-allgenes-rna-hiseq",
                 "prad_pcaloadings_ucsc_prcomp-allgenes-rna-hiseq",
                 "prad_pcascores_ucsc_prcomp-allgenes-rna-hiseq-1e05",
+                "prad_cluster",
                 "prad_cluster"
             ]
         }
@@ -7914,6 +7924,7 @@
                 "stad_pcascores_ucsc_prcomp-allgenes-rna-hiseq",
                 "stad_pcaloadings_ucsc_prcomp-allgenes-rna-hiseq",
                 "stad_pcascores_ucsc_prcomp-allgenes-rna-hiseq-1e05",
+                "stad_cluster",
                 "stad_cluster"
             ]
         }
@@ -8393,6 +8404,7 @@
                 "thca_pcascores_ucsc_prcomp-allgenes-protein",
                 "thca_pcaloadings_ucsc_prcomp-allgenes-protein",
                 "thca_pcascores_ucsc_prcomp-allgenes-protein-1e05",
+                "thca_cluster",
                 "thca_cluster"
             ]
         }
@@ -8848,6 +8860,7 @@
                 "ucec_pcascores_ucsc_prcomp-allgenes-rna-hiseq",
                 "ucec_pcaloadings_ucsc_prcomp-allgenes-rna-hiseq",
                 "ucec_pcascores_ucsc_prcomp-allgenes-rna-hiseq-1e05",
+                "ucec_cluster",
                 "ucec_cluster"
             ]
         }
@@ -9316,6 +9329,7 @@
                 "acc_pcascores_ucsc_prcomp-allgenes-protein",
                 "acc_pcaloadings_ucsc_prcomp-allgenes-protein",
                 "acc_pcascores_ucsc_prcomp-allgenes-protein-1e05",
+                "acc_cluster",
                 "acc_cluster",
                 "acc_cluster",
                 "acc_cluster",
@@ -9868,6 +9882,7 @@
                 "blca_pcascores_ucsc_prcomp-allgenes-rna-hiseq",
                 "blca_pcaloadings_ucsc_prcomp-allgenes-rna-hiseq",
                 "blca_pcascores_ucsc_prcomp-allgenes-rna-hiseq-1e05",
+                "blca_cluster",
                 "blca_cluster"
             ]
         }
@@ -10399,6 +10414,7 @@
                 "cesc_pcascores_ucsc_prcomp-allgenes-protein",
                 "cesc_pcaloadings_ucsc_prcomp-allgenes-protein",
                 "cesc_pcascores_ucsc_prcomp-allgenes-protein-1e05",
+                "cesc_cluster",
                 "cesc_cluster"
             ]
         }
@@ -10909,6 +10925,7 @@
                 "chol_pcascores_ucsc_prcomp-allgenes-protein",
                 "chol_pcaloadings_ucsc_prcomp-allgenes-protein",
                 "chol_pcascores_ucsc_prcomp-allgenes-protein-1e05",
+                "chol_cluster",
                 "chol_cluster"
             ]
         }
@@ -11209,6 +11226,7 @@
                 "dlbc_pcascores_ucsc_prcomp-allgenes-protein",
                 "dlbc_pcaloadings_ucsc_prcomp-allgenes-protein",
                 "dlbc_pcascores_ucsc_prcomp-allgenes-protein-1e05",
+                "dlbc_cluster",
                 "dlbc_cluster"
             ]
         }
@@ -11443,6 +11461,7 @@
                 "coadread_pcascores_ucsc_prcomp-allgenes-rna-hiseq",
                 "coadread_pcaloadings_ucsc_prcomp-allgenes-rna-hiseq",
                 "coadread_pcascores_ucsc_prcomp-allgenes-rna-hiseq-1e05",
+                "coadread_cluster",
                 "coadread_cluster"
             ]
         }
@@ -11698,6 +11717,7 @@
                 "lung_pcascores_ucsc_prcomp-allgenes-rna-hiseq",
                 "lung_pcaloadings_ucsc_prcomp-allgenes-rna-hiseq",
                 "lung_pcascores_ucsc_prcomp-allgenes-rna-hiseq-1e05",
+                "lung_cluster",
                 "lung_cluster"
             ]
         }
@@ -12237,6 +12257,7 @@
                 "coad_pcascores_ucsc_prcomp-allgenes-rna-hiseq",
                 "coad_pcaloadings_ucsc_prcomp-allgenes-rna-hiseq",
                 "coad_pcascores_ucsc_prcomp-allgenes-rna-hiseq-1e05",
+                "coad_cluster",
                 "coad_cluster"
             ]
         }
@@ -12663,6 +12684,7 @@
                 "laml_pcascores_ucsc_prcomp-allgenes-rna-hiseq",
                 "laml_pcaloadings_ucsc_prcomp-allgenes-rna-hiseq",
                 "laml_pcascores_ucsc_prcomp-allgenes-rna-hiseq-1e05",
+                "laml_cluster",
                 "laml_cluster",
                 "laml_cluster",
                 "laml_cluster",
@@ -13229,6 +13251,7 @@
                 "read_pcascores_ucsc_prcomp-allgenes-rna-hiseq",
                 "read_pcaloadings_ucsc_prcomp-allgenes-rna-hiseq",
                 "read_pcascores_ucsc_prcomp-allgenes-rna-hiseq-1e05",
+                "read_cluster",
                 "read_cluster"
             ]
         }
@@ -13729,6 +13752,7 @@
                 "ucs_pcascores_ucsc_prcomp-allgenes-protein",
                 "ucs_pcaloadings_ucsc_prcomp-allgenes-protein",
                 "ucs_pcascores_ucsc_prcomp-allgenes-protein-1e05",
+                "ucs_cluster",
                 "ucs_cluster"
             ]
         }
@@ -14291,6 +14315,7 @@
                 "uvm_cluster",
                 "uvm_cluster",
                 "uvm_cluster",
+                "uvm_cluster",
                 "uvm_cluster"
             ]
         }
@@ -14644,6 +14669,7 @@
                 "thym_pcascores_ucsc_prcomp-allgenes-protein",
                 "thym_pcaloadings_ucsc_prcomp-allgenes-protein",
                 "thym_pcascores_ucsc_prcomp-allgenes-protein-1e05",
+                "thym_cluster",
                 "thym_cluster"
             ]
         }
@@ -14997,6 +15023,7 @@
                 "tgct_pcascores_ucsc_prcomp-allgenes-protein",
                 "tgct_pcaloadings_ucsc_prcomp-allgenes-protein",
                 "tgct_pcascores_ucsc_prcomp-allgenes-protein-1e05",
+                "tgct_cluster",
                 "tgct_cluster"
             ]
         }
@@ -15350,6 +15377,7 @@
                 "pcpg_pcascores_ucsc_prcomp-allgenes-protein",
                 "pcpg_pcaloadings_ucsc_prcomp-allgenes-protein",
                 "pcpg_pcascores_ucsc_prcomp-allgenes-protein-1e05",
+                "pcpg_cluster",
                 "pcpg_cluster"
             ]
         }
@@ -15868,6 +15896,7 @@
                 "ov_pcascores_ucsc_prcomp-allgenes-rna-hiseq",
                 "ov_pcaloadings_ucsc_prcomp-allgenes-rna-hiseq",
                 "ov_pcascores_ucsc_prcomp-allgenes-rna-hiseq-1e05",
+                "ov_cluster",
                 "ov_cluster"
             ]
         }
@@ -15906,6 +15935,7 @@
                 "meso_pcascores_ucsc_prcomp-allgenes-protein",
                 "meso_pcaloadings_ucsc_prcomp-allgenes-protein",
                 "meso_pcascores_ucsc_prcomp-allgenes-protein-1e05",
+                "meso_cluster",
                 "meso_cluster"
             ]
         }
@@ -16544,7 +16574,5 @@
                 "pancan12_cluster"
             ]
         }
-    },
-    {},
-    {}
+    }
 ]

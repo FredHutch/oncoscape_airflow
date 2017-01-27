@@ -8,11 +8,11 @@ var patientID_status = require("/usr/local/airflow/docker-airflow/onco-test/ptID
 var gene_status = require("/usr/local/airflow/docker-airflow/onco-test/geneSymbols/output3.json");
 //var diseaseCollectionStructureStatus = require("../toolTesting/diseaseCollectionStructuralStatus.json");
 var duplicatedFields = require("/usr/local/airflow/docker-airflow/onco-test/duplicatedFields.json");
-var collectionSize = require("./CollectionSize.json");
-//var validateCalculatedFromMolecular = require("./validateCalculatedFromMolecular.json");
+var collectionSize = require("/usr/local/airflow/docker-airflow/onco-test/CollectionSize.json");
+var validateCalculatedFromMolecular = require("/usr/local/airflow/docker-airflow/onco-test/validateCalculatedFromMolecular.json");
 //var lookup_toolTesting = require("../toolTesting/lookup.json");
-//var molecularMinMaxChecking = require("./CheckingMinMaxValues.json");
-//var x_range = require("./x_range.json");
+var molecularMinMaxChecking = require("/usr/local/airflow/docker-airflow/onco-test/minMaxErrors_v2.json");
+var x_range = require("/usr/local/airflow/docker-airflow/onco-test/x_range.json");
 var collectionNameRegex = /[A-Za-z0-9_-]+/g;
 var db, collections, existing_collection_names, manifest;
 var manifest_arr = [];
@@ -307,14 +307,14 @@ co(function *() {
   helper.format.codeStart();
   helper.format.text(existing_mds.arraysCompareV2(rendering_pt_potential_collections));
   helper.format.codeStop();
-  // helper.format.h3("Compare render_patient against the existing collections: ");
-  // helper.format.codeStart();
-  // helper.format.text(rendering_pt_potential_collections.arraysCompare(existing_mds));
+  helper.format.h3("Compare render_patient against the existing collections: ");
+  helper.format.codeStart();
+  helper.format.text(rendering_pt_potential_collections.arraysCompare(existing_mds));
   // helper.format.codeComment("In render_patient, there are documents with 'cluster' as type, yet 'pca-' as name prefix.");
   // helper.format.text(render_patient_weird_ex);
   // helper.format.codeStop();
 
-  // report the size of the molecular collections with the count lower than 1000
+  //report the size of the molecular collections with the count lower than 1000
   helper.format.h1("Part III: Molecular collections size lower than 1000");
   helper.format.codeStart();
   if(collectionSize.filter(function(m){return m.type!='protein';}).length !=0){
@@ -325,22 +325,22 @@ co(function *() {
     helper.format.text("No Molecular Collection has significantly lower counts.");
   }
   helper.format.codeStop();
-  // report the discrepancy between calculated and calculated category in lookup_oncoscape_datasources
-  // helper.format.h1("Part IV: The combination from Molecular Collections and genesets compared to the Calculated Collections in lookup_oncoscape_datasources");
-  // helper.format.text("/* Checking PCA/MDS Collections */");
-  // helper.format.text("MDS, mutation and copy number, all of them are genesets, check the names, look at each gene-set, from the same sources (mut, copy)");
-  // helper.format.text("PCA, for RNA, methylation, protein, CNV, for those molecular types, with each genesets. No PCA mutation combo");
-  // helper.format.codeComment("Removed 'dne' flagged collection along with their scaled collection and their corresponding pcaloadings collections(example below):");
-  // helper.format.codeComment("'gbm_pcascores_ucsc_prcomp-tcgagbmclassifiers-protein'");
-  // helper.format.codeComment("'gbm_pcascores_ucsc_prcomp-tcgagbmclassifiers-protein-1e05'");
-  // helper.format.codeComment("'gbm_pcaloadings_ucsc_prcomp-tcgagbmclassifiers-protein'");
+  //report the discrepancy between calculated and calculated category in lookup_oncoscape_datasources
+  helper.format.h1("Part IV: The combination from Molecular Collections and genesets compared to the Calculated Collections in lookup_oncoscape_datasources");
+  helper.format.text("/* Checking PCA/MDS Collections */");
+  helper.format.text("MDS, mutation and copy number, all of them are genesets, check the names, look at each gene-set, from the same sources (mut, copy)");
+  helper.format.text("PCA, for RNA, methylation, protein, CNV, for those molecular types, with each genesets. No PCA mutation combo");
+  helper.format.codeComment("Removed 'dne' flagged collection along with their scaled collection and their corresponding pcaloadings collections(example below):");
+  helper.format.codeComment("'gbm_pcascores_ucsc_prcomp-tcgagbmclassifiers-protein'");
+  helper.format.codeComment("'gbm_pcascores_ucsc_prcomp-tcgagbmclassifiers-protein-1e05'");
+  helper.format.codeComment("'gbm_pcaloadings_ucsc_prcomp-tcgagbmclassifiers-protein'");
 
-  // helper.format.codeStart();
-  // helper.format.codeComment("Reference is the Existing Calculated Collections.");
-  // validateCalculatedFromMolecular.forEach(function(a){
-  //   helper.format.text(a);
-  // });
-  // helper.format.codeStop();
+  helper.format.codeStart();
+  helper.format.codeComment("Reference is the Existing Calculated Collections.");
+  validateCalculatedFromMolecular.forEach(function(a){
+    helper.format.text(a);
+  });
+  helper.format.codeStop();
 
   // report the collection erros from ajv_tcga_v2.json 
   helper.format.h1("Part V: Data Structural Errors - Run the DB against schemas.json, below lists the error message: ");
@@ -481,10 +481,10 @@ co(function *() {
   // errorReported.forEach(function(s){helper.format.text(s);});
   // helper.format.codeStop();
 
-  // helper.format.h1("Part XI: X axis range checking for render_patient(>4000 listed below):");
-  // helper.format.codeStart();
-  // x_range.filter(function(m){return m.range>4000;}).forEach(function(s){helper.format.text(s);});
-  // helper.format.codeStop();
+  helper.format.h1("Part XI: X axis range checking for render_patient(>4600 listed below):");
+  helper.format.codeStart();
+  x_range.filter(function(m){return m.range>4600;}).forEach(function(s){helper.format.text(s);});
+  helper.format.codeStop();
 
 
   yield comongo.db.close(db);

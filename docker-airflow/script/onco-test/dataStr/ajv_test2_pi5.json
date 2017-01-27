@@ -1,14 +1,5 @@
 [
     {
-        "collection": "hiseqv2_pancan_ucsc-xena",
-        "type": "gene expression",
-        "disease": "hiseqv2",
-        "passedCounts": 20530,
-        "totalCounts": 20530,
-        "passedRate": 1,
-        "errorMessage": {}
-    },
-    {
         "collection": "tcga_pancan_mutation_ucsc-xena",
         "type": "somatic gene-level non-silent mutation (pancan awg 19 cohorts)",
         "disease": "tcga",

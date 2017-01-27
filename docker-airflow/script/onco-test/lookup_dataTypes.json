@@ -528,7 +528,7 @@
     "dataType": "samplemap",
     "name": "sample patient mapping",
     "schema": "id_id",
-    "class": "map",
+    "class": "samplemap",
     "tools": {}
   },
   {
@@ -618,5 +618,25 @@
     "schema": "hugo_sample",
     "class": "mut01",
     "tools": {}
+  },
+  {
+    "_id": "587e65489f14782a98515c77",
+    "dataType": "network",
+    "name": "network",
+    "schema": "node_edges",
+    "class": "network",
+    "tools": [
+      "markers"
+    ]
+  },
+  {
+    "_id": "588017a09f14782a98515c78",
+    "dataType": "events",
+    "name": "events",
+    "schema": "pt_events",
+    "class": "events",
+    "tools": [
+      "timelines"
+    ]
   }
 ]

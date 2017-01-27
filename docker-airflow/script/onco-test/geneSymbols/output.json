@@ -167,42 +167,6 @@
     "type": "followup",
     "disease": "brain"
 },{
-    "collection": "brain_events_tcga_clinical",
-    "type": "events",
-    "disease": "brain"
-},{
-    "collection": "brca_events_tcga_clinical",
-    "type": "events",
-    "disease": "brca"
-},{
-    "collection": "coadread_events_tcga_clinical",
-    "type": "events",
-    "disease": "coadread"
-},{
-    "collection": "gbm_events_tcga_clinical",
-    "type": "events",
-    "disease": "gbm"
-},{
-    "collection": "hnsc_events_tcga_clinical",
-    "type": "events",
-    "disease": "hnsc"
-},{
-    "collection": "lgg_events_tcga_clinical",
-    "type": "events",
-    "disease": "lgg"
-},{
-    "collection": "luad_events_tcga_clinical",
-    "type": "events",
-    "disease": "luad"
-},{
-    "collection": "lung_events_tcga_clinical",
-    "type": "events",
-    "disease": "lung"
-},{
-    "collection": "lusc_events_tcga_clinical",
-    "type": "events",
-    "disease": "lusc"
-},{
     "collection": "brca_drug_tcga_clinical",
     "type": "drug",
     "disease": "brca"

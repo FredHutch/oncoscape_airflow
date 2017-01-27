@@ -1,203 +1,5 @@
 [
     {
-        "collection": "tcga_lgg_gsnp6nocnv_gseg_ucsc-xena",
-        "type": "copy number segments (delete germline cnv)",
-        "disease": "tcga",
-        "passedCounts": 50274,
-        "totalCounts": 50274,
-        "passedRate": 1,
-        "errorMessage": {}
-    },
-    {
-        "collection": "tcga_acc_gsnp6nocnv_gseg_ucsc-xena",
-        "type": "copy number segments (delete germline cnv)",
-        "disease": "tcga",
-        "passedCounts": 16080,
-        "totalCounts": 16080,
-        "passedRate": 1,
-        "errorMessage": {}
-    },
-    {
-        "collection": "tcga_kirp_gsnp6nocnv_gseg_ucsc-xena",
-        "type": "copy number segments (delete germline cnv)",
-        "disease": "tcga",
-        "passedCounts": 31140,
-        "totalCounts": 31140,
-        "passedRate": 1,
-        "errorMessage": {}
-    },
-    {
-        "collection": "tcga_luad_gsnp6nocnv_gseg_ucsc-xena",
-        "type": "copy number segments (delete germline cnv)",
-        "disease": "tcga",
-        "passedCounts": 93189,
-        "totalCounts": 93189,
-        "passedRate": 1,
-        "errorMessage": {}
-    },
-    {
-        "collection": "tcga_blca_gsnp6nocnv_gseg_ucsc-xena",
-        "type": "copy number segments (delete germline cnv)",
-        "disease": "tcga",
-        "passedCounts": 97774,
-        "totalCounts": 97774,
-        "passedRate": 1,
-        "errorMessage": {}
-    },
-    {
-        "collection": "tcga_uvm_gsnp6nocnv_gseg_ucsc-xena",
-        "type": "copy number segments (delete germline cnv)",
-        "disease": "tcga",
-        "passedCounts": 7618,
-        "totalCounts": 7618,
-        "passedRate": 1,
-        "errorMessage": {}
-    },
-    {
-        "collection": "tcga_sarc_gsnp6nocnv_gseg_ucsc-xena",
-        "type": "copy number segments (delete germline cnv)",
-        "disease": "tcga",
-        "passedCounts": 84070,
-        "totalCounts": 84070,
-        "passedRate": 1,
-        "errorMessage": {}
-    },
-    {
-        "collection": "tcga_laml_gsnp6nocnv_gseg_ucsc-xena",
-        "type": "copy number segments (delete germline cnv)",
-        "disease": "tcga",
-        "passedCounts": 293696,
-        "totalCounts": 293696,
-        "passedRate": 1,
-        "errorMessage": {}
-    },
-    {
-        "collection": "tcga_ucs_gsnp6nocnv_gseg_ucsc-xena",
-        "type": "copy number segments (delete germline cnv)",
-        "disease": "tcga",
-        "passedCounts": 16123,
-        "totalCounts": 16123,
-        "passedRate": 1,
-        "errorMessage": {}
-    },
-    {
-        "collection": "tcga_meso_gsnp6nocnv_gseg_ucsc-xena",
-        "type": "copy number segments (delete germline cnv)",
-        "disease": "tcga",
-        "passedCounts": 12247,
-        "totalCounts": 12247,
-        "passedRate": 1,
-        "errorMessage": {}
-    },
-    {
-        "collection": "tcga_read_gsnp6nocnv_gseg_ucsc-xena",
-        "type": "copy number segments (delete germline cnv)",
-        "disease": "tcga",
-        "passedCounts": 27107,
-        "totalCounts": 27107,
-        "passedRate": 1,
-        "errorMessage": {}
-    },
-    {
-        "collection": "tcga_chol_gsnp6nocnv_gseg_ucsc-xena",
-        "type": "copy number segments (delete germline cnv)",
-        "disease": "tcga",
-        "passedCounts": 4631,
-        "totalCounts": 4631,
-        "passedRate": 1,
-        "errorMessage": {}
-    },
-    {
-        "collection": "tcga_brca_gsnp6nocnv_gseg_ucsc-xena",
-        "type": "copy number segments (delete germline cnv)",
-        "disease": "tcga",
-        "passedCounts": 265242,
-        "totalCounts": 265242,
-        "passedRate": 1,
-        "errorMessage": {}
-    },
-    {
-        "collection": "tcga_skcm_gsnp6nocnv_gseg_ucsc-xena",
-        "type": "copy number segments (delete germline cnv)",
-        "disease": "tcga",
-        "passedCounts": 77241,
-        "totalCounts": 77241,
-        "passedRate": 1,
-        "errorMessage": {}
-    },
-    {
-        "collection": "tcga_prad_gsnp6nocnv_gseg_ucsc-xena",
-        "type": "copy number segments (delete germline cnv)",
-        "disease": "tcga",
-        "passedCounts": 79687,
-        "totalCounts": 79687,
-        "passedRate": 1,
-        "errorMessage": {}
-    },
-    {
-        "collection": "tcga_lihc_gsnp6nocnv_gseg_ucsc-xena",
-        "type": "copy number segments (delete germline cnv)",
-        "disease": "tcga",
-        "passedCounts": 66292,
-        "totalCounts": 66292,
-        "passedRate": 1,
-        "errorMessage": {}
-    },
-    {
-        "collection": "tcga_hnsc_gsnp6nocnv_gseg_ucsc-xena",
-        "type": "copy number segments (delete germline cnv)",
-        "disease": "tcga",
-        "passedCounts": 75610,
-        "totalCounts": 75610,
-        "passedRate": 1,
-        "errorMessage": {}
-    },
-    {
-        "collection": "tcga_lusc_gsnp6nocnv_gseg_ucsc-xena",
-        "type": "copy number segments (delete germline cnv)",
-        "disease": "tcga",
-        "passedCounts": 104925,
-        "totalCounts": 104925,
-        "passedRate": 1,
-        "errorMessage": {}
-    },
-    {
-        "collection": "tcga_stad_gsnp6nocnv_gseg_ucsc-xena",
-        "type": "copy number segments (delete germline cnv)",
-        "disease": "tcga",
-        "passedCounts": 101617,
-        "totalCounts": 101617,
-        "passedRate": 1,
-        "errorMessage": {}
-    },
-    {
-        "collection": "tcga_thca_gsnp6nocnv_gseg_ucsc-xena",
-        "type": "copy number segments (delete germline cnv)",
-        "disease": "tcga",
-        "passedCounts": 26093,
-        "totalCounts": 26093,
-        "passedRate": 1,
-        "errorMessage": {}
-    },
-    {
-        "collection": "tcga_cesc_gsnp6nocnv_gseg_ucsc-xena",
-        "type": "copy number segments (delete germline cnv)",
-        "disease": "tcga",
-        "passedCounts": 41494,
-        "totalCounts": 41494,
-        "passedRate": 1,
-        "errorMessage": {}
-    },
-    {
-        "collection": "tcga_coad_gsnp6nocnv_gseg_ucsc-xena",
-        "type": "copy number segments (delete germline cnv)",
-        "disease": "tcga",
-        "passedCounts": 71470,
-        "totalCounts": 71470,
-        "passedRate": 1,
-        "errorMessage": {}
-    },
-    {
         "collection": "tcga_lgg_exp_hiseqv2_ucsc-xena",
         "type": "gene expression RNAseq (polyA+ IlluminaHiSeq)",
         "disease": "tcga",
@@ -2338,6 +2140,285 @@
         "disease": "tcga",
         "passedCounts": 230238,
         "totalCounts": 230238,
+        "passedRate": 1,
+        "errorMessage": {}
+    },
+    {
+        "collection": "tcga_acc_rppa_ucsc-xena",
+        "type": "protein expression RPPA",
+        "disease": "tcga",
+        "passedCounts": 220,
+        "totalCounts": 220,
+        "passedRate": 1,
+        "errorMessage": {}
+    },
+    {
+        "collection": "tcga_kirp_rppa_ucsc-xena",
+        "type": "protein expression RPPA",
+        "disease": "tcga",
+        "passedCounts": 224,
+        "totalCounts": 224,
+        "passedRate": 1,
+        "errorMessage": {}
+    },
+    {
+        "collection": "tcga_luad_rppa_ucsc-xena",
+        "type": "protein expression RPPA",
+        "disease": "tcga",
+        "passedCounts": 276,
+        "totalCounts": 276,
+        "passedRate": 1,
+        "errorMessage": {}
+    },
+    {
+        "collection": "tcga_blca_rppa_ucsc-xena",
+        "type": "protein expression RPPA",
+        "disease": "tcga",
+        "passedCounts": 245,
+        "totalCounts": 245,
+        "passedRate": 1,
+        "errorMessage": {}
+    },
+    {
+        "collection": "tcga_uvm_rppa_ucsc-xena",
+        "type": "protein expression RPPA",
+        "disease": "tcga",
+        "passedCounts": 219,
+        "totalCounts": 219,
+        "passedRate": 1,
+        "errorMessage": {}
+    },
+    {
+        "collection": "tcga_sarc_rppa_ucsc-xena",
+        "type": "protein expression RPPA",
+        "disease": "tcga",
+        "passedCounts": 219,
+        "totalCounts": 219,
+        "passedRate": 1,
+        "errorMessage": {}
+    },
+    {
+        "collection": "tcga_gbm_rppa_ucsc-xena",
+        "type": "protein expression RPPA",
+        "disease": "tcga",
+        "passedCounts": 274,
+        "totalCounts": 274,
+        "passedRate": 1,
+        "errorMessage": {}
+    },
+    {
+        "collection": "tcga_ucs_rppa_ucsc-xena",
+        "type": "protein expression RPPA",
+        "disease": "tcga",
+        "passedCounts": 219,
+        "totalCounts": 219,
+        "passedRate": 1,
+        "errorMessage": {}
+    },
+    {
+        "collection": "tcga_meso_rppa_ucsc-xena",
+        "type": "protein expression RPPA",
+        "disease": "tcga",
+        "passedCounts": 219,
+        "totalCounts": 219,
+        "passedRate": 1,
+        "errorMessage": {}
+    },
+    {
+        "collection": "tcga_read_rppa_ucsc-xena",
+        "type": "protein expression RPPA",
+        "disease": "tcga",
+        "passedCounts": 275,
+        "totalCounts": 275,
+        "passedRate": 1,
+        "errorMessage": {}
+    },
+    {
+        "collection": "tcga_chol_rppa_ucsc-xena",
+        "type": "protein expression RPPA",
+        "disease": "tcga",
+        "passedCounts": 218,
+        "totalCounts": 218,
+        "passedRate": 1,
+        "errorMessage": {}
+    },
+    {
+        "collection": "tcga_brca_rppa_ucsc-xena",
+        "type": "protein expression RPPA",
+        "disease": "tcga",
+        "passedCounts": 281,
+        "totalCounts": 281,
+        "passedRate": 1,
+        "errorMessage": {}
+    },
+    {
+        "collection": "tcga_skcm_rppa_ucsc-xena",
+        "type": "protein expression RPPA",
+        "disease": "tcga",
+        "passedCounts": 282,
+        "totalCounts": 282,
+        "passedRate": 1,
+        "errorMessage": {}
+    },
+    {
+        "collection": "tcga_prad_rppa_ucsc-xena",
+        "type": "protein expression RPPA",
+        "disease": "tcga",
+        "passedCounts": 227,
+        "totalCounts": 227,
+        "passedRate": 1,
+        "errorMessage": {}
+    },
+    {
+        "collection": "tcga_lihc_rppa_ucsc-xena",
+        "type": "protein expression RPPA",
+        "disease": "tcga",
+        "passedCounts": 219,
+        "totalCounts": 219,
+        "passedRate": 1,
+        "errorMessage": {}
+    },
+    {
+        "collection": "tcga_stad_rppa_ucsc-xena",
+        "type": "protein expression RPPA",
+        "disease": "tcga",
+        "passedCounts": 227,
+        "totalCounts": 227,
+        "passedRate": 1,
+        "errorMessage": {}
+    },
+    {
+        "collection": "tcga_hnsc_rppa_ucsc-xena",
+        "type": "protein expression RPPA",
+        "disease": "tcga",
+        "passedCounts": 274,
+        "totalCounts": 274,
+        "passedRate": 1,
+        "errorMessage": {}
+    },
+    {
+        "collection": "tcga_lusc_rppa_ucsc-xena",
+        "type": "protein expression RPPA",
+        "disease": "tcga",
+        "passedCounts": 276,
+        "totalCounts": 276,
+        "passedRate": 1,
+        "errorMessage": {}
+    },
+    {
+        "collection": "tcga_thca_rppa_ucsc-xena",
+        "type": "protein expression RPPA",
+        "disease": "tcga",
+        "passedCounts": 260,
+        "totalCounts": 260,
+        "passedRate": 1,
+        "errorMessage": {}
+    },
+    {
+        "collection": "tcga_cesc_rppa_ucsc-xena",
+        "type": "protein expression RPPA",
+        "disease": "tcga",
+        "passedCounts": 219,
+        "totalCounts": 219,
+        "passedRate": 1,
+        "errorMessage": {}
+    },
+    {
+        "collection": "tcga_coad_rppa_ucsc-xena",
+        "type": "protein expression RPPA",
+        "disease": "tcga",
+        "passedCounts": 262,
+        "totalCounts": 262,
+        "passedRate": 1,
+        "errorMessage": {}
+    },
+    {
+        "collection": "tcga_esca_rppa_ucsc-xena",
+        "type": "protein expression RPPA",
+        "disease": "tcga",
+        "passedCounts": 219,
+        "totalCounts": 219,
+        "passedRate": 1,
+        "errorMessage": {}
+    },
+    {
+        "collection": "tcga_thym_rppa_ucsc-xena",
+        "type": "protein expression RPPA",
+        "disease": "tcga",
+        "passedCounts": 218,
+        "totalCounts": 218,
+        "passedRate": 1,
+        "errorMessage": {}
+    },
+    {
+        "collection": "tcga_kich_rppa_ucsc-xena",
+        "type": "protein expression RPPA",
+        "disease": "tcga",
+        "passedCounts": 219,
+        "totalCounts": 219,
+        "passedRate": 1,
+        "errorMessage": {}
+    },
+    {
+        "collection": "tcga_dlbc_rppa_ucsc-xena",
+        "type": "protein expression RPPA",
+        "disease": "tcga",
+        "passedCounts": 218,
+        "totalCounts": 218,
+        "passedRate": 1,
+        "errorMessage": {}
+    },
+    {
+        "collection": "tcga_kirc_rppa_ucsc-xena",
+        "type": "protein expression RPPA",
+        "disease": "tcga",
+        "passedCounts": 273,
+        "totalCounts": 273,
+        "passedRate": 1,
+        "errorMessage": {}
+    },
+    {
+        "collection": "tcga_ucec_rppa_ucsc-xena",
+        "type": "protein expression RPPA",
+        "disease": "tcga",
+        "passedCounts": 245,
+        "totalCounts": 245,
+        "passedRate": 1,
+        "errorMessage": {}
+    },
+    {
+        "collection": "tcga_ov_rppa_ucsc-xena",
+        "type": "protein expression RPPA",
+        "disease": "tcga",
+        "passedCounts": 281,
+        "totalCounts": 281,
+        "passedRate": 1,
+        "errorMessage": {}
+    },
+    {
+        "collection": "tcga_tgct_rppa_ucsc-xena",
+        "type": "protein expression RPPA",
+        "disease": "tcga",
+        "passedCounts": 218,
+        "totalCounts": 218,
+        "passedRate": 1,
+        "errorMessage": {}
+    },
+    {
+        "collection": "tcga_pcpg_rppa_ucsc-xena",
+        "type": "protein expression RPPA",
+        "disease": "tcga",
+        "passedCounts": 219,
+        "totalCounts": 219,
+        "passedRate": 1,
+        "errorMessage": {}
+    },
+    {
+        "collection": "tcga_paad_rppa_ucsc-xena",
+        "type": "protein expression RPPA",
+        "disease": "tcga",
+        "passedCounts": 229,
+        "totalCounts": 229,
         "passedRate": 1,
         "errorMessage": {}
     }

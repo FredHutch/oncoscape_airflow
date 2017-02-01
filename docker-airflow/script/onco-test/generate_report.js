@@ -110,30 +110,30 @@ co(function *() {
   //only iterate 'annotation','location','category','molecular','clinical','calculated','edges'
 
   lookup_table.forEach(function(d){
-    for(var u=0; u<usedFields.length; u++){
-      if(usedFields[u] in d){
-        if(usedFields[u] == 'clinical'){
-          var obj = d['clinical'];
-          Object.keys(obj).forEach(function(k){
-            lookup_listed_collections.push(obj[k]);
-          });
-        }else if('collection' in d[usedFields[u]]){
-          lookup_listed_collections.push(d[usedFields[u]['collection']]);
-        }else if(Array.isArray(d[usedFields[u]])){
-          var arr = d[usedFields[u]];
-          arr.forEach(function(a){
-            if('collection' in a){
-              lookup_listed_collections.push(a['collection']);
-            }else if('edges' in a){
-              lookup_listed_collections.push(a['edges']);
-              lookup_listed_collections.push(a['patientWeights']);
-              lookup_listed_collections.push(a['genesWeights']);
+        for(var u=0; u<usedFields.length; u++){
+          if((usedFields[u] in d) && (d[usedFields[u]] != null)){
+            if(usedFields[u] == 'clinical'){
+              var obj = d['clinical'];
+              Object.keys(obj).forEach(function(k){
+                lookup_listed_collections.push(obj[k]);
+              });
+            }else if('collection' in d[usedFields[u]]){
+              lookup_listed_collections.push(d[usedFields[u]['collection']]);
+            }else if(Array.isArray(d[usedFields[u]])){
+              var arr = d[usedFields[u]];
+              arr.forEach(function(a){
+                if('collection' in a){
+                  lookup_listed_collections.push(a['collection']);
+                }else if('edges' in a){
+                  lookup_listed_collections.push(a['edges']);
+                  lookup_listed_collections.push(a['patientWeights']);
+                  lookup_listed_collections.push(a['genesWeights']);
+                }
+              })
             }
-          })
+          }
         }
-      }
-    }
-  });//flatten all the collections from lookup_oncoscape_datasources 
+    });//flatten all the collections from lookup_oncoscape_datasources 
   lookup_listed_collections = lookup_listed_collections.unique();
 
   manifest = yield comongo.db.collection(db, "manifest");

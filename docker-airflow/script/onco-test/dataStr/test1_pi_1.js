@@ -23,18 +23,22 @@ var collections = require("/usr/local/airflow/docker-airflow/onco-test/manifest_
 var table_name;
 var msg_type = {};
 var ajvMsg = [];
-var ajvMsg_v2 = [];
-var passed_elem;
+var passed_elem
 var error_elem = [];
 var elem = {};
 var col_count = 0;
-var xena_dataTypes = dataTypeMapping.map(function(m){return m.dataType;});
-var xena_dataTypes_included = dataTypeMapping.filter(function(m){return m.class== 'cnv' || m.class== 'mut01' || m.class == 'cnv_thd' || m.class == 'expr'}).map(function(m){return m.dataType;});
-var xena_dataTypes_excluded = u.difference(xena_dataTypes, xena_dataTypes_included);
-var dataType = u.difference(collections.map(function(m){return m.dataType;}).unique(), xena_dataTypes_excluded);
-var manifest_xena_dataTypes = collections.filter(function(m){return m.source == 'ucsc xena'}).map(function(m){return m.dataType;}).unique();
-var dataTypes_inManifestXena_notInXena = u.difference(manifest_xena_dataTypes, xena_dataTypes);
-var dataType = u.difference(dataType, dataTypes_inManifestXena_notInXena).splice(0, 10);
+//var dataType = Object.keys(schemas);
+//var collections_
+var lookup_dataTypes = dataTypeMapping.map(function(m){return m.dataType;});
+var lookup_dataTypes_included = dataTypeMapping.filter(function(m){return m.class== 'cnv' || m.class== 'mut01' || m.class == 'cnv_thd' || m.class == 'expr'}).map(function(m){return m.dataType;});
+var lookup_dataTypes_clinical = dataTypeMapping.filter(function(m){return m.schema=="pt_events";}).map(function(m){return m.dataType;}); 
+lookup_dataTypes_included = lookup_dataTypes_included.concat(lookup_dataTypes_clinical);
+//var xena_dataTypes_excluded = u.difference(xena_dataTypes, xena_dataTypes_included);
+//var dataType = u.difference(collections.map(function(m){return m.dataType;}).unique(), xena_dataTypes_excluded);
+//var manifest_xena_dataTypes = collections.filter(function(m){return m.source == 'ucsc xena'}).map(function(m){return m.dataType;}).unique();
+var manifest_dataTypes = collections.map(function(m){return m.dataType;}).unique(); // there are 22 dataTypes including 'mut', 'phenotype', and 'derived', need to add back 'derived'
+//var dataTypes_inManifestXena_notInXena = u.difference(manifest_dataTypes, lookup_dataTypes_included);
+var dataType = lookup_dataTypes_included.concat(['PCA', 'MDS', 'network', 'color']).splice(0, 16);
 var dataType_length = dataType.length;
 var connection = mongoose.connection;
 
@@ -56,11 +60,11 @@ mongoose.connect(
 
 
 connection.once('open', function(){
-    var db = connection.db; 
+     var db = connection.db; 
     asyncLoop(dataType, function(t, next){  
-      //t = 'events';
+      t = 'gene expression';
       console.log("Within datatype: ", t);
-      var categoried_collections = collections.findCollectionsByType(t); 
+      var categoried_collections = collections.filter(function(m){return m.dataType == t}).map(function(m){return m.collection;}).unique(); 
       var categoried_collection_length = categoried_collections.length; 
       var category_index = 0;
 
@@ -89,6 +93,7 @@ connection.once('open', function(){
         cursor.each(function(err, item){
               if(item != null){
                 count++;
+                //console.log(count);
                 if("dataType" in item){
                   schema = schemas[item.dataType];
                 }
@@ -131,7 +136,7 @@ connection.once('open', function(){
       }
     }, function (err)
     {
-        if (err)
+         if (err)
         {
             console.error('Error: ' + err.message);
             return;
@@ -157,7 +162,6 @@ connection.once('open', function(){
         jsonfile.writeFile("/usr/local/airflow/docker-airflow/onco-test/dataStr/ajv_test2_pi1.json", ajvMsg_v2, {spaces:4}, function(err){ console.error(err);});
         connection.close();
     });
-
 });//6379529ms
 
 

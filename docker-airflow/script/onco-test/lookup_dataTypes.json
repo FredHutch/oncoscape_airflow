@@ -638,5 +638,234 @@
     "tools": [
       "timelines"
     ]
+  },
+  {
+    "_id": "588a8b469f14782a98515c79",
+    "dataType": "patient",
+    "name": "patient",
+    "schema": "pt_events",
+    "class": "patient",
+    "tools": [
+      "spreadsheet"
+    ]
+  },
+  {
+    "_id": "588a8ca49f14782a98515c7a",
+    "dataType": "drug",
+    "name": "drug",
+    "schema": "pt_events",
+    "class": "drug",
+    "tools": [
+      "spreadsheet"
+    ]
+  },
+  {
+    "_id": "588a8cb69f14782a98515c7b",
+    "dataType": "radiation",
+    "name": "radiation",
+    "schema": "pt_events",
+    "class": "radiation",
+    "tools": [
+      "spreadsheet"
+    ]
+  },
+  {
+    "_id": "588a8cca9f14782a98515c7c",
+    "dataType": "follow up",
+    "name": "followup",
+    "schema": "pt_events",
+    "class": "follow up",
+    "tools": [
+      "spreadsheet"
+    ]
+  },
+  {
+    "_id": "588a8cdb9f14782a98515c7d",
+    "dataType": "new tumor",
+    "name": "new tumor",
+    "schema": "pt_events",
+    "class": "new tumor",
+    "tools": [
+      "spreadsheet"
+    ]
+  },
+  {
+    "_id": "588a8cf59f14782a98515c7e",
+    "dataType": "new tumor follow up",
+    "name": "new tumor follow up",
+    "schema": "pt_events",
+    "class": "new tumor follow up",
+    "tools": [
+      "spreadsheet"
+    ]
+  },
+  {
+    "_id": "588a8d0a9f14782a98515c7f",
+    "dataType": "other malignancy",
+    "name": "other malignancy",
+    "schema": "pt_events",
+    "class": "other malignancy",
+    "tools": [
+      "spreadsheet"
+    ]
+  },
+  {
+    "_id": "588aa6439f14782a98515c82",
+    "dataType": "diagnosis",
+    "name": "diagnosis",
+    "schema": "pt_events",
+    "class": "diagnosis",
+    "tools": [
+      "spreadsheet"
+    ]
+  },
+  {
+    "_id": "588aabba9f14782a98515c83",
+    "dataType": "follow up v1.5",
+    "name": "followup",
+    "schema": "pt_events",
+    "class": "follow up",
+    "tools": [
+      "spreadsheet"
+    ]
+  },
+  {
+    "_id": "588aabd69f14782a98515c84",
+    "dataType": "follow up v2.1",
+    "name": "followup",
+    "schema": "pt_events",
+    "class": "follow up",
+    "tools": [
+      "spreadsheet"
+    ]
+  },
+  {
+    "_id": "588aabe19f14782a98515c85",
+    "dataType": "follow up v4.0",
+    "name": "followup",
+    "schema": "pt_events",
+    "class": "follow up",
+    "tools": [
+      "spreadsheet"
+    ]
+  },
+  {
+    "_id": "588aac029f14782a98515c86",
+    "dataType": "new tumor follow up v4.0",
+    "name": "new tumor followup",
+    "schema": "pt_events",
+    "class": "new tumor follow up",
+    "tools": [
+      "spreadsheet"
+    ]
+  },
+  {
+    "_id": "588aac239f14782a98515c87",
+    "dataType": "other malignancy v4.0",
+    "name": "other malignancy",
+    "schema": "pt_events",
+    "class": "other malignancy",
+    "tools": [
+      "spreadsheet"
+    ]
+  },
+  {
+    "_id": "588ad44e9f14782a98515c88",
+    "dataType": "follow up v1.0",
+    "name": "followup",
+    "schema": "pt_events",
+    "class": "follow up",
+    "tools": [
+      "spreadsheet"
+    ]
+  },
+  {
+    "_id": "588ad45a9f14782a98515c89",
+    "dataType": "follow up v4.8",
+    "name": "followup",
+    "schema": "pt_events",
+    "class": "follow up",
+    "tools": [
+      "spreadsheet"
+    ]
+  },
+  {
+    "_id": "588ad47b9f14782a98515c8a",
+    "dataType": "new tumor follow up v4.8",
+    "name": "new tumor followup",
+    "schema": "pt_events",
+    "class": "new tumor follow up",
+    "tools": [
+      "spreadsheet"
+    ]
+  },
+  {
+    "_id": "588ad49b9f14782a98515c8b",
+    "dataType": "new tumor follow up v1.0",
+    "name": "new tumor followup",
+    "schema": "pt_events",
+    "class": "new tumor follow up",
+    "tools": [
+      "spreadsheet"
+    ]
+  },
+  {
+    "_id": "588ad5439f14782a98515c8c",
+    "dataType": "follow up v4.4",
+    "name": "followup",
+    "schema": "pt_events",
+    "class": "follow up",
+    "tools": [
+      "spreadsheet"
+    ]
+  },
+  {
+    "_id": "588ad5519f14782a98515c8d",
+    "dataType": "follow up v2.0",
+    "name": "followup",
+    "schema": "pt_events",
+    "class": "follow up",
+    "tools": [
+      "spreadsheet"
+    ]
+  },
+  {
+    "_id": "588ad55b9f14782a98515c8e",
+    "dataType": "follow up v1.7",
+    "name": "followup",
+    "schema": "pt_events",
+    "class": "follow up",
+    "tools": [
+      "spreadsheet"
+    ]
+  },
+  {
+    "_id": "588ad5749f14782a98515c8f",
+    "dataType": "new tumor follow up v4.4",
+    "name": "new tumor followup",
+    "schema": "pt_events",
+    "class": "new tumor follow up",
+    "tools": [
+      "spreadsheet"
+    ]
+  },
+  {
+    "_id": "588beca49f14782a98515c90",
+    "dataType": "color",
+    "name": "color",
+    "schema": "",
+    "class": "color",
+    "tools": [
+      "pca",
+      "markers"
+    ]
+  },
+  {
+    "_id": "588ff3d39f14782a98515c91",
+    "dataType": "somatic mutation (savi2)",
+    "name": "somatic mutation (SAVI2)",
+    "schema": "hugo_sample",
+    "class": "mut",
+    "tools": {}
   }
 ]

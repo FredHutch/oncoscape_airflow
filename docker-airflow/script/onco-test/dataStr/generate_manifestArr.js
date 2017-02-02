@@ -19,7 +19,7 @@ var lookup, lookup_arr;
 var render_patient;
 var render_pca;
 var lookup_dataTypes;
-
+var allCollectionNames = [];
 var onerror = function(e){
     console.log(e);
 };
@@ -37,10 +37,14 @@ Array.prototype.findTypeByCollection = function(v){
 
 co(function *() {
 
-  db = yield comongo.client.connect('mongodb://oncoscapeRead:i1f4d9botHD4xnZ'+
-    '@oncoscape-dev-db1.sttrcancer.io:27017,oncoscape-dev-db2.sttrcancer.io:27017,'+
-    'oncoscape-dev-db3.sttrcancer.io:27017/tcga?authSource=admin&replicaSet=rs0');
-
+  db = yield comongo.client.connect('mongodb://oncoscapeRead:CTp6DtfRNWfFLUP'+
+    '@oncoscape-prod-db1.sttrcancer.io:27017,oncoscape-prod-db2.sttrcancer.io:27017,'+
+    'oncoscape-prod-db3.sttrcancer.io:27017/tcga?authSource=admin&replicaSet=rs0');
+  collections = yield comongo.db.collections(db);
+  allCollectionNames = collections.map(function(m){return m.s.name;});
+  console.log(allCollectionNames.length);
+  jsonfile.writeFile("/usr/local/airflow/docker-airflow/onco-test/allCollectionNames.json", allCollectionNames, function(err){console.error(err);});
+  
   collection = yield comongo.db.collection(db, "manifest");
   manifest_arr = yield collection.find({}).toArray();
   jsonfile.writeFile("/usr/local/airflow/docker-airflow/onco-test/manifest_all.json", manifest_arr, {spaces: 2}, function(err){console.error(err);});

@@ -859,13 +859,5 @@
       "pca",
       "markers"
     ]
-  },
-  {
-    "_id": "588ff3d39f14782a98515c91",
-    "dataType": "somatic mutation (savi2)",
-    "name": "somatic mutation (SAVI2)",
-    "schema": "hugo_sample",
-    "class": "mut",
-    "tools": {}
   }
 ]

@@ -19,145 +19,119 @@ const schemas = require("/usr/local/airflow/docker-airflow/onco-test/schemas.jso
 const Ajv = require('ajv');
 var ajv = new Ajv({allErrors: true});
 const asyncLoop = require('node-async-loop');
-var collections = require("/usr/local/airflow/docker-airflow/onco-test/manifest_arr.json");
+var collections = require("/usr/local/airflow/docker-airflow/onco-test/manifest_all.json");
+var allCollectionNames = require("/usr/local/airflow/docker-airflow/onco-test/allCollectionNames.json");
 var table_name;
 var msg_type = {};
 var ajvMsg = [];
-var ajvMsg_v2 = [];
-var passed_elem;
+var passed_elem
 var error_elem = [];
 var elem = {};
 var col_count = 0;
-var xena_dataTypes = dataTypeMapping.map(function(m){return m.dataType;});
-var xena_dataTypes_included = dataTypeMapping.filter(function(m){return m.class== 'cnv' || m.class== 'mut01' || m.class == 'cnv_thd' || m.class == 'expr'}).map(function(m){return m.dataType;});
-var xena_dataTypes_excluded = u.difference(xena_dataTypes, xena_dataTypes_included);
-var dataType = u.difference(collections.map(function(m){return m.dataType;}).unique(), xena_dataTypes_excluded);
-var manifest_xena_dataTypes = collections.filter(function(m){return m.source == 'ucsc xena'}).map(function(m){return m.dataType;}).unique();
-var dataTypes_inManifestXena_notInXena = u.difference(manifest_xena_dataTypes, xena_dataTypes);
-var dataType = u.difference(dataType, dataTypes_inManifestXena_notInXena);
-var dataType_length = dataType.length;
 var connection = mongoose.connection;
 
 mongoose.connect(
-    'mongodb://oncoscape-dev-db1.sttrcancer.io:27017,oncoscape-dev-db2.sttrcancer.io:27017,oncoscape-dev-db3.sttrcancer.io:27017/tcga?authSource=admin', {
+    'mongodb://oncoscape-prod-db1.sttrcancer.io:27017,oncoscape-prod-db2.sttrcancer.io:27017,oncoscape-prod-db3.sttrcancer.io:27017/tcga?authSource=admin', {
         db: {
             native_parser: true
         },
-        server: {
-            poolSize: 5,
-            reconnectTries: Number.MAX_VALUE
-        },
-        replset: {
-            rs_name: 'rs0'
-        },
+        server: { poolSize: 5, reconnectTries: Number.MAX_VALUE,socketOptions: { keepAlive: 3000000, connectTimeoutMS: 300000, socketTimeoutMS: 300000}},
+        replset: { rs_name: 'rs0', socketOptions: { keepAlive: 3000000, connectTimeoutMS: 300000, socketTimeoutMS: 300000}},
         user: 'oncoscapeRead',
-        pass: 'i1f4d9botHD4xnZ'
+        pass: 'CTp6DtfRNWfFLUP'
     });
 
 
 connection.once('open', function(){
     var db = connection.db; 
-    asyncLoop(dataType, function(t, next){  
-      //t = 'events';
-      console.log("Within datatype: ", t);
-      var categoried_collections = collections.findCollectionsByType(t); 
-      var categoried_collection_length = categoried_collections.length; 
-      var category_index = 0;
-
-      var processNextTable = function(){
-        var tableName = categoried_collections[category_index];
-        console.log(tableName);
-        console.log("test" , col_count++);
-        var collection = db.collection(tableName);
-        var cursor = collection.find();
-        count = 0;
-        msg_type = {};
-        passed_elem = 0;
-        error_elem = [];
-        elem = {};
-        var schema;
-        if(t in schemas){
-          schema = schemas[t];
-        }else{
-          var tt = dataTypeMapping.filter(function(m){return m.dataType == t})[0].schema;
-          console.log(tt);
-          schema = schemas[tt];
-          if(typeof(schemas[tt]) == 'undefined'){
-            next();
+    asyncLoop(allCollectionNames, function(c, next){ 
+        console.log(c);
+        var processNextTable = function(){
+          var t = collections.filter(function(m){
+            return m.collection == c;
+          }).map(function(m){
+            return m.dataType;
+          });
+          var dataType;
+          console.log("test" , col_count++);
+          var collection = db.collection(c);
+          var cursor = collection.find();
+          count = 0;
+          msg_type = {};
+          passed_elem = 0;
+          error_elem = [];
+          elem = {};
+          var schema;
+          if(t.length == 1 && t[0] in schemas){
+            schema = schemas[t[0]];
+            dataType = t[0];
+          }else if(t.length == 1 && !(t[0] in schemas)){
+            var tt = dataTypeMapping.filter(function(m){return m.dataType == t[0]})[0].schema;
+            console.log(tt);
+            if(typeof(schemas[tt]) != 'undefined'){
+              schema = schemas[tt];
+              dataType = tt;
+            }
           }
-        }
-        cursor.each(function(err, item){
-              if(item != null){
+          cursor.each(function(err, item){
                 count++;
-                if("dataType" in item){
-                  schema = schemas[item.dataType];
+                if(count%100 == 0){
+                  console.log(count);
                 }
-                var valid = ajv.validate(schema, item);
-                if(!valid){
-                  var e = {};
-                  console.log("&&&NEW ERRORS&&&");
-                  console.log(ajv.errors[0]['schemaPath']);
-                  console.log("***PRINT DOCUMENT***");
-                  console.log(item['_id']);
-                  console.log("**END OF ERROR MSG**");
-                  e.errorType = ajv.errors; 
-                  error_elem.push(e);
-                }
-                else{
-                  passed_elem++;
-                }
-                msg_type.collection = tableName;
-                msg_type.type = t;
-                msg_type.disease = tableName.split('_')[0];
-                msg_type.passedCounts = passed_elem;
-                msg_type.totalCounts = count;
-                msg_type.errors = error_elem;
-                ajvMsg[col_count-1] = msg_type;
-              }else{// No more items to process So move to the next table
-                category_index += 1;
-                if (category_index<categoried_collection_length){
-                  processNextTable();
+                if(item != null){
+                  //console.log(item['_id']);
+                  if("dataType" in item){
+                    schema = schemas[item.dataType];
+                    dataType = item.dataType;
+                  }else if(typeof(schema) != "undefined"){
+                      var valid = ajv.validate(schema, item);
+                      if(!valid){
+                        var e = {};
+                        console.log("&&&NEW ERRORS&&&");
+                        console.log(ajv.errors);
+                        //console.log(ajv);
+                        console.log("***PRINT DOCUMENT***");
+                        console.log(item['_id']);
+                        //console.dir(item);
+                        console.log("**END OF ERROR MSG**");
+                        e.errorType = ajv.errors; 
+                        error_elem.push(e);
+                      }
+                      else{
+                        passed_elem++;
+                      }
+                      msg_type.collection = c;
+                      msg_type.type = dataType;
+                      msg_type.disease = c.split('_')[0];
+                      msg_type.passedCounts = passed_elem;
+                      msg_type.totalCounts = count;
+                      msg_type.errors = error_elem;
+                      ajvMsg[col_count-1] = msg_type;
+                  }else{
+                      msg_type.collection = c;
+                      msg_type.type = dataType;
+                      msg_type.disease = c.split('_')[0];
+                      msg_type.notTested = true;
+                      ajvMsg[col_count-1] = msg_type;
+                  }
                 }else{
                   next();
                 }
-              }
-            });
-      };
-      // Call processNextTable recursively
-      if(categoried_collection_length != 0){
-        processNextTable();
-      }else{
-        next();
-      }
-    }, function (err)
-    {
-        if (err)
-        {
-            console.error('Error: ' + err.message);
-            return;
-        }
-        ajvMsg_v2 = ajvMsg.map(function(a){
-            var elem = {};
-            if(a!=null){
-                elem.collection = a.collection;
-                elem.type = a.type;
-                elem.disease = a.disease;
-                elem.passedCounts = a.passedCounts;
-                elem.totalCounts = a.totalCounts;
-                elem.passedRate = a.passedCounts/a.totalCounts;
-                elem.errorMessage = helper.nestedUniqueCount(a);
-            }
-            
-            //elem.errorMessage = a.errors.tableV2(a.nestedUnique());
-            return elem;
-        });
-        //jsonfile.writeFile('ajv_test2.json', ajvMsg_v2, {spaces:4});
-        ajvMsg_v2 = ajvMsg_v2.filter(function(m){return m != null;});
+              });
+        };
+        processNextTable(); 
+      }, function (err)
+      {
+          if (err)
+          {
+              console.error('Error: ' + err.message);
+              return;
+          }
+          ajvMsg = ajvMsg.filter(function(m){return m != null;});
         console.log("Number of the empty collections listed in manifest is: ", ajvMsg_v2.filter(function(m){return m==null}).length);
         jsonfile.writeFile("/usr/local/airflow/docker-airflow/onco-test/dataStr/ajv_test2.json", ajvMsg_v2, {spaces:4}, function(err){ console.error(err);});
         connection.close();
     });
-
-});//6379529ms
+});
 
 

@@ -95,14 +95,102 @@
               "diagnosis_year": {"type": "number"},
               "prospective_collection" : {"type": ["boolean", "null"]},
               "retrospective_collection" : {"type": ["boolean", "null"]},
-              "gender" : {"type": "string"},
+              "gender" : {"type": "string",
+                          "enum":["MALE", "FEMALE"]},
               "days_to_birth" : {"type": ["number", "null"]},
               "race" : {"type": ["string", "null"]},
               "ethnicity" : {"type": ["string", "null"]},
+              "age_at_diagnosis": {"type": ["number", "null"]},
+              "history_other_malignancy" : {"type": ["boolean", "null"]},
+              "history_neoadjuvant_treatment" :  {"type": ["boolean", "null"]},
+              "status_vital" : {"type": ["string", "null"],
+                                "enum":["ALIVE", "DEAD", "null"]},
+              "days_to_last_contact" :{"type": ["number", "null"]},
+              "days_to_death" : {"type": ["number", "null"]},
+              "status_tumor" : {"type": ["string", "null"]},
+              "KPS" : {"type": ["number", "null"]},
+              "ECOG" : {"type": ["number", "null"]},
+              "encounter_type" : {"type": ["string", "null"]},
+              "radiation_treatment_adjuvant" : {"type": ["boolean", "null"]},
+              "treatment_outcome_first_course" : {"type": ["string", "null"]},
+              "new_tumor_event_diagnosis" : {"type": ["boolean", "null"]},
+              "age_at_initial_pathologic_diagnosis" : {"type": "number"},
+              "days_to_diagnosis" : {"type": "number"},
+              "disease_code" : {"type": ["string", "null"]},
+              "icd_10" : {"type": ["string", "null"]},
+              "icd_3_histology" : {"type": ["string", "null"]},
+              "icd_3" : {"type": ["string", "null"]},
+              "tissue_source_site_code" : {"type": ["string", "null"]},
+              "tumor_tissue_site" : {"type": ["string", "null"]},
+              "history_lgg_dx_of_brain_tissue" :  {"type": ["boolean", "null"]},
+              "pathologic_method" : {"type": ["string", "null"]},
+              "pathologic_method.1" : {"type": ["string", "null"]},
+              "pharmaceutical_tx_adjuvant" : {"type": ["boolean", "null"]},
+              "anatomic_organ_subdivision" : {"type": ["string", "null"]},
+              "histologic_diagnosis" : {"type": ["string", "null"]},
+              "histologic_diagnosis.1" : {"type": ["string", "null"]},
+              "grade" : {"type": ["string", "null"]},
+              "laterality" : {"type": ["string", "null"]},
+              "tumor_site" : {"type": ["string", "null"]},
+              "supratentorial_localization" : {"type": ["string", "null"]},
+              "history_ionizing_rt_to_head" : {"type": ["boolean", "null"]},
+              "history_seizures" : {"type": ["boolean", "null"]},
+              "history_headaches" : {"type": ["boolean", "null"]},
+              "symp_changes_mental_status" : {"type":["boolean", "null"]},
+              "symp_changes_visual" : {"type": ["boolean", "null"]},
+              "symp_changes_sensory" : {"type": ["boolean", "null"]},
+              "symp_changes_motor_movement" : {"type": ["boolean", "null"]},
+              "related_symptom_first_present" : {"type": ["string", "null"]},
+              "first_symptom_longest_duration" : {"type": ["string", "null"]},
+              "history_asthma" : {"type": ["boolean", "null"]},
+              "history_eczema" : {"type": ["boolean", "null"]},
+              "history_hay_fever" : {"type": ["boolean", "null"]},
+              "history_dust_mold_allergy" : {"type": ["boolean", "null"]},
+              "asthma_eczema_allergy_first_diagnosis" : {"type": ["string", "null"]},
+              "allergy_food_dx" : {"type": ["boolean", "null"]},
+              "allergy_food_type" : {"type": ["string", "null"]},
+              "age_allergy_food" : {"type": ["number", "null"]},
+              "allergy_animals_insects" : {"type": ["boolean", "null"]},
+              "allergy_animals_insects_type" : {"type": ["string", "null"]},
+              "age_allergy_animals_insects" : {"type": ["number", "null"]},
+              "history_neoadjuvant_steroid_tx" : {"type": ["boolean", "null"]},
+              "history_neoadjuvant_medication" : {"type": ["boolean", "null"]},
+              "family_history_cancer" : {"type": ["boolean", "null"]},
+              "family_history_brain_tumor" : {"type": ["boolean", "null"]},
+              "idh1_mutation_test_indicator" : {"type": ["boolean", "null"]},
+              "idh1_method" : {"type": ["string", "null"]},
+              "idh1_mutation_found" : {"type": ["boolean", "null"]},
+              "inherited_genetic_syndrome_indicator" : {"type": ["boolean", "null"]},
+              "inherited_genetic_syndrome_specified" : {"type": ["string", "null"]},
+              "days_to_performance" : {"type": ["number", "null"]},
+              "targeted_molecular_therapy" : {"type": ["boolean", "null"]},
+              "study": {"type": "string"},
+              "last_known_disease_status":{"type":["string", "null"],
+                                           "enum":["TUMOR FREE", "WITH TUMOR", "null"]},
+              "days_to_last_follow_up":{"type":["number", "null"]}
+              },
+          "required": ["_id", "patient_ID", "days_to_diagnosis"],
+          "additionalProperties": true  
+          },
+    "diagnosis":{
+        "properties":{
+              "patient_ID": {
+                            "type": "string",
+                            "pattern": "TCGA-[A-Z0-9]{2}-[A-Z0-9]{4}"},
+              "diagnosis_year": {"type": "number"},
+              "prospective_collection" : {"type": ["boolean", "null"]},
+              "retrospective_collection" : {"type": ["boolean", "null"]},
+              "gender" : {"type": "string",
+                          "enum":["MALE", "FEMALE"]},
+              "days_to_birth" : {"type": ["number", "null"]},
+              "race" : {"type": ["string", "null"]},
+              "ethnicity" : {"type": ["string", "null"]},
+              "age_at_diagnosis": {"type": ["number", "null"]},
               "history_other_malignancy" : {"type": ["boolean", "null"]},
               "history_neoadjuvant_treatment" :  {"type": ["boolean", "null"]},
               "diagnosis_year" : {"type": "number"},
-              "status_vital" : {"type": ["string", "null"]},
+              "status_vital" : {"type": ["string", "null"],
+                                "enum":["ALIVE", "DEAD", "null"]},
               "days_to_last_contact" :{"type": ["number", "null"]},
               "days_to_death" : {"type": ["number", "null"]},
               "status_tumor" : {"type": ["string", "null"]},
@@ -164,7 +252,7 @@
               "targeted_molecular_therapy" : {"type": ["boolean", "null"]},
               "study": {"type": "string"}
               },
-          "required": ["_id", "patient_ID", "diagnosis_year"],
+          "required": ["_id", "patient_ID"],
           "additionalProperties": true  
           },
     "drug":{
@@ -219,6 +307,27 @@
             "required": ["_id", "patient_ID"],
             "additionalProperties": true  
             },
+    "new tumor":{
+          "properties":{
+                "patient_ID" : {
+                                "type": "string",
+                                "pattern": "TCGA-[A-Z0-9]{2}-[A-Z0-9]{4}"
+                              },
+                "days_to_progression" : {"type": ["number", "null"]},
+                "radiation_therapy" : {"type": ["boolean", "null"]},
+                "drug" : {"type": ["boolean", "null"]},
+                "days_to_surgery" : {"type": ["number", "null"]},
+                "new_tumor" : {"type": ["string", "null"]},
+                "surgery_procedure" : {"type": ["boolean", "null"]},
+                "surgery_procedure.1" : {"type": ["boolean", "null"]},
+                "days_to_surgery_locoregional" : {"type": ["number", "null"]},
+                "new_tumor_event_surgery_met" : {"type": ["boolean", "null"]},
+                "days_to_surgery_metastatic" : {"type": ["number", "null"]},
+                "drug.1" : {"type": ["boolean", "null"]}
+                },
+            "required": ["_id", "patient_ID"],
+            "additionalProperties": true  
+            },        
     "otherMalignancy-v4p0":{
           "properties":{
                 "patient_ID" : {
@@ -448,7 +557,97 @@
                 },
             "required": ["_id", "patient_ID"],
             "additionalProperties": true  
+            },
+    "new tumor follow up":{
+          "properties":{
+                 "patient_ID" : {
+                                "type": "string",
+                                "pattern": "TCGA-[A-Z0-9]{2}-[A-Z0-9]{4}"
+                              },
+                "days_to_progression" : {"type": ["number", "null"]},
+                "surgery_procedure" : {"type": ["boolean", "null"]},
+                "radiation_therapy" : {"type": ["boolean", "null"]},
+                "drug" : {"type": ["boolean", "null"]},
+                "days_to_surgery" : {"type": ["number", "null"]},
+                "new_tumor" : {"type": ["string", "null"]},
+                "surgery_procedure.1" : {"type": ["boolean", "null"]},
+                "residual_tumor" : {"type": ["string", "null"]}
+                },
+            "required": ["_id", "patient_ID"],
+            "additionalProperties": true  
             }, 
+    "new tumor follow up v1.0":{
+          "properties":{
+                 "patient_ID" : {
+                                "type": "string",
+                                "pattern": "TCGA-[A-Z0-9]{2}-[A-Z0-9]{4}"
+                              },
+                "days_to_progression" : {"type": ["number", "null"]},
+                "surgery_procedure" : {"type": ["boolean", "null"]},
+                "radiation_therapy" : {"type": ["boolean", "null"]},
+                "drug" : {"type": ["boolean", "null"]},
+                "days_to_surgery" : {"type": ["number", "null"]},
+                "new_tumor" : {"type": ["string", "null"]},
+                "surgery_procedure.1" : {"type": ["boolean", "null"]},
+                "residual_tumor" : {"type": ["string", "null"]}
+                },
+            "required": ["_id", "patient_ID"],
+            "additionalProperties": true  
+            },
+    "new tumor follow up v4.0":{
+          "properties":{
+                 "patient_ID" : {
+                                "type": "string",
+                                "pattern": "TCGA-[A-Z0-9]{2}-[A-Z0-9]{4}"
+                              },
+                "days_to_progression" : {"type": ["number", "null"]},
+                "surgery_procedure" : {"type": ["boolean", "null"]},
+                "radiation_therapy" : {"type": ["boolean", "null"]},
+                "drug" : {"type": ["boolean", "null"]},
+                "days_to_surgery" : {"type": ["number", "null"]},
+                "new_tumor" : {"type": ["string", "null"]},
+                "surgery_procedure.1" : {"type": ["boolean", "null"]},
+                "residual_tumor" : {"type": ["string", "null"]}
+                },
+            "required": ["_id", "patient_ID"],
+            "additionalProperties": true  
+            }, 
+    "new tumor follow up v4.4":{
+          "properties":{
+                 "patient_ID" : {
+                                "type": "string",
+                                "pattern": "TCGA-[A-Z0-9]{2}-[A-Z0-9]{4}"
+                              },
+                "days_to_progression" : {"type": ["number", "null"]},
+                "surgery_procedure" : {"type": ["boolean", "null"]},
+                "radiation_therapy" : {"type": ["boolean", "null"]},
+                "drug" : {"type": ["boolean", "null"]},
+                "days_to_surgery" : {"type": ["number", "null"]},
+                "new_tumor" : {"type": ["string", "null"]},
+                "surgery_procedure.1" : {"type": ["boolean", "null"]},
+                "residual_tumor" : {"type": ["string", "null"]}
+                },
+            "required": ["_id", "patient_ID"],
+            "additionalProperties": true  
+            },
+    "new tumor follow up v4.8":{
+          "properties":{
+                 "patient_ID" : {
+                                "type": "string",
+                                "pattern": "TCGA-[A-Z0-9]{2}-[A-Z0-9]{4}"
+                              },
+                "days_to_progression" : {"type": ["number", "null"]},
+                "surgery_procedure" : {"type": ["boolean", "null"]},
+                "radiation_therapy" : {"type": ["boolean", "null"]},
+                "drug" : {"type": ["boolean", "null"]},
+                "days_to_surgery" : {"type": ["number", "null"]},
+                "new_tumor" : {"type": ["string", "null"]},
+                "surgery_procedure.1" : {"type": ["boolean", "null"]},
+                "residual_tumor" : {"type": ["string", "null"]}
+                },
+            "required": ["_id", "patient_ID"],
+            "additionalProperties": true  
+            },                                           
     "othermalignancy":{
           "properties":{
                 "patient_ID" : {
@@ -476,6 +675,60 @@
             "required": ["_id", "patient_ID"],
             "additionalProperties": true  
             },
+    "other malignancy":{
+          "properties":{
+                "patient_ID" : {
+                                "type": "string",
+                                "pattern": "TCGA-[A-Z0-9]{2}-[A-Z0-9]{4}"
+                              },
+                "malignancy_type" : {"type": ["string", "null"]},
+                "days_to_diagnosis" : {"type": ["number", "null"]},
+                "surgery_procedure" : {"type": ["boolean", "null"]},
+                "days_to_surgery" : {"type": ["number", "null"]},
+                "pharmaceutical_therapy" : {"type": ["boolean", "null"]},
+                "drug_therapy_name" : {"type": ["string", "null"]},
+                "days_to_drug_start" : {"type": ["number", "null"]},
+                "radiation_therapy" : {"type": ["boolean", "null"]},
+                "history_rt_tx_to_site_of_tumor" : {"type": ["boolean", "null"]},
+                "days_to_radiation_start" : {"type": ["number", "null"]},
+                "ajcc_staging_edition" : {"type": ["string", "null"]},
+                "pathologic_stage_T" : {"type": ["string", "null"]},
+                "pathologic_stage_N" : {"type": ["string", "null"]},
+                "pathologic_stage_M" : {"type": ["string", "null"]},
+                "pathologic_stage_S" : {"type": ["string", "null"]},
+                "clinical_stage_S" : {"type": ["string", "null"]},
+                "laterality" : {"type": ["string", "null"]}
+                },
+            "required": ["_id", "patient_ID"],
+            "additionalProperties": true  
+            },
+    "other malignancy v4.0":{
+          "properties":{
+                "patient_ID" : {
+                                "type": "string",
+                                "pattern": "TCGA-[A-Z0-9]{2}-[A-Z0-9]{4}"
+                              },
+                "malignancy_type" : {"type": ["string", "null"]},
+                "days_to_diagnosis" : {"type": ["number", "null"]},
+                "surgery_procedure" : {"type": ["boolean", "null"]},
+                "days_to_surgery" : {"type": ["number", "null"]},
+                "pharmaceutical_therapy" : {"type": ["boolean", "null"]},
+                "drug_therapy_name" : {"type": ["string", "null"]},
+                "days_to_drug_start" : {"type": ["number", "null"]},
+                "radiation_therapy" : {"type": ["boolean", "null"]},
+                "history_rt_tx_to_site_of_tumor" : {"type": ["boolean", "null"]},
+                "days_to_radiation_start" : {"type": ["number", "null"]},
+                "ajcc_staging_edition" : {"type": ["string", "null"]},
+                "pathologic_stage_T" : {"type": ["string", "null"]},
+                "pathologic_stage_N" : {"type": ["string", "null"]},
+                "pathologic_stage_M" : {"type": ["string", "null"]},
+                "pathologic_stage_S" : {"type": ["string", "null"]},
+                "clinical_stage_S" : {"type": ["string", "null"]},
+                "laterality" : {"type": ["string", "null"]}
+                },
+            "required": ["_id", "patient_ID"],
+            "additionalProperties": true  
+            },              
     "followup":{
           "properties":{
                  "patient_ID" : {
@@ -497,6 +750,195 @@
             "required": ["_id", "patient_ID"],
             "additionalProperties": true  
             },
+    "follow up":{
+          "properties":{
+                 "patient_ID" : {
+                                "type": "string",
+                                "pattern": "TCGA-[A-Z0-9]{2}-[A-Z0-9]{4}"
+                              },
+                "followup_reason" : {"type": ["string", "null"]},
+                "followup_lost_to" : {"type": ["boolean", "null"]},
+                "radiation_treatment_adjuvant" : {"type": ["boolean", "null"]},
+                "pharmaceutical_tx_adjuvant" : {"type": ["boolean", "null"]},
+                "treatment_outcome_first_course" : {"type": ["string", "null"]},
+                "status_vital" : {"type": ["string", "null"]},
+                "days_to_last_contact" : {"type": ["number", "null"]},
+                "days_to_death" : {"type": ["number", "null"]},
+                "status_tumor" : {"type": ["string", "null"]},
+                "new_tumor_event_diagnosis" : {"type": ["boolean", "null"]},
+                "treatment_outcome_at_tcga_followup" : {"type": ["string", "null"]}
+                },
+            "required": ["_id", "patient_ID"],
+            "additionalProperties": true  
+            },
+    "follow up v1.0":{
+          "properties":{
+                 "patient_ID" : {
+                                "type": "string",
+                                "pattern": "TCGA-[A-Z0-9]{2}-[A-Z0-9]{4}"
+                              },
+                "followup_reason" : {"type": ["string", "null"]},
+                "followup_lost_to" : {"type": ["boolean", "null"]},
+                "radiation_treatment_adjuvant" : {"type": ["boolean", "null"]},
+                "pharmaceutical_tx_adjuvant" : {"type": ["boolean", "null"]},
+                "treatment_outcome_first_course" : {"type": ["string", "null"]},
+                "status_vital" : {"type": ["string", "null"]},
+                "days_to_last_contact" : {"type": ["number", "null"]},
+                "days_to_death" : {"type": ["number", "null"]},
+                "status_tumor" : {"type": ["string", "null"]},
+                "new_tumor_event_diagnosis" : {"type": ["boolean", "null"]},
+                "treatment_outcome_at_tcga_followup" : {"type": ["string", "null"]}
+                },
+            "required": ["_id", "patient_ID"],
+            "additionalProperties": true  
+            },  
+    "follow up v1.5":{
+          "properties":{
+                 "patient_ID" : {
+                                "type": "string",
+                                "pattern": "TCGA-[A-Z0-9]{2}-[A-Z0-9]{4}"
+                              },
+                "followup_reason" : {"type": ["string", "null"]},
+                "followup_lost_to" : {"type": ["boolean", "null"]},
+                "radiation_treatment_adjuvant" : {"type": ["boolean", "null"]},
+                "pharmaceutical_tx_adjuvant" : {"type": ["boolean", "null"]},
+                "treatment_outcome_first_course" : {"type": ["string", "null"]},
+                "status_vital" : {"type": ["string", "null"]},
+                "days_to_last_contact" : {"type": ["number", "null"]},
+                "days_to_death" : {"type": ["number", "null"]},
+                "status_tumor" : {"type": ["string", "null"]},
+                "new_tumor_event_diagnosis" : {"type": ["boolean", "null"]},
+                "treatment_outcome_at_tcga_followup" : {"type": ["string", "null"]}
+                },
+            "required": ["_id", "patient_ID"],
+            "additionalProperties": true  
+            },   
+    "follow up v1.7":{
+          "properties":{
+                 "patient_ID" : {
+                                "type": "string",
+                                "pattern": "TCGA-[A-Z0-9]{2}-[A-Z0-9]{4}"
+                              },
+                "followup_reason" : {"type": ["string", "null"]},
+                "followup_lost_to" : {"type": ["boolean", "null"]},
+                "radiation_treatment_adjuvant" : {"type": ["boolean", "null"]},
+                "pharmaceutical_tx_adjuvant" : {"type": ["boolean", "null"]},
+                "treatment_outcome_first_course" : {"type": ["string", "null"]},
+                "status_vital" : {"type": ["string", "null"]},
+                "days_to_last_contact" : {"type": ["number", "null"]},
+                "days_to_death" : {"type": ["number", "null"]},
+                "status_tumor" : {"type": ["string", "null"]},
+                "new_tumor_event_diagnosis" : {"type": ["boolean", "null"]},
+                "treatment_outcome_at_tcga_followup" : {"type": ["string", "null"]}
+                },
+            "required": ["_id", "patient_ID"],
+            "additionalProperties": true  
+            },   
+    "follow up v2.0":{
+          "properties":{
+                 "patient_ID" : {
+                                "type": "string",
+                                "pattern": "TCGA-[A-Z0-9]{2}-[A-Z0-9]{4}"
+                              },
+                "followup_reason" : {"type": ["string", "null"]},
+                "followup_lost_to" : {"type": ["boolean", "null"]},
+                "radiation_treatment_adjuvant" : {"type": ["boolean", "null"]},
+                "pharmaceutical_tx_adjuvant" : {"type": ["boolean", "null"]},
+                "treatment_outcome_first_course" : {"type": ["string", "null"]},
+                "status_vital" : {"type": ["string", "null"]},
+                "days_to_last_contact" : {"type": ["number", "null"]},
+                "days_to_death" : {"type": ["number", "null"]},
+                "status_tumor" : {"type": ["string", "null"]},
+                "new_tumor_event_diagnosis" : {"type": ["boolean", "null"]},
+                "treatment_outcome_at_tcga_followup" : {"type": ["string", "null"]}
+                },
+            "required": ["_id", "patient_ID"],
+            "additionalProperties": true  
+            }, 
+    "follow up v2.1":{
+          "properties":{
+                 "patient_ID" : {
+                                "type": "string",
+                                "pattern": "TCGA-[A-Z0-9]{2}-[A-Z0-9]{4}"
+                              },
+                "followup_reason" : {"type": ["string", "null"]},
+                "followup_lost_to" : {"type": ["boolean", "null"]},
+                "radiation_treatment_adjuvant" : {"type": ["boolean", "null"]},
+                "pharmaceutical_tx_adjuvant" : {"type": ["boolean", "null"]},
+                "treatment_outcome_first_course" : {"type": ["string", "null"]},
+                "status_vital" : {"type": ["string", "null"]},
+                "days_to_last_contact" : {"type": ["number", "null"]},
+                "days_to_death" : {"type": ["number", "null"]},
+                "status_tumor" : {"type": ["string", "null"]},
+                "new_tumor_event_diagnosis" : {"type": ["boolean", "null"]},
+                "treatment_outcome_at_tcga_followup" : {"type": ["string", "null"]}
+                },
+            "required": ["_id", "patient_ID"],
+            "additionalProperties": true  
+            },
+    "follow up v4.0":{
+          "properties":{
+                 "patient_ID" : {
+                                "type": "string",
+                                "pattern": "TCGA-[A-Z0-9]{2}-[A-Z0-9]{4}"
+                              },
+                "followup_reason" : {"type": ["string", "null"]},
+                "followup_lost_to" : {"type": ["boolean", "null"]},
+                "radiation_treatment_adjuvant" : {"type": ["boolean", "null"]},
+                "pharmaceutical_tx_adjuvant" : {"type": ["boolean", "null"]},
+                "treatment_outcome_first_course" : {"type": ["string", "null"]},
+                "status_vital" : {"type": ["string", "null"]},
+                "days_to_last_contact" : {"type": ["number", "null"]},
+                "days_to_death" : {"type": ["number", "null"]},
+                "status_tumor" : {"type": ["string", "null"]},
+                "new_tumor_event_diagnosis" : {"type": ["boolean", "null"]},
+                "treatment_outcome_at_tcga_followup" : {"type": ["string", "null"]}
+                },
+            "required": ["_id", "patient_ID"],
+            "additionalProperties": true  
+            },
+    "follow up v4.4":{
+          "properties":{
+                 "patient_ID" : {
+                                "type": "string",
+                                "pattern": "TCGA-[A-Z0-9]{2}-[A-Z0-9]{4}"
+                              },
+                "followup_reason" : {"type": ["string", "null"]},
+                "followup_lost_to" : {"type": ["boolean", "null"]},
+                "radiation_treatment_adjuvant" : {"type": ["boolean", "null"]},
+                "pharmaceutical_tx_adjuvant" : {"type": ["boolean", "null"]},
+                "treatment_outcome_first_course" : {"type": ["string", "null"]},
+                "status_vital" : {"type": ["string", "null"]},
+                "days_to_last_contact" : {"type": ["number", "null"]},
+                "days_to_death" : {"type": ["number", "null"]},
+                "status_tumor" : {"type": ["string", "null"]},
+                "new_tumor_event_diagnosis" : {"type": ["boolean", "null"]},
+                "treatment_outcome_at_tcga_followup" : {"type": ["string", "null"]}
+                },
+            "required": ["_id", "patient_ID"],
+            "additionalProperties": true  
+            },
+    "follow up v4.8":{
+          "properties":{
+                 "patient_ID" : {
+                                "type": "string",
+                                "pattern": "TCGA-[A-Z0-9]{2}-[A-Z0-9]{4}"
+                              },
+                "followup_reason" : {"type": ["string", "null"]},
+                "followup_lost_to" : {"type": ["boolean", "null"]},
+                "radiation_treatment_adjuvant" : {"type": ["boolean", "null"]},
+                "pharmaceutical_tx_adjuvant" : {"type": ["boolean", "null"]},
+                "treatment_outcome_first_course" : {"type": ["string", "null"]},
+                "status_vital" : {"type": ["string", "null"]},
+                "days_to_last_contact" : {"type": ["number", "null"]},
+                "days_to_death" : {"type": ["number", "null"]},
+                "status_tumor" : {"type": ["string", "null"]},
+                "new_tumor_event_diagnosis" : {"type": ["boolean", "null"]},
+                "treatment_outcome_at_tcga_followup" : {"type": ["string", "null"]}
+                },
+            "required": ["_id", "patient_ID"],
+            "additionalProperties": true  
+            },                                                                         
     "newtumor-followup":{
           "properties":{
                  "patient_ID" : {
@@ -824,35 +1266,93 @@
           },
     "edges": {
               "properties":{
-                "m": {
-                  "type": "string"
+                "disease" : {"type": "string"},
+                "source" : {"type": "string"},
+                "input" : {"oneOf":
+                            [
+                              {"type": "array",
+                               "maxitem": 2,
+                               "items":{"type":"string"}
+                             },{"type": "string"}
+                           ]
+                        },
+                "dataType" : {"enum": ["edges", "ptdegree", "genedegree"]},
+                "geneset" : {"type": "string"},
+                "default" : {"type": "boolean"},
+                "alteration": {"enum": ["mutation", "deletion", "loss", "gain", "amplification"]},
+                "d": {"type": "array",
+                      "items":{
+                                 "type": "object",
+                                 "properties":{
+                                       "p": {"type": "string",
+                                              "pattern": "TCGA-[A-Z0-9]{2}-[A-Z0-9]{4}-[0-9]{2}"
+                                              },
+                                       "g":{"type": "string"}
+                                   }
+                               }
+                           }
                 },
-                "g": {
-                  "type": "string",
-                  "pattern": "^[A-Z]+[A-Z0-9]+"
-                },
-                "p" : {
-                  "type": "string",
-                  "pattern": "TCGA-[A-Z0-9]{2}-[A-Z0-9]{4}-[0-9]{2}"
-                }
-              },
-              "required": ["_id", "m", "g", "p"],
-              "additionalProperties": true  
+              "required":["disease", "source", "input", "dataType",  "geneset", "default"],
+              "additionalProperties": true
              },
     "ptdegree":{
-                "type": "object",
-                "patternProperties": {
-                   "TCGA-[A-Z0-9]{2}-[A-Z0-9]{4}-[0-9]{2}": { "type": "number" }
-                },
-                "required": ["_id"],
+                "properties":{
+                  "disease" : {"type": "string"},
+                  "source" : {"type": "string"},
+                  "input" : {"oneOf":
+                            [
+                              {"type": "array",
+                               "maxitem": 2,
+                               "items":{"type":"string"}
+                             },{"type": "string"}
+                           ]
+                        },
+                  "dataType" : {"enum": ["edges", "ptdegree", "genedegree"]},
+                  "geneset" : {"type": "string"},
+                  "default" : {"type": "boolean"},
+                  "alteration": {"enum": ["mutation", "deletion", "loss", "gain", "amplification"]},
+                  "d": {"type": "array",
+                        "items":{
+                                "type": "object",
+                                "properties":{
+                                     "p": {"type": "string",
+                                              "pattern": "TCGA-[A-Z0-9]{2}-[A-Z0-9]{4}-[0-9]{2}"
+                                              },
+                                     "w":{"type": "number"}
+                                 }
+                                }  
+                        }
+                  },
+                "required":["disease", "source", "input", "dataType",  "geneset", "default"],
                 "additionalProperties": true
               },
     "genedegree":{
-                "type": "object",
-                "patternProperties": {
-                   "^[A-Z]+[A-Z0-9]+": { "type": "number" }
-                },
-                "required": ["_id"],
+                "properties":{
+                  "disease" : {"type": "string"},
+                  "source" : {"type": "string"},
+                  "input" : {"oneOf":
+                            [
+                              {"type": "array",
+                               "maxitem": 2,
+                               "items":{"type":"string"}
+                             },{"type": "string"}
+                           ]
+                        },
+                  "dataType" : {"enum": ["edges", "ptdegree", "genedegree"]},
+                  "geneset" : {"type": "string"},
+                  "default" : {"type": "boolean"},
+                  "alteration": {"enum": ["mutation", "deletion", "loss", "gain", "amplification"]},
+                  "d": {"type": "array",
+                        "items":{
+                                    "type": "object",
+                                    "properties":{
+                                         "g":{"type": "string"},
+                                         "w":{"type": "number"}
+                                     }
+                                 }
+                        }         
+                  },
+                "required":["disease", "source", "input", "dataType",  "geneset", "default"],
                 "additionalProperties": true
               },
     "hugo_sample":{
@@ -939,7 +1439,14 @@
         "properties":{
           "disease" : {"type": "string"},
           "source" : {"type": "string"},
-          "input" : {"type": "string"},
+          "input" : {"oneOf":
+                            [
+                              {"type": "array",
+                               "maxitem": 2,
+                               "items":{"type":"string"}
+                             },{"type": "string"}
+                           ]
+                        },
           "dataType" : {"type": "string",
                         "default": "PCA"},
           "geneset" : {"type": "string"},
@@ -986,10 +1493,14 @@
         "properties":{
           "disease" : {"type": "string"},
           "source" : {"type": "string"},
-          "input" : {"type": "array",
-                     "maxitem": 2,
-                     "items":{"type":"string"}
-                   },
+          "input" : {"oneOf":
+                            [
+                              {"type": "array",
+                               "maxitem": 2,
+                               "items":{"type":"string"}
+                             },{"type": "string"}
+                           ]
+                        },
           "dataType" : {"type": "string",
                         "default": "MDS"},
           "geneset" : {"type": "string"},

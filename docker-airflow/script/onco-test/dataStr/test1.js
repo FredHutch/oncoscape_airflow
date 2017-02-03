@@ -29,7 +29,8 @@ var error_elem = [];
 var elem = {};
 var col_count = 0;
 var connection = mongoose.connection;
-
+var multiTypes = ["MDS", "PCA", "edges", "genedegree", "ptdegree"];
+//allCollectionNames = allCollectionNames.splice(400, 10);
 mongoose.connect(
     'mongodb://oncoscape-prod-db1.sttrcancer.io:27017,oncoscape-prod-db2.sttrcancer.io:27017,oncoscape-prod-db3.sttrcancer.io:27017/tcga?authSource=admin', {
         db: {
@@ -51,7 +52,7 @@ connection.once('open', function(){
             return m.collection == c;
           }).map(function(m){
             return m.dataType;
-          });
+          }).unique();
           var dataType;
           console.log("test" , col_count++);
           var collection = db.collection(c);
@@ -73,16 +74,42 @@ connection.once('open', function(){
               dataType = tt;
             }
           }
+          var type = [];
           cursor.each(function(err, item){
                 count++;
-                if(count%100 == 0){
+                if(count%200 == 0){
                   console.log(count);
                 }
                 if(item != null){
                   //console.log(item['_id']);
-                  if("dataType" in item){
+                  if("dataType" in item && multiTypes.contains(item.dataType)){
+                    console.log(item.dataType);
                     schema = schemas[item.dataType];
                     dataType = item.dataType;
+                    var valid = ajv.validate(schema, item);
+                      if(!valid){
+                        var e = {};
+                        console.log("&&&NEW ERRORS&&&");
+                        console.log(ajv.errors);
+                        //console.log(ajv);
+                        console.log("***PRINT DOCUMENT***");
+                        console.log(item['_id']);
+                        //console.dir(item);
+                        console.log("**END OF ERROR MSG**");
+                        e.errorType = ajv.errors; 
+                        error_elem.push(e);
+                      }
+                      else{
+                        passed_elem++;
+                      }
+                      msg_type.collection = c;
+                      type.push(dataType);
+                      msg_type.type = type.unique();
+                      msg_type.disease = c.split('_')[0];
+                      msg_type.passedCounts = passed_elem;
+                      msg_type.totalCounts = count;
+                      msg_type.errors = error_elem;
+                      ajvMsg[col_count-1] = msg_type;
                   }else if(typeof(schema) != "undefined"){
                       var valid = ajv.validate(schema, item);
                       if(!valid){
@@ -128,8 +155,8 @@ connection.once('open', function(){
               return;
           }
           ajvMsg = ajvMsg.filter(function(m){return m != null;});
-        console.log("Number of the empty collections listed in manifest is: ", ajvMsg_v2.filter(function(m){return m==null}).length);
-        jsonfile.writeFile("/usr/local/airflow/docker-airflow/onco-test/dataStr/ajv_test2.json", ajvMsg_v2, {spaces:4}, function(err){ console.error(err);});
+        console.log("Number of the empty collections listed in manifest is: ", ajvMsg.filter(function(m){return m==null}).length);
+        jsonfile.writeFile("/usr/local/airflow/docker-airflow/onco-test/dataStr/ajv_test2.json", ajvMsg, {spaces:4}, function(err){ console.error(err);});
         connection.close();
     });
 });

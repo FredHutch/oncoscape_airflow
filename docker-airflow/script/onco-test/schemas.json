@@ -1355,22 +1355,51 @@
                 "required":["disease", "source", "input", "dataType",  "geneset", "default"],
                 "additionalProperties": true
               },
-    "hugo_sample":{
+    "hugo_sample_num":{
                   "properties":{
                       "gene": {"type": "string"},
                       "id" : {"type" : "string"},
                       "min": {"type": ["number", "null"]},
                       "max": {"type": ["number", "null"]},
                       "data": {
-                                "type": "object",
-                                "patternProperties": {
-                                   "TCGA-[A-Z0-9]{2}-[A-Z0-9]{4}-[0-9]{2}": { "type": ["number", "null"]}
-                                }
-                            }    
+                                  "type": "object",
+                                  "patternProperties": 
+                                    {"TCGA-[A-Z0-9]{2}-[A-Z0-9]{4}-[0-9]{2}": { "type": ["number", "null"]}}
+                               }   
                       },
                   "required": ["_id","min","max","data"],
                   "additionalProperties": true  
                   },
+    "hugo_sample_indicator":{
+                  "properties":{
+                      "gene": {"type": "string"},
+                      "id" : {"type" : "string"},
+                      "min": {"type": ["number", "null"]},
+                      "max": {"type": ["number", "null"]},
+                      "data": {
+                                  "type": "object",
+                                  "patternProperties": 
+                                   {"TCGA-[A-Z0-9]{2}-[A-Z0-9]{4}-[0-9]{2}": { "type": ["integer", "null"]}}
+                                }   
+                      },
+                  "required": ["_id","min","max","data"],
+                  "additionalProperties": true  
+                  },
+    "hugo_sample_str":{
+                  "properties":{
+                      "gene": {"type": "string"},
+                      "id" : {"type" : "string"},
+                      "min": {"type": ["number", "null"]},
+                      "max": {"type": ["number", "null"]},
+                      "data": {
+                                  "type": "object",
+                                  "patternProperties": 
+                                   {"TCGA-[A-Z0-9]{2}-[A-Z0-9]{4}-[0-9]{2}": { "type": ["string", "null"]}}
+                                }   
+                      },
+                  "required": ["_id","min","max","data"],
+                  "additionalProperties": true  
+                  },                            
     "chr_sample":{
                   "properties":{
                       "id": {"type": "string"},

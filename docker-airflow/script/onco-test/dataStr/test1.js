@@ -73,7 +73,13 @@ connection.once('open', function(){
               schema = schemas[tt];
               dataType = tt;
             }
-          }
+          }else if(c.indexOf("_dashboard") > -1){
+            dataType = "diagnosis";
+            schema = schemas[dataType];
+          }else if(c.indexOf("_color") > -1){
+            dataType = "color";
+            schema = schemas[dataType];
+          };
           var type = [];
           cursor.each(function(err, item){
                 count++;
@@ -134,7 +140,7 @@ connection.once('open', function(){
                       msg_type.totalCounts = count;
                       msg_type.errors = error_elem;
                       ajvMsg[col_count-1] = msg_type;
-                  }else{
+                  }else if(typeof(schema) == "undefined"){
                       msg_type.collection = c;
                       msg_type.type = dataType;
                       msg_type.disease = c.split('_')[0];
@@ -147,7 +153,7 @@ connection.once('open', function(){
               });
         };
         processNextTable(); 
-      }, function (err)
+      },  function (err)
       {
           if (err)
           {
@@ -155,10 +161,27 @@ connection.once('open', function(){
               return;
           }
           ajvMsg = ajvMsg.filter(function(m){return m != null;});
-        console.log("Number of the empty collections listed in manifest is: ", ajvMsg.filter(function(m){return m==null}).length);
-        jsonfile.writeFile("/usr/local/airflow/docker-airflow/onco-test/dataStr/ajv_test2.json", ajvMsg, {spaces:4}, function(err){ console.error(err);});
-        connection.close();
-    });
+          var ajvMsg_v2 = ajvMsg.map(function(a){
+              var elem = {};
+              console.log(a.collection);
+              if(a!=null && 'errors' in a){
+                  elem.collection = a.collection;
+                  elem.type = a.type;
+                  elem.disease = a.disease;
+                  elem.passedCounts = a.passedCounts;
+                  elem.totalCounts = a.totalCounts;
+                  elem.passedRate = a.passedCounts/a.totalCounts;
+                  elem.errorMessage = helper.nestedUniqueCount(a);
+              }else{
+                  elem = a;
+              }
+              return elem;
+          });
+          jsonfile.writeFile("/usr/local/airflow/docker-airflow/onco-test/dataStr/ajv_test2.json", ajvMsg_v2, {spaces: 4}); 
+          console.log('Finished!');
+          console.timeEnd();
+      });
+    
 });
 
 

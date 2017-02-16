@@ -14,13 +14,13 @@ const mongoose = require("mongoose");
 const jsonfile = require("jsonfile");
 const u = require("underscore");
 const helper = require("/usr/local/airflow/docker-airflow/onco-test/testingHelper.js");
-const dataTypeMapping = require("/usr/local/airflow/docker-airflow/onco-test/lookup_dataTypes.json");
+const dataTypeMapping = require("/usr/local/airflow/docker-airflow/onco-test/prod-lookup_dataTypes.json");
 const schemas = require("/usr/local/airflow/docker-airflow/onco-test/schemas.json");
 const Ajv = require('ajv');
 var ajv = new Ajv({allErrors: true});
 const asyncLoop = require('node-async-loop');
-var collections = require("/usr/local/airflow/docker-airflow/onco-test/manifest_all.json");
-var allCollectionNames = require("/usr/local/airflow/docker-airflow/onco-test/allCollectionNames.json");
+var manifest = require("/usr/local/airflow/docker-airflow/onco-test/prod-manifest_all.json");
+var allCollectionNames = require("/usr/local/airflow/docker-airflow/onco-test/prod-allCollectionNames.json");
 var table_name;
 var msg_type = {};
 var ajvMsg = [];
@@ -30,6 +30,11 @@ var elem = {};
 var col_count = 0;
 var connection = mongoose.connection;
 var multiTypes = ["MDS", "PCA", "edges", "genedegree", "ptdegree"];
+var floatClasses = ['expr', 'cnv', 'meth'];
+var strClasses = ['mut'];
+var indicatorClasses = ['mut01', 'cnv_thd', 'meth_thd'];
+var connection = mongoose.connection;
+
 //allCollectionNames = allCollectionNames.splice(400, 10);
 mongoose.connect(
     'mongodb://oncoscape-prod-db1.sttrcancer.io:27017,oncoscape-prod-db2.sttrcancer.io:27017,oncoscape-prod-db3.sttrcancer.io:27017/tcga?authSource=admin', {
@@ -48,12 +53,13 @@ connection.once('open', function(){
     asyncLoop(allCollectionNames, function(c, next){ 
         console.log(c);
         var processNextTable = function(){
-          var t = collections.filter(function(m){
+          var t = manifest.filter(function(m){
             return m.collection == c;
           }).map(function(m){
             return m.dataType;
           }).unique();
           var dataType;
+          var _class; 
           console.log("test" , col_count++);
           var collection = db.collection(c);
           var cursor = collection.find();
@@ -79,11 +85,22 @@ connection.once('open', function(){
           }else if(c.indexOf("_color") > -1){
             dataType = "color";
             schema = schemas[dataType];
-          };
+          }
+          if(typeof(dataType) != 'undefined'){
+            _class = dataTypeMapping.filter(function(m){return m.dataType == dataType;}).map(function(m){return m.class;});
+            if(floatClasses.indexOf(_class) > -1){
+              schema = schemas['hugo_sample_num'];
+            }else if (strClasses.indexOf(_class) > -1){
+              schema = schemas['hugo_sample_str'];
+            }else if (indicatorClasses.indexOf(_class) > -1){
+              schema = schemas['hugo_sample_indicator'];
+            }
+          }
+
           var type = [];
           cursor.each(function(err, item){
                 count++;
-                if(count%200 == 0){
+                if(count%20000 == 0){
                   console.log(count);
                 }
                 if(item != null){
